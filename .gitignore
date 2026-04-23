@@ -1,0 +1,201 @@
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# IDE & Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+
+# React / Frontend Build
+build/
+dist/
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+out/
+coverage/
+*.local
+
+# Java / Maven / Spring Boot
+target/
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+!gradle-wrapper.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# React Native
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/captures/
+android/externalNativeBuild/
+android/*.iml
+android/app/debug/
+android/app/release/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/*.xcworkspace/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc
+
+# Firebase Credentials (CRITICAL - Never commit!)
+**/firebase-service-account.json
+**/firebase-users-service-account.json
+**/serviceAccountKey.json
+**/serviceAccountKey.json.json
+backend/src/main/resources/firebase-service-account.json
+backend/src/main/resources/firebase-users-service-account.json
+App/MyApp/scripts/serviceAccountKey.json.json
+
+# Google Services
+**/google-services.json
+**/GoogleService-Info.plist
+
+# n8n Automation (may contain sensitive workflow data)
+n8n automation.json
+
+# Python / ML
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+*.egg
+venv/
+env/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ML Models (large files)
+*.pkl
+*.h5
+*.pb
+*.pth
+*.onnx
+models/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+.hypothesis/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets & Keys
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Documentation (generated)
+docs/_build/
+site/
+
+# Misc
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port

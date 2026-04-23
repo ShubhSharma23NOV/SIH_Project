@@ -1,0 +1,180 @@
+.device-health-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.device-health-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.device-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.device-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.location {
+  margin: 4px 0 0 0;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.last-updated {
+  font-size: 12px;
+  color: #9ca3af;
+}
+
+/* WQI Section */
+.wqi-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wqi-circle {
+  width: 100px;
+  height: 100px;
+  border: 6px solid;
+  border-radius: 50%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.wqi-value {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.wqi-label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 4px;
+  color: #6b7280;
+}
+
+.wqi-status {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Device Status */
+.device-status {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.status-item {
+  display: grid;
+  grid-template-columns: 32px 1fr;
+  gap: 12px;
+  align-items: center;
+}
+
+.status-icon {
+  font-size: 24px;
+  text-align: center;
+}
+
+.status-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.status-label {
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-value {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.sub-value {
+  font-size: 13px;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.status-bar {
+  grid-column: 2;
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.status-fill {
+  height: 100%;
+  transition: width 0.3s ease;
+  border-radius: 3px;
+}
+
+/* Alerts */
+.device-alert {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.device-alert.warning {
+  background: #fef3c7;
+  color: #92400e;
+  border-left: 3px solid #f59e0b;
+}
+
+.device-alert.critical {
+  background: #fee2e2;
+  color: #991b1b;
+  border-left: 3px solid #dc2626;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .device-health-card {
+    padding: 16px;
+  }
+
+  .wqi-circle {
+    width: 80px;
+    height: 80px;
+    border-width: 4px;
+  }
+
+  .wqi-value {
+    font-size: 24px;
+  }
+
+  .status-icon {
+    font-size: 20px;
+  }
+
+  .status-value {
+    font-size: 14px;
+  }
+}

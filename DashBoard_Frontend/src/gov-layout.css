@@ -1,0 +1,178 @@
+/* ============================================
+   GOVERNMENT DASHBOARD LAYOUT
+   Official Indian Government Dashboard Structure
+   ============================================ */
+
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #f8fafc;
+    overflow-x: hidden;
+}
+
+/* App Container */
+.app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background: #f8fafc;
+}
+
+/* Government Header - Fixed at Top */
+.gov-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #ffffff;
+    border-bottom: 4px solid #FF9933;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+
+/* Government Sidebar - Fixed Left, Below Header */
+.gov-sidebar {
+    position: fixed;
+    left: 0;
+    top: 100px; /* Adjusted for new header height */
+    bottom: 0;
+    width: 280px;
+    background: white;
+    border-right: 1px solid #e2e8f0;
+    overflow-y: auto;
+    z-index: 900;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+    /* Hide scrollbar */
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 transparent;
+}
+
+.gov-sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+
+.gov-sidebar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.gov-sidebar::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+}
+
+.gov-sidebar::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* Main Content Area - Adjusted for Header and Sidebar */
+.main-content {
+    margin-left: 280px;
+    margin-top: 100px; /* Adjusted for new header height */
+    min-height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    background: #f8fafc;
+    width: calc(100% - 280px);
+}
+
+/* Universal Filter Bar - Sticky at Top of Content */
+.universal-filter-bar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+    border-bottom: 1px solid #e2e8f0;
+    margin: 0;
+    width: 100%;
+}
+
+/* Page Content - Main Content Area */
+.page-content {
+    flex: 1;
+    padding: 2rem;
+    background: #f8fafc;
+    width: 100%;
+    min-height: calc(100vh - 140px);
+}
+
+/* Remove conflicting styles from old layout */
+.sidebar {
+    display: none !important;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .gov-header {
+        height: 140px;
+    }
+    
+    .gov-sidebar {
+        width: 240px;
+        top: 140px;
+        height: calc(100vh - 140px);
+    }
+    
+    .main-content {
+        margin-left: 240px;
+        margin-top: 140px;
+        min-height: calc(100vh - 140px);
+        width: calc(100% - 240px);
+    }
+}
+
+@media (max-width: 768px) {
+    .gov-header {
+        height: 120px;
+    }
+    
+    .gov-sidebar {
+        width: 70px;
+        top: 120px;
+        height: calc(100vh - 120px);
+    }
+    
+    .main-content {
+        margin-left: 70px;
+        margin-top: 120px;
+        min-height: calc(100vh - 120px);
+        width: calc(100% - 70px);
+    }
+    
+    .page-content {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .gov-header {
+        height: 100px;
+    }
+    
+    .gov-sidebar {
+        width: 60px;
+        top: 100px;
+        height: calc(100vh - 100px);
+    }
+    
+    .main-content {
+        margin-left: 60px;
+        margin-top: 100px;
+        min-height: calc(100vh - 100px);
+        width: calc(100% - 60px);
+    }
+    
+    .page-content {
+        padding: 0.75rem;
+    }
+}

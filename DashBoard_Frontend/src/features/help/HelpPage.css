@@ -1,0 +1,144 @@
+.help-page {
+    padding: 0;
+    width: 100%;
+}
+
+.help-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.help-header h1 {
+    font-size: 2rem;
+    color: #000080;
+    margin: 0 0 0.5rem 0;
+}
+
+.help-subtitle {
+    color: #666;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.help-content {
+    max-width: 1000px;
+}
+
+.help-section {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.help-section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 1rem 0;
+}
+
+.help-section p {
+    color: #555;
+    line-height: 1.6;
+    margin: 0.5rem 0;
+}
+
+.help-section ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+.help-section li {
+    color: #555;
+    line-height: 1.8;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.category-card {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.category-card h3 {
+    font-size: 1.1rem;
+    color: #000080;
+    margin: 0 0 0.5rem 0;
+}
+
+.category-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+.status-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.status-table th,
+.status-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.status-table th {
+    background: #f0f0f0;
+    font-weight: 600;
+    color: #333;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.status-badge.excellent {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-badge.good {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.status-badge.fair {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-badge.poor {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.contact-info {
+    background: #f8f9fa;
+    border-left: 4px solid #000080;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+.contact-info strong {
+    color: #000080;
+}

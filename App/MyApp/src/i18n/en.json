@@ -1,0 +1,983 @@
+{
+  "common": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save",
+    "back": "Back",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "share": "Share",
+    "sync": "Sync",
+    "pending": "Pending",
+    "synced": "Synced",
+    "offline": "Offline",
+    "online": "Online",
+    "required": "Required",
+    "of": "of"
+  },
+  
+  "dashboard": {
+    "title": "ASHA Dashboard",
+    "subtitle": "Water Health Initiative",
+    "welcome": "Welcome, {{name}}",
+    "quickActions": "Quick Actions",
+    "stats": {
+      "totalReports": "Total Reports",
+      "pendingReports": "Pending",
+      "waterTests": "Water Tests",
+      "completedSurveys": "Surveys"
+    }
+  },
+  
+  "waterTest": {
+    "title": "Water Test",
+    "subtitle": "Field Test Results",
+    "manualTest": "Manual Water Test",
+    "details": "Water Test Details",
+    "testId": "Test ID",
+    "sourceType": "Source Type",
+    "sourceName": "Source Name",
+    "testDate": "Test Date",
+    "riskLevel": "Risk Level",
+    "riskLevels": {
+      "low": "Low Risk Level",
+      "medium": "Medium Risk Level",
+      "high": "High Risk Level"
+    },
+    "riskMessages": {
+      "low": "Safe for consumption",
+      "medium": "Monitor closely",
+      "high": "Immediate action required"
+    },
+    "parameters": {
+      "title": "FTK Parameters",
+      "ph": "pH Level",
+      "frc": "Free Residual Chlorine",
+      "turbidity": "Turbidity",
+      "tds": "TDS (mg/L)",
+      "hardness": "Total Hardness",
+      "geogenic": "Geogenic Parameter",
+      "appearance": "Appearance/Colour",
+      "odour": "Odour",
+      "suspendedMatter": "Suspended Matter"
+    },
+    "environmental": {
+      "title": "Environmental Factors",
+      "rainfall": "Rainfall in Last 24 Hours",
+      "nearbyRisks": "Nearby Risk Activities"
+    },
+    "reporter": {
+      "title": "Reporter Information",
+      "id": "Reporter ID",
+      "type": "Reporter Type"
+    },
+    "visual": {
+      "title": "Visual Indicators"
+    },
+    "status": {
+      "pendingSync": "Pending Sync",
+      "syncedToServer": "Synced to Server"
+    },
+    "actions": {
+      "saveOffline": "Save Offline",
+      "deleteTest": "Delete Test",
+      "shareReport": "Share Report"
+    },
+    "messages": {
+      "savedOffline": "Water test saved offline successfully",
+      "willSync": "Will sync to server when internet is available",
+      "deleteConfirm": "Are you sure you want to delete this water test?",
+      "deleted": "Water test deleted successfully",
+      "testNotFound": "Test Not Found",
+      "loadingDetails": "Loading test details..."
+    }
+  },
+  
+  "householdSurvey": {
+    "title": "Household Survey",
+    "subtitle": "Comprehensive Health Survey",
+    "sections": {
+      "identification": "Identification",
+      "household": "Household Profile",
+      "water": "Water Source",
+      "sanitation": "Sanitation",
+      "members": "Household Members",
+      "risk": "Risk Assessment"
+    },
+    "fields": {
+      "state": "State",
+      "district": "District",
+      "block": "Block",
+      "village": "Village",
+      "householdId": "Household ID",
+      "dateOfVisit": "Date of Visit",
+      "filedBy": "Filed By",
+      "contactNumber": "Contact Number",
+      "gpsLocation": "GPS Location",
+      "headOfHousehold": "Head of Household",
+      "totalMembers": "Total Members",
+      "waterSource": "Water Source",
+      "toiletFacility": "Toilet Facility",
+      "riskLevel": "Risk Level"
+    },
+    "actions": {
+      "captureGPS": "Capture GPS",
+      "addMember": "Add Another Member",
+      "removeMember": "Remove Member",
+      "submitSurvey": "Submit Survey"
+    },
+    "messages": {
+      "savedOffline": "Household survey has been saved offline",
+      "willSync": "Will sync when online",
+      "deleteConfirm": "Are you sure you want to delete this survey?",
+      "deleted": "Survey deleted successfully"
+    }
+  },
+  
+  "reports": {
+    "title": "Offline Reports",
+    "subtitle": "View and Manage Reports",
+    "filters": {
+      "all": "All",
+      "pending": "Pending",
+      "synced": "Synced"
+    },
+    "types": {
+      "waterTest": "Water Test",
+      "householdSurvey": "Household Survey",
+      "healthReport": "Health Report",
+      "issueReport": "Issue Report"
+    },
+    "status": {
+      "pending": "Pending",
+      "synced": "Synced",
+      "pendingCount": "{{count}} Pending"
+    },
+    "actions": {
+      "syncAll": "Sync All Data",
+      "viewDetails": "View Details",
+      "deleteReport": "Delete Report",
+      "exportPDF": "Export PDF",
+      "share": "Share"
+    },
+    "messages": {
+      "noReports": "No Reports Found",
+      "noReportsDesc": "Reports will appear here when saved offline",
+      "syncConfirm": "Sync {{count}} pending items?",
+      "syncSuccess": "All data synced successfully!",
+      "syncFailed": "Some items could not be synced",
+      "noPendingData": "All reports are already synced",
+      "offlineMessage": "Please connect to internet to sync data"
+    }
+  },
+  
+  "sync": {
+    "title": "Sync Status",
+    "syncing": "Syncing...",
+    "pendingSync": "{{count}} pending sync",
+    "lastSync": "Last synced: {{time}}",
+    "syncNow": "Sync Now",
+    "autoSync": "Auto-sync enabled",
+    "messages": {
+      "noData": "No data to sync - all up to date!",
+      "success": "Synced {{count}} records",
+      "failed": "Sync failed",
+      "noNetwork": "No network connection",
+      "inProgress": "Sync already in progress"
+    }
+  },
+  
+  "consent": {
+    "title": "Informed Consent",
+    "subtitle": "सूचित सहमति",
+    "accept": "Accept & Proceed",
+    "acceptSubtitle": "स्वीकार करें और आगे बढ़ें",
+    "decline": "Decline",
+    "declineSubtitle": "अस्वीकार करें",
+    "required": "Consent is required to proceed"
+  },
+  
+  "ayurvedicRemedies": {
+    "title": "Health Remedies",
+    "subtitle": "स्वास्थ्य उपचार",
+    "searchPlaceholder": "Search remedies...",
+    "categories": "Categories",
+    "noResults": "No remedies found"
+  },
+  
+  "emergency": {
+    "title": "Emergency Help",
+    "subtitle": "आपातकालीन सहायता",
+    "sos": "SOS",
+    "callNow": "Call Now",
+    "emergencyContacts": "Emergency Contacts"
+  },
+  
+  "heatmap": {
+    "title": "Symptom Heatmap",
+    "subtitle": "GPS-based clustering • GPS-आधारित क्लस्टरिंग",
+    "clusters": "Clusters",
+    "cases": "Cases"
+  },
+  
+  "satelliteMap": {
+    "title": "Satellite Map",
+    "subtitle": "Water Sources",
+    "layers": "Layers",
+    "filters": "Filters"
+  },
+  
+  "waterLifespan": {
+    "title": "Water Source Lifespan",
+    "subtitle": "Predicted Safe Usage Period",
+    "status": {
+      "safe": "Safe",
+      "caution": "Caution",
+      "critical": "Critical"
+    },
+    "trend": {
+      "rising": "Rising",
+      "falling": "Falling",
+      "stable": "Stable"
+    }
+  },
+  
+  "validation": {
+    "required": "This field is required",
+    "invalidFormat": "Invalid format",
+    "selectOption": "Please select an option",
+    "enterValue": "Please enter a value",
+    "minimumLength": "Minimum {{count}} characters required"
+  },
+  
+  "errors": {
+    "loadingFailed": "Failed to load data",
+    "savingFailed": "Failed to save data",
+    "deletingFailed": "Failed to delete",
+    "syncFailed": "Sync failed",
+    "networkError": "Network error",
+    "tryAgain": "Please try again"
+  },
+  
+  "launch": {
+    "title": "ArogyaJal",
+    "subtitle": "Water Health Initiative",
+    "tagline": "Clean Water, Healthy Communities",
+    "selectRole": "Select Your Role",
+    "roles": {
+      "asha": "ASHA Worker",
+      "resident": "Resident",
+      "phc": "PHC Staff"
+    },
+    "roleDescriptions": {
+      "asha": "Field health worker & data collection",
+      "resident": "View household data & request services",
+      "phc": "Review cases & manage emergencies"
+    }
+  },
+  
+  "login": {
+    "title": "Login",
+    "ashaWorker": "ASHA Worker Login",
+    "resident": "Resident Login",
+    "phc": "PHC Login",
+    "mobileNumber": "Mobile Number",
+    "enterNumber": "Enter 10-digit number",
+    "sendOTP": "Send OTP",
+    "enterOTP": "Enter 6-Digit OTP",
+    "verifyLogin": "Verify & Login",
+    "resendOTP": "Resend OTP",
+    "resendIn": "Resend code in {{seconds}}s",
+    "changeNumber": "Change Number",
+    "otpSentTo": "Sent to +91 {{phone}}",
+    "registeredOnly": "Registered {{role}} number only",
+    "invalidPhone": "Please enter a valid 10-digit phone number",
+    "invalidOTP": "Please enter the complete 6-digit code",
+    "otpSent": "OTP Sent",
+    "otpSentMessage": "Verification code sent to {{phone}}",
+    "verificationFailed": "Invalid OTP. Please try again.",
+    "steps": {
+      "phone": "Phone",
+      "verify": "Verify"
+    }
+  },
+  
+  "training": {
+    "title": "Training Modules",
+    "available": "Available",
+    "downloaded": "Downloaded",
+    "storage": "Storage",
+    "categories": {
+      "all": "All",
+      "waterTesting": "Water Testing",
+      "surveys": "Surveys",
+      "health": "Health",
+      "emergency": "Emergency"
+    },
+    "download": "Download to View",
+    "open": "Open Module",
+    "delete": "Delete",
+    "downloading": "Downloading {{progress}}%",
+    "preparing": "Preparing...",
+    "duration": "Duration",
+    "fileSize": "File Size",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "types": {
+      "video": "VIDEO",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "noModules": "No modules available",
+      "checkLater": "Check back later for new content",
+      "downloadComplete": "{{title}} is now available offline",
+      "downloadFailed": "Download failed",
+      "deleteConfirm": "Delete {{title}}? You can download it again later.",
+      "deleted": "Module deleted",
+      "comingSoon": "Coming Soon",
+      "setupRequired": "Video and PDF viewers will be available once you complete the setup"
+    }
+  },
+  
+  "resident": {
+    "dashboard": "Resident Dashboard",
+    "alerts": "Alerts",
+    "household": "Household Data",
+    "request": "Request ASHA Visit",
+    "requestHistory": "Request History",
+    "contact": "Contact ASHA",
+    "feedback": "Feedback",
+    "waterQuality": "Water Quality",
+    "healthStatus": "Health Status",
+    "lastVisit": "Last ASHA Visit",
+    "upcomingVisit": "Upcoming Visit",
+    "noVisits": "No visits scheduled",
+    "auth": {
+      "title": "Resident Access",
+      "subtitle": "Access water quality information",
+      "login": "Login",
+      "register": "Register",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "fullName": "Full Name",
+      "phoneNumber": "Phone Number",
+      "address": "Address",
+      "addressOptional": "Address (Optional)",
+      "createAccount": "Create Account",
+      "alreadyHaveAccount": "Already have an account? Login",
+      "dontHaveAccount": "Don't have an account? Sign Up",
+      "fastAccess": "Continue without login (Fast Access)",
+      "welcomeBack": "Welcome back! Please login to continue",
+      "joinUs": "Join us to access water quality information",
+      "loginSuccess": "Login successful!",
+      "registerSuccess": "Account created successfully!",
+      "invalidCredentials": "Invalid email or password",
+      "invalidResidentAccount": "Invalid resident account",
+      "fillAllFields": "Please fill in all required fields",
+      "invalidEmail": "Please enter a valid email address",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "passwordsDoNotMatch": "Passwords do not match",
+      "pleaseWait": "Please wait..."
+    },
+    "dashboardScreen": {
+      "welcome": "Welcome",
+      "householdId": "Household ID",
+      "quickActions": "Quick Actions",
+      "myHousehold": "My Household",
+      "requestHistory": "Request History",
+      "contactASHA": "Contact ASHA",
+      "giveFeedback": "Give Feedback",
+      "recentAlerts": "Recent Alerts",
+      "viewAll": "View All",
+      "governmentSchemes": "Government Schemes",
+      "requestHelp": "Request Help",
+      "stats": {
+        "surveys": "Surveys",
+        "alerts": "Alerts",
+        "waterStatus": "Water Status",
+        "lastVisit": "Last Visit"
+      },
+      "footer": {
+        "ministry": "Ministry of Health & Family Welfare",
+        "government": "Government of India"
+      }
+    },
+    "alertsScreen": {
+      "title": "Alerts & Notifications",
+      "subtitle": "Stay informed",
+      "filters": {
+        "all": "All",
+        "water": "Water",
+        "vaccination": "Vaccination",
+        "outbreak": "Outbreak",
+        "followup": "Follow-up"
+      },
+      "severity": {
+        "high": "HIGH",
+        "medium": "MEDIUM",
+        "low": "LOW"
+      },
+      "timeAgo": {
+        "justNow": "Just now",
+        "hoursAgo": "{{hours}} hours ago",
+        "yesterday": "Yesterday",
+        "daysAgo": "{{days}} days ago"
+      },
+      "noAlerts": "No alerts to display",
+      "markAsRead": "Mark as read"
+    },
+    "householdScreen": {
+      "title": "Household Details",
+      "subtitle": "View household information",
+      "tabs": {
+        "members": "Members",
+        "visits": "Visits",
+        "waterTests": "Water Tests",
+        "referrals": "Referrals"
+      },
+      "info": {
+        "headOfHousehold": "Head of Household",
+        "address": "Address",
+        "riskLevel": "Risk Level",
+        "ashaWorker": "ASHA Worker"
+      },
+      "members": {
+        "years": "years",
+        "healthStatus": "Health Status"
+      },
+      "visits": {
+        "ashaWorker": "ASHA Worker",
+        "purpose": "Purpose",
+        "notes": "Notes"
+      },
+      "waterTests": {
+        "source": "Source",
+        "result": "Result",
+        "safe": "Safe",
+        "parameters": {
+          "ph": "pH",
+          "turbidity": "Turbidity",
+          "frc": "FRC"
+        }
+      },
+      "referrals": {
+        "member": "Member",
+        "facility": "Facility",
+        "reason": "Reason",
+        "status": "Status",
+        "completed": "Completed",
+        "noReferrals": "No referrals"
+      }
+    },
+    "requestScreen": {
+      "title": "Request Service",
+      "subtitle": "Submit your request",
+      "requestType": "Request Type",
+      "priorityLevel": "Priority Level",
+      "description": "Description",
+      "descriptionPlaceholder": "Describe your request in detail...",
+      "types": {
+        "ashaVisit": "ASHA Visit",
+        "waterTesting": "Water Testing",
+        "healthComplaint": "Health Complaint",
+        "referralStatus": "Referral Status"
+      },
+      "typeDescriptions": {
+        "ashaVisit": "Request home visit from ASHA worker",
+        "waterTesting": "Request water quality testing",
+        "healthComplaint": "Report health or sanitation issue",
+        "referralStatus": "Check referral status"
+      },
+      "priority": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      },
+      "whatHappensNext": "What happens next?",
+      "nextSteps": "• Your request will be sent to your assigned ASHA worker\n• You will receive a notification when it is assigned\n• The ASHA worker will contact you to schedule\n• You can track the status in Request History",
+      "submitRequest": "Submit Request",
+      "sendToASHA": "Send to ASHA worker",
+      "viewRequestHistory": "View Request History",
+      "trackYourRequests": "Track your requests",
+      "requestSubmitted": "Your request has been submitted successfully. You will be notified when it is assigned to an ASHA worker.",
+      "requestFailed": "Failed to submit request. Please try again.",
+      "loginRequired": "Please login to submit a request. Fast Access users cannot submit requests.",
+      "descriptionRequired": "Please provide a description"
+    },
+    "requestHistoryScreen": {
+      "title": "Request History",
+      "subtitle": "Track your requests",
+      "status": {
+        "pending": "Pending",
+        "assigned": "Assigned",
+        "completed": "Completed",
+        "cancelled": "Cancelled"
+      },
+      "types": {
+        "ashaVisit": "ASHA Visit Request",
+        "waterTest": "Water Test Request",
+        "healthComplaint": "Health Complaint",
+        "referralStatus": "Referral Status"
+      },
+      "assignedToASHA": "Assigned to ASHA worker",
+      "noRequests": "No requests yet",
+      "submitRequest": "Submit a request to see it here",
+      "loadingRequests": "Loading requests..."
+    },
+    "contactScreen": {
+      "title": "Contact & Support",
+      "subtitle": "Get help",
+      "yourASHAWorker": "Your ASHA Worker",
+      "call": "Call",
+      "sms": "SMS",
+      "email": "Email",
+      "emergencyContacts": "Emergency Contacts",
+      "ambulance": "Ambulance",
+      "healthHelpline": "Health Helpline",
+      "governmentSchemes": "Government Schemes",
+      "footer": {
+        "ministry": "Ministry of Health & Family Welfare",
+        "government": "Government of India"
+      }
+    },
+    "feedbackScreen": {
+      "title": "Feedback & Rating",
+      "subtitle": "Help us improve",
+      "rateExperience": "How would you rate your experience?",
+      "ratings": {
+        "excellent": "Excellent!",
+        "veryGood": "Very Good!",
+        "good": "Good",
+        "fair": "Fair",
+        "poor": "Poor"
+      },
+      "feedbackCategory": "Feedback Category",
+      "categories": {
+        "ashaVisit": "ASHA Visit",
+        "waterQuality": "Water Quality",
+        "healthService": "Health Service",
+        "appExperience": "App Experience"
+      },
+      "yourFeedback": "Your Feedback",
+      "feedbackPlaceholder": "Tell us about your experience...",
+      "feedbackMatters": "Your feedback matters",
+      "feedbackHelps": "Your feedback helps us improve our services and provide better healthcare to your community.",
+      "submitFeedback": "Submit Feedback",
+      "thankYou": "Thank you for your time",
+      "feedbackSubmitted": "Your feedback has been submitted successfully.",
+      "feedbackFailed": "Failed to submit feedback. Please try again.",
+      "selectRating": "Please select a rating",
+      "provideFeedback": "Please provide feedback"
+    }
+  },
+  
+  "phc": {
+    "dashboard": "PHC Dashboard",
+    "referrals": "Referrals",
+    "emergencies": "Emergencies",
+    "analytics": "Analytics",
+    "directory": "Directory",
+    "pendingReferrals": "Pending Referrals",
+    "activeEmergencies": "Active Emergencies",
+    "todayVisits": "Today's Visits",
+    "criticalCases": "Critical Cases"
+  },
+  
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "viewCertificate": "View Certificate",
+    "personalInfo": "Personal Information",
+    "name": "Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "address": "Address",
+    "workArea": "Work Area",
+    "certification": "Certification",
+    "logout": "Logout",
+    "logoutConfirm": "Are you sure you want to logout?",
+    "updateSuccess": "Profile updated successfully",
+    "updateFailed": "Failed to update profile"
+  },
+  
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "notifications": "Notifications",
+    "dataSync": "Data Sync",
+    "about": "About",
+    "version": "Version",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy"
+  },
+  
+  "alerts": {
+    "title": "Alerts",
+    "subtitle": "Health & Water Alerts",
+    "noAlerts": "No alerts at this time",
+    "markAsRead": "Mark as Read",
+    "viewDetails": "View Details",
+    "types": {
+      "critical": "Critical",
+      "warning": "Warning",
+      "info": "Information"
+    }
+  },
+  
+  "sensorUpload": {
+    "title": "Sensor Upload",
+    "subtitle": "Upload Sensor Data",
+    "selectFile": "Select File",
+    "uploadData": "Upload Data",
+    "uploading": "Uploading...",
+    "uploadSuccess": "Data uploaded successfully",
+    "uploadFailed": "Upload failed"
+  },
+  
+  "generatedData": {
+    "title": "Generated Data",
+    "subtitle": "Sensor Data Analysis",
+    "viewReport": "View Report",
+    "exportData": "Export Data"
+  },
+  
+  "reportCase": {
+    "title": "Report Case",
+    "subtitle": "Health Issue Reporting",
+    "caseType": "Case Type",
+    "description": "Description",
+    "severity": "Severity",
+    "location": "Location",
+    "submitReport": "Submit Report",
+    "reportSubmitted": "Report submitted successfully"
+  },
+  
+  "waterTesting": {
+    "title": "Water Testing",
+    "subtitle": "Test Water Quality",
+    "manualTest": "Manual Test",
+    "sensorTest": "Sensor Test",
+    "testHistory": "Test History",
+    "newTest": "New Test",
+    "selectSource": "Select Water Source",
+    "sourceTypes": {
+      "well": "Well",
+      "handpump": "Hand Pump",
+      "tap": "Tap Water",
+      "river": "River",
+      "pond": "Pond",
+      "other": "Other"
+    }
+  },
+  
+  "sensorTest": {
+    "title": "Sensor Test",
+    "subtitle": "IoT Sensor Testing",
+    "connectSensor": "Connect Sensor",
+    "startTest": "Start Test",
+    "testInProgress": "Test in Progress",
+    "testComplete": "Test Complete",
+    "viewResults": "View Results"
+  },
+  
+  "manualTest": {
+    "title": "Manual Water Test",
+    "subtitle": "Field Test Kit",
+    "enterResults": "Enter Test Results",
+    "testParameters": "Test Parameters",
+    "saveResults": "Save Results",
+    "resultsSaved": "Results saved successfully"
+  },
+  
+  "testHistory": {
+    "title": "Test History",
+    "subtitle": "Previous Water Tests",
+    "filterBy": "Filter By",
+    "sortBy": "Sort By",
+    "noTests": "No tests found",
+    "viewTest": "View Test"
+  },
+  
+  "householdCheck": {
+    "title": "Household Health Check",
+    "subtitle": "Community Health Survey",
+    "startSurvey": "Start Survey",
+    "continueSurvey": "Continue Survey",
+    "viewSurveys": "View Surveys"
+  },
+  
+  "videoPlayer": {
+    "title": "Video Player",
+    "loading": "Loading video...",
+    "error": "Failed to load video",
+    "completed": "Video completed"
+  },
+  
+  "pdfViewer": {
+    "title": "PDF Viewer",
+    "loading": "Loading document...",
+    "error": "Failed to load PDF",
+    "page": "Page {{current}} of {{total}}"
+  },
+  
+  "certificate": {
+    "title": "Certificate",
+    "viewCertificate": "View Certificate",
+    "downloadCertificate": "Download Certificate",
+    "shareCertificate": "Share Certificate",
+    "issuedTo": "Issued To",
+    "issuedBy": "Issued By",
+    "issuedOn": "Issued On",
+    "validUntil": "Valid Until"
+  },
+  
+  "residentRequest": {
+    "title": "Request ASHA Visit",
+    "subtitle": "Schedule a Visit",
+    "requestType": "Request Type",
+    "preferredDate": "Preferred Date",
+    "preferredTime": "Preferred Time",
+    "reason": "Reason for Visit",
+    "submitRequest": "Submit Request",
+    "requestSubmitted": "Request submitted successfully",
+    "types": {
+      "healthCheck": "Health Check",
+      "waterTest": "Water Test",
+      "consultation": "Consultation",
+      "emergency": "Emergency"
+    }
+  },
+  
+  "residentContact": {
+    "title": "Contact ASHA",
+    "subtitle": "Get in Touch",
+    "ashaWorker": "Your ASHA Worker",
+    "call": "Call",
+    "message": "Message",
+    "noAshaAssigned": "No ASHA worker assigned yet"
+  },
+  
+  "residentFeedback": {
+    "title": "Feedback",
+    "subtitle": "Share Your Experience",
+    "rating": "Rating",
+    "comments": "Comments",
+    "submitFeedback": "Submit Feedback",
+    "feedbackSubmitted": "Thank you for your feedback!"
+  },
+  
+  "phcReferrals": {
+    "title": "Referrals",
+    "subtitle": "Patient Referrals",
+    "pending": "Pending",
+    "completed": "Completed",
+    "viewReferral": "View Referral",
+    "acceptReferral": "Accept Referral",
+    "noReferrals": "No referrals found"
+  },
+  
+  "phcEmergencies": {
+    "title": "Emergencies",
+    "subtitle": "Emergency Cases",
+    "active": "Active",
+    "resolved": "Resolved",
+    "viewEmergency": "View Emergency",
+    "respondToEmergency": "Respond",
+    "noEmergencies": "No active emergencies"
+  },
+  
+  "phcAnalytics": {
+    "title": "Analytics",
+    "subtitle": "Health Data Analytics",
+    "overview": "Overview",
+    "trends": "Trends",
+    "reports": "Reports",
+    "exportData": "Export Data"
+  },
+  
+  "phcDirectory": {
+    "title": "Directory",
+    "subtitle": "Contact Directory",
+    "ashaWorkers": "ASHA Workers",
+    "healthFacilities": "Health Facilities",
+    "emergencyContacts": "Emergency Contacts",
+    "search": "Search..."
+  },
+  
+  "loading": {
+    "title": "ArogyaJal",
+    "subtitle": "Water Health Initiative",
+    "loading": "Loading...",
+    "checkingSession": "Checking session...",
+    "pleaseWait": "Please wait"
+  },
+  
+  "asha": {
+    "dashboard": {
+      "title": "ASHA Dashboard",
+      "subtitle": "आशा डैशबोर्ड",
+      "welcome": "Welcome",
+      "quickActions": "Quick Actions",
+      "waterTests": "Water Tests",
+      "surveys": "Surveys",
+      "pending": "Pending",
+      "synced": "Synced",
+      "offline": "Offline",
+      "online": "Online"
+    },
+    
+    "waterTest": {
+      "title": "Water Test",
+      "subtitle": "Field Test Kit",
+      "sourceType": "Source Type",
+      "sourceName": "Source Name",
+      "appearance": "Appearance/Colour",
+      "odour": "Odour",
+      "suspendedMatter": "Suspended Matter",
+      "ph": "pH Level",
+      "frc": "Free Residual Chlorine",
+      "turbidity": "Turbidity",
+      "tds": "TDS",
+      "hardness": "Total Hardness",
+      "rainfall24h": "Rainfall in Last 24 Hours",
+      "nearbyRiskActivities": "Nearby Risk Activities",
+      "captureGPS": "Capture GPS Location",
+      "uploadPhoto": "Upload Photo (Optional)",
+      "riskLevel": "Risk Level",
+      "saveOffline": "Save Offline",
+      "savedOffline": "Water test saved offline successfully",
+      "willSync": "Will sync when internet is available"
+    },
+    
+    "householdSurvey": {
+      "title": "Household Survey",
+      "subtitle": "Comprehensive Health Survey",
+      "step": "Step",
+      "next": "Next",
+      "previous": "Previous",
+      "submit": "Submit Survey",
+      "state": "State",
+      "district": "District",
+      "block": "Block",
+      "village": "Village",
+      "householdId": "Household ID",
+      "dateOfVisit": "Date of Visit",
+      "captureGPS": "Capture GPS",
+      "headOfHousehold": "Head of Household",
+      "totalMembers": "Total Members",
+      "waterSource": "Water Source",
+      "toiletFacility": "Toilet Facility",
+      "addMember": "Add Member",
+      "name": "Name",
+      "age": "Age",
+      "gender": "Gender",
+      "riskLevel": "Risk Level",
+      "savedOffline": "Survey saved offline successfully",
+      "willSync": "Will sync when online"
+    },
+    
+    "offlineReports": {
+      "title": "Offline Reports",
+      "subtitle": "View and Manage Reports",
+      "pending": "Pending",
+      "synced": "Synced",
+      "all": "All",
+      "syncAll": "Sync All Data",
+      "clearSynced": "Clear Synced",
+      "noReports": "No Reports Found",
+      "syncSuccess": "All data synced successfully!",
+      "deleteConfirmSynced": "This report has been synced. Delete from local storage only?",
+      "deleteConfirmPending": "This report has NOT been synced yet. Deleting will permanently remove it.",
+      "deleted": "Report deleted from local storage"
+    },
+    
+    "training": {
+      "title": "Training Modules",
+      "subtitle": "Learn and Improve Skills",
+      "available": "Available",
+      "downloaded": "Downloaded",
+      "download": "Download to View",
+      "open": "Open Module",
+      "delete": "Delete",
+      "noModules": "No modules available",
+      "downloading": "Downloading {{progress}}%",
+      "downloadComplete": "{{title}} is now available offline"
+    },
+    
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Your Information",
+      "name": "Name",
+      "phone": "Phone Number",
+      "ashaId": "ASHA ID",
+      "certification": "Certification",
+      "editProfile": "Edit Profile",
+      "viewCertificate": "View Certificate",
+      "logout": "Logout",
+      "logoutConfirm": "Are you sure you want to logout?"
+    },
+    
+    "serviceRequests": {
+      "title": "Service Requests",
+      "subtitle": "Resident Requests",
+      "requestDetails": "Request Details",
+      "pending": "Pending",
+      "acknowledged": "Acknowledged",
+      "completed": "Completed",
+      "priority": "Priority Level",
+      "description": "Description",
+      "residentInfo": "Resident Information",
+      "acknowledge": "Acknowledge Request",
+      "actionRequired": "Action Required",
+      "acknowledgeMessage": "Please acknowledge this request to confirm you have received it.",
+      "acknowledgeSuccess": "Request acknowledged successfully",
+      "noRequests": "No service requests"
+    },
+    
+    "emergency": {
+      "title": "Emergency Help",
+      "subtitle": "Quick Emergency Response",
+      "sos": "SOS",
+      "callNow": "Call Now",
+      "emergencyContacts": "Emergency Contacts",
+      "ambulance": "Ambulance",
+      "reportEmergency": "Report Emergency"
+    },
+    
+    "reportCase": {
+      "title": "Report a Case",
+      "subtitle": "Health Issue Reporting",
+      "patientDetails": "Patient Details",
+      "name": "Name",
+      "age": "Age",
+      "gender": "Gender",
+      "symptomsDetails": "Symptoms Details",
+      "symptom": "Symptom",
+      "severity": "Severity",
+      "duration": "Duration",
+      "waterSource": "Water Source",
+      "location": "Location",
+      "uploadPhoto": "Upload Photo (Optional)",
+      "submit": "Submit"
+    },
+    
+    "consent": {
+      "title": "Informed Consent",
+      "subtitle": "सूचित सहमति",
+      "accept": "Accept & Proceed",
+      "acceptSubtitle": "स्वीकार करें और आगे बढ़ें",
+      "decline": "Decline",
+      "declineSubtitle": "अस्वीकार करें"
+    }
+  }
+}

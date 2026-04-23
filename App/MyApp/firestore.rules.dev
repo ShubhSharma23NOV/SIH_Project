@@ -1,0 +1,64 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // DEVELOPMENT RULES - MORE PERMISSIVE FOR TESTING
+    // WARNING: DO NOT USE IN PRODUCTION
+    
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // ASHA Workers Collection - Allow authenticated users to read by phone
+    match /asha_workers/{workerId} {
+      // Allow read if authenticated (for login check)
+      allow read: if isAuthenticated();
+      
+      // Allow create for testing (remove in production)
+      allow create: if isAuthenticated();
+      
+      // Allow update for own profile
+      allow update: if isAuthenticated() && workerId == request.auth.uid;
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Households Collection
+    match /households/{householdId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Water Sources Collection
+    match /water_sources/{sourceId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Health Reports Collection
+    match /health_reports/{reportId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Alerts Collection
+    match /alerts/{alertId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Sensor Data Collection
+    match /sensor_data/{dataId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Public Data
+    match /public_data/{docId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated();
+    }
+    
+    // Default: allow authenticated users (for development)
+    match /{document=**} {
+      allow read, write: if isAuthenticated();
+    }
+  }
+}
