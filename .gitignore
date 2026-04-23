@@ -114,8 +114,10 @@ firebase-debug.*.log
 **/firebase-service-account.json
 **/firebase-users-service-account.json
 **/serviceAccountKey.json
+**/serviceAccountKey.json.json
 backend/src/main/resources/firebase-service-account.json
 backend/src/main/resources/firebase-users-service-account.json
+App/MyApp/scripts/serviceAccountKey.json.json
 
 # Google Services
 **/google-services.json
