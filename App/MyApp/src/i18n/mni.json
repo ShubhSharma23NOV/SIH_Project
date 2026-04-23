@@ -1,0 +1,599 @@
+{
+  "common": {
+    "submit": "থমিনবা",
+    "cancel": "খংজরঙবা",
+    "delete": "থমলক্ষিবা",
+    "save": "সেভ তৌবা",
+    "back": "মফমদা লৌবা",
+    "close": "খুংদা",
+    "loading": "লোদিং...",
+    "error": "ত্ৰুটী",
+    "success": "থবনা হল্লে",
+    "yes": "হোয়",
+    "no": "নাঙাই",
+    "ok": "OK",
+    "share": "শেয়ার তৌবা",
+    "sync": "সিঙ্ক",
+    "pending": "অগপওরবদা",
+    "synced": "সিঙ্ক হল্লে",
+    "offline": "অফ‌লাইন",
+    "online": "অনলাইন",
+    "required": "অমদি লোই"
+  },
+
+  "dashboard": {
+    "title": "ASHA Dashboard",
+    "subtitle": "ওঙ্গা অমসুং হেল্থ প্রজেক্ট",
+    "welcome": "ওয়াং না {{name}}",
+    "quickActions": "লৌবা ইয়ামনা হোরমদা",
+    "stats": {
+      "totalReports": "রিপোর্ট পুমনা",
+      "pendingReports": "অগপওরবা",
+      "waterTests": "ওঙ্গা টেস্ট",
+      "completedSurveys": "চরলবা জর্‌ভি"
+    }
+  },
+
+  "waterTest": {
+    "title": "ওঙ্গা টেস্ট",
+    "subtitle": "ফিল্ড ফল",
+    "manualTest": "ম্যানুয়াল ওঙ্গা টেস্ট",
+    "details": "টেস্ট বিস্তারিত",
+    "testId": "টেস্ট ID",
+    "sourceType": "ওঙ্গা মরুং",
+    "sourceName": "মরুং মমীং",
+    "testDate": "টেস্ট লৈরবা চাদু",
+    "riskLevel": "রিস্ক অসিং",
+    "riskLevels": {
+      "low": "লাংলা রিস্ক",
+      "medium": "মাংলবা রিস্ক",
+      "high": "অরলবা রিস্ক"
+    },
+    "riskMessages": {
+      "low": "সফেনা দৈবা পাম্বা",
+      "medium": "আইনা মথাও ওগদবা",
+      "high": "থিংয়াদবা নথোকশিনবীদা"
+    },
+    "parameters": {
+      "title": "FTK Parameter",
+      "ph": "pH অসিং",
+      "frc": "ক্লোরিন লোইবা",
+      "turbidity": "ওঙ্গা অসি লাল্লনা",
+      "tds": "TDS (mg/L)",
+      "hardness": "হার্ডনেস",
+      "geogenic": "পাতের উপি",
+      "appearance": "ওঙ্গা ওয়া / রং",
+      "odour": "ওঙ্গা মশুনবা",
+      "suspendedMatter": "লাল্লবা নুপী"
+    },
+    "environmental": {
+      "title": "এনভায়রনমেন্টাল",
+      "rainfall": "২৪ ঘণ্টা হাইনবা মম",
+      "nearbyRisks": "মথংসিংদা রিস্ক"
+    },
+    "reporter": {
+      "title": "রিপোর্ট থৌবা",
+      "id": "Reporter ID",
+      "type": "Reporter মরুং"
+    },
+    "visual": {
+      "title": "খায়না থিপনা"
+    },
+    "status": {
+      "pendingSync": "সিঙ্ক অগপওরবা",
+      "syncedToServer": "সার্ভরদা সিঙ্ক হল্লে"
+    },
+    "actions": {
+      "saveOffline": "অফ‌লাইনদা সেভ তৌবা",
+      "deleteTest": "টেস্ট থমলক্ষিবা",
+      "shareReport": "রিপোর্ট শেয়ার তৌবা"
+    },
+    "messages": {
+      "savedOffline": "টেস্ট অফ‌লাইনদা সেভ তৌরে",
+      "willSync": "ইন্টারনেট লোইলে সিঙ্ক তৌগনি",
+      "deleteConfirm": "টেস্ট থমলক্ষিবাগা?",
+      "deleted": "টেস্ট থমলক্ষিলে",
+      "testNotFound": "টেস্ট ফংদে",
+      "loadingDetails": "তথ্য লোদিং..."
+    }
+  },
+
+  "householdSurvey": {
+    "title": "ইং Survey",
+    "subtitle": "ইং হেল্থ Survey",
+    "sections": {
+      "identification": "চগৎলনা",
+      "household": "ইং পুম্নবা",
+      "water": "ওঙ্গা মরুং",
+      "sanitation": "শেন্নবী",
+      "members": "মেংহাল",
+      "risk": "রিস্ক"
+    },
+    "fields": {
+      "state": "স্টেট",
+      "district": "ডিস্ট্রিক্ট",
+      "block": "ব্লক",
+      "village": "গ্রাম",
+      "householdId": "Household ID",
+      "dateOfVisit": "থাবা চাদু",
+      "filedBy": "থৌবা",
+      "contactNumber": "Contact Number",
+      "gpsLocation": "GPS Map",
+      "headOfHousehold": "ইং খুংথাবা",
+      "totalMembers": "মেংহাল পুমনা",
+      "waterSource": "ওঙ্গা মরুং",
+      "toiletFacility": "Toilet",
+      "riskLevel": "রিস্ক"
+    },
+    "actions": {
+      "captureGPS": "GPS নুংগাইবা",
+      "addMember": "মেংহাল হাপচংবা",
+      "removeMember": "মেংহাল লিননা",
+      "submitSurvey": "Survey থৌনা"
+    },
+    "messages": {
+      "savedOffline": "Survey offline সেভ তৌরে",
+      "willSync": "Online লৌদোইলে সিঙ্ক তৌগনি",
+      "deleteConfirm": "Survey ডিলিট তৌবা?",
+      "deleted": "Survey ডিলিট তৌরে"
+    }
+  },
+
+  "reports": {
+    "title": "Offline Reports",
+    "subtitle": "রিপোর্ট লৌবা অমসুং চমথৌবা",
+    "filters": {
+      "all": "পুম্নবা",
+      "pending": "অগপওরবা",
+      "synced": "সিঙ্ক হল্লে"
+    },
+    "types": {
+      "waterTest": "ওঙ্গা টেস্ট",
+      "householdSurvey": "ইং Survey",
+      "healthReport": "হেল্থ রিপোট",
+      "issueReport": "সমস্যা Report"
+    },
+    "status": {
+      "pending": "অগপওরবা",
+      "synced": "সিঙ্ক হল্লে",
+      "pendingCount": "{{count}} অগপওরবা"
+    },
+    "actions": {
+      "syncAll": "Sync পুম্নবা",
+      "viewDetails": "থিপনা",
+      "deleteReport": "Report ডিলিট",
+      "exportPDF": "PDF থরবা",
+      "share": "Share"
+    },
+    "messages": {
+      "noReports": "Report lei",
+      "noReportsDesc": "Offline লৌতবা রিপোর্ট হনগদা লাংনি",
+      "syncConfirm": "{{count}} sync তৌবা?",
+      "syncSuccess": "Sync হাজাগনি",
+      "syncFailed": "Sync লোইদে",
+      "noPendingData": "পুম্নবা সিঙ্ক তৌরে",
+      "offlineMessage": "Internet লৌবা লগা Sync তৌদবানো"
+    }
+  },
+
+  "sync": {
+    "title": "সিঙ্ক Status",
+    "syncing": "Sync তৌরিবা...",
+    "pendingSync": "{{count}} sync অগপওরবা",
+    "lastSync": "শেষ সিঙ্ক: {{time}}",
+    "syncNow": "Sync তৌবা",
+    "autoSync": "Auto sync লোই",
+    "messages": {
+      "noData": "Sync তৌবা data lei",
+      "success": "{{count}} রেকর্ড sync তৌরে",
+      "failed": "Sync লোইদে",
+      "noNetwork": "Network লোইদে",
+      "inProgress": "Sync তৌরি"
+    }
+  },
+
+  "consent": {
+    "title": "Consent",
+    "subtitle": "হেংদোকপা",
+    "accept": "জনাই অমসুং থৌবা",
+    "acceptSubtitle": "থাগত্তু নুংগাইবাগী",
+    "decline": "জবাব লোইবনা",
+    "declineSubtitle": "থদোলৈ",
+    "required": "Consent অমদি লোই"
+  },
+
+  "ayurvedicRemedies": {
+    "title": "ইয়েকতংডা থবী",
+    "subtitle": "Ayurvedic Remedies",
+    "searchPlaceholder": "Remedy শোদিনবা...",
+    "categories": "প্রতিভাগী",
+    "noResults": "ইয়েকতং লোই"
+  },
+
+  "emergency": {
+    "title": "Emergency",
+    "subtitle": "খোরজিনবা হেনবা",
+    "sos": "SOS",
+    "callNow": "কল তৌবা",
+    "emergencyContacts": "Emergency নম্বর"
+  },
+
+  "heatmap": {
+    "title": "Symptom Heatmap",
+    "subtitle": "GPS mapping",
+    "clusters": "ক্লাস্টার",
+    "cases": "Case অসিং"
+  },
+
+  "satelliteMap": {
+    "title": "Satellite Map",
+    "subtitle": "ওঙ্গা মরুং",
+    "layers": "Layers",
+    "filters": "Filters"
+  },
+
+  "waterLifespan": {
+    "title": "ওঙ্গা লকথাম",
+    "subtitle": "Safe দৈবা তৌরিবা",
+    "status": {
+      "safe": "Safe",
+      "caution": "সতর্কপা",
+      "critical": "শংগদেবা"
+    },
+    "trend": {
+      "rising": "হাংদোকনা",
+      "falling": "হিংনা",
+      "stable": "ফরক লোইদে"
+    }
+  },
+
+  "validation": {
+    "required": "অমদি লোই",
+    "invalidFormat": "চীদবা ফরম্যাট",
+    "selectOption": "Select তৌবা",
+    "enterValue": "Vaule চোবা",
+    "minimumLength": "অন্তত {{count}} character লোই"
+  },
+
+  "errors": {
+    "loadingFailed": "Loading লোইদে",
+    "savingFailed": "Saving লোইদে",
+    "deletingFailed": "Delete লোইদে",
+    "syncFailed": "Sync লোইদে",
+    "networkError": "Network সমস্য",
+    "tryAgain": "হেনবা থগত্তু"
+  },
+
+  "launch": {
+    "title": "ArogyaJal",
+    "subtitle": "ওঙ্গা হেল্থ Project",
+    "tagline": "উমমখদ্রবা অমসুং হেল্থ",
+    "selectRole": "Role চোবা",
+    "roles": {
+      "asha": "ASHA",
+      "resident": "Nong resident",
+      "phc": "PHC Staff"
+    },
+    "roleDescriptions": {
+      "asha": "Field থৌদবা অমসুং data থোনবা",
+      "resident": "Data থিননা অমসুং help লোবা",
+      "phc": "Case manage অমসুং emergency"
+    }
+  },
+
+  "login": {
+    "title": "Login",
+    "ashaWorker": "ASHA Login",
+    "resident": "Resident Login",
+    "phc": "PHC Login",
+    "mobileNumber": "Mobile Number",
+    "enterNumber": "10 digit number চোবা",
+    "sendOTP": "OTP থোনবা",
+    "enterOTP": "6 digit OTP চোবা",
+    "verifyLogin": "Verify অমসুং login তৌবা",
+    "resendOTP": "OTP resend তৌবা",
+    "resendIn": "{{seconds}}s গিদা resend অমগদা",
+    "changeNumber": "Number থগা",
+    "otpSentTo": "{{phone}} দা OTP অমনি",
+    "registeredOnly": "Registered {{role}} number তমই",
+    "invalidPhone": "Phone Number চীদবা",
+    "invalidOTP": "OTP চীদবা",
+    "otpSent": "OTP থোনবা থল্লে",
+    "otpSentMessage": "{{phone}} দা OTP থোনবাগিদা",
+    "verificationFailed": "OTP লোয়দে. থগত্তুই.",
+    "steps": {
+      "phone": "Phone",
+      "verify": "Verify"
+    }
+  },
+
+  "training": {
+    "title": "Training Module",
+    "available": "এভেইলেবল অমতাই",
+    "downloaded": "Download লৈরে",
+    "storage": "Storage",
+    "categories": {
+      "all": "পুম্নবা",
+      "waterTesting": "ওঙ্গা নিশ্চিতপা",
+      "surveys": "Survey",
+      "health": "হেল্থ",
+      "emergency": "Emergency"
+    },
+    "download": "Download তৌবা",
+    "open": "Module থিপনা",
+    "delete": "Delete",
+    "downloading": "Downloading {{progress}}%",
+    "preparing": "Preparing...",
+    "duration": "Duration",
+    "fileSize": "অথ্য ফাইল",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "types": {
+      "video": "ভিডিও",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "noModules": "Module লোই",
+      "checkLater": "পুনঃ check তৌবা",
+      "downloadComplete": "{{title}} Offline সেভ হল্লে",
+      "downloadFailed": "Download লোইদে",
+      "deleteConfirm": "Delete {{title}} তৌবা?",
+      "deleted": "Module ডিলিট তৌরে",
+      "comingSoon": "খ্বরোরো",
+      "setupRequired": "Viewer setup তৌবনি"
+    }
+  },
+
+  "resident": {
+    "dashboard": "Resident Dashboard",
+    "alerts": "Alert অসিং",
+    "household": "ইং তত্ত্ব",
+    "request": "ASHA মথাংনবা লোবা",
+    "requestHistory": "Request হিষ্টোরি",
+    "contact": "ASHA কল তৌবা",
+    "feedback": "Feedback",
+    "waterQuality": "ওঙ্গা quality",
+    "healthStatus": "হেল্থ অবস্থ",
+    "lastVisit": "শেষ ASHA ভিজিট",
+    "upcomingVisit": "মসিগী ভিজিট",
+    "noVisits": "ভিজিট লোই"
+  },
+
+  "phc": {
+    "dashboard": "PHC Dashboard",
+    "referrals": "Referrals",
+    "emergencies": "Emergency",
+    "analytics": "Analytics",
+    "directory": "Directory",
+    "pendingReferrals": "অগপওরবা Referrals",
+    "activeEmergencies": "Emergency তৌরি",
+    "todayVisits": "মশিগী ভিজিট",
+    "criticalCases": "Danger Case"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Profile edit তৌবা",
+    "viewCertificate": "Certificate থিপনা",
+    "personalInfo": "Personal Info",
+    "name": "মমিং",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "workArea": "Work এলাকার",
+    "certification": "Certificate",
+    "logout": "Logout",
+    "logoutConfirm": "Logout তৌগদা?",
+    "updateSuccess": "Profile update তৌরে",
+    "updateFailed": "Profile update লোইদে"
+  },
+
+  "settings": {
+    "title": "Setting",
+    "language": "Language",
+    "notifications": "Notifications",
+    "dataSync": "Data Sync",
+    "about": "About",
+    "version": "Version",
+    "termsOfService": "সার্ভিস Intent",
+    "privacyPolicy": "Privacy Policy"
+  },
+
+  "alerts": {
+    "title": "Alerts",
+    "subtitle": "Health & Water Alerts",
+    "noAlerts": "Alert লোই",
+    "markAsRead": "Read অমগদা",
+    "viewDetails": "থিপনা",
+    "types": {
+      "critical": "Critical",
+      "warning": "Warning",
+      "info": "Information"
+    }
+  },
+
+  "sensorUpload": {
+    "title": "Sensor Upload",
+    "subtitle": "Sensor Data Upload",
+    "selectFile": "File চোবা",
+    "uploadData": "Data upload",
+    "uploading": "Uploading...",
+    "uploadSuccess": "Upload তৌরে",
+    "uploadFailed": "Upload লোইদে"
+  },
+
+  "generatedData": {
+    "title": "Generated Data",
+    "subtitle": "Sensor data analysis",
+    "viewReport": "Report থিপনা",
+    "exportData": "Data export"
+  },
+
+  "reportCase": {
+    "title": "Case Report",
+    "subtitle": "হেল্থ অভিযোগ report",
+    "caseType": "Case মরুং",
+    "description": "Description",
+    "severity": "Severity",
+    "location": "Location",
+    "submitReport": "Report submit",
+    "reportSubmitted": "Report submit তৌরি"
+  },
+
+  "waterTesting": {
+    "title": "Water Testing",
+    "subtitle": "ওঙ্গা quality test",
+    "manualTest": "Manual Test",
+    "sensorTest": "Sensor Test",
+    "testHistory": "Test হিষ্টোরি",
+    "newTest": "নুথাদবা টেস্ট",
+    "selectSource": "ওঙ্গা মরুং চোবা",
+    "sourceTypes": {
+      "well": "ওঙ্গা উরি",
+      "handpump": "Hand Pump",
+      "tap": "Tap Water",
+      "river": "তুরেল",
+      "pond": "ওঙ্গা ফিরেং",
+      "other": "অসী"
+    }
+  },
+
+  "sensorTest": {
+    "title": "Sensor Test",
+    "subtitle": "IoT Sensor Test",
+    "connectSensor": "Sensor connect তৌবা",
+    "startTest": "Test louba",
+    "testInProgress": "Test তৌরি",
+    "testComplete": "Test তৌরে",
+    "viewResults": "Result থিপনা"
+  },
+
+  "manualTest": {
+    "title": "Manual Water Test",
+    "subtitle": "ফিল্ড টেস্ট কিট",
+    "enterResults": "Result চোবা",
+    "testParameters": "Parameter অসিং",
+    "saveResults": "Result save তৌবা",
+    "resultsSaved": "Result Save তৌরে"
+  },
+
+  "testHistory": {
+    "title": "Test History",
+    "subtitle": "অগপওরবা টেস্ট",
+    "filterBy": "Filter তৌবা",
+    "sortBy": "Sort তৌবা",
+    "noTests": "টেস্ট লোই",
+    "viewTest": "Test থিপনা"
+  },
+
+  "householdCheck": {
+    "title": "House Health Check",
+    "subtitle": "কমিউনিটি Survey",
+    "startSurvey": "Survey louba",
+    "continueSurvey": "Survey পিং থগবনা",
+    "viewSurveys": "Survey থিপনা"
+  },
+
+  "videoPlayer": {
+    "title": "Video Player",
+    "loading": "Video loading...",
+    "error": "Video তৌবক লোই",
+    "completed": "Video তৌরে"
+  },
+
+  "pdfViewer": {
+    "title": "PDF Viewer",
+    "loading": "PDF loading...",
+    "error": "PDF তৌবক লোই",
+    "page": "Page {{current}}/{{total}}"
+  },
+
+  "certificate": {
+    "title": "Certificate",
+    "viewCertificate": "Certificate থিপনা",
+    "downloadCertificate": "Certificate download তৌবা",
+    "shareCertificate": "Certificate share তৌবা",
+    "issuedTo": "থৌবা",
+    "issuedBy": "থৌবী",
+    "issuedOn": "থৌবগী থাবা চাক",
+    "validUntil": "Valid পর্যন্ত"
+  },
+
+  "residentRequest": {
+    "title": "ASHA visit Request",
+    "subtitle": "ভিজিট থাবা",
+    "requestType": "Request মরুং",
+    "preferredDate": "চাদু ঠাকপা",
+    "preferredTime": "থউন ঠাকপা",
+    "reason": "থাবগী অপু",
+    "submitRequest": "Request submit",
+    "requestSubmitted": "Request submit তৌরি"
+  },
+
+  "residentContact": {
+    "title": "ASHA काय Contact",
+    "subtitle": "Connect তৌবা",
+    "ashaWorker": "NingthouYi ASHA",
+    "call": "Call",
+    "message": "Message",
+    "noAshaAssigned": "ASHA চিংদা ওইদি"
+  },
+
+  "residentFeedback": {
+    "title": "Feedback",
+    "subtitle": "Feedback থোইদবা",
+    "rating": "Rating",
+    "comments": "Comments",
+    "submitFeedback": "Feedback submit",
+    "feedbackSubmitted": "থবনা থল্লে!"
+  },
+
+  "phcReferrals": {
+    "title": "Referrals",
+    "subtitle": "Patient referrals",
+    "pending": "অগপওরবা",
+    "completed": "Completed",
+    "viewReferral": "Referral থিপনা",
+    "acceptReferral": "Referral জণাই",
+    "noReferrals": "Referral লোই"
+  },
+
+  "phcEmergencies": {
+    "title": "Emergency",
+    "subtitle": "Emergency Case",
+    "active": "তৌরি",
+    "resolved": "তৌরে",
+    "viewEmergency": "Emergency থিপনা",
+    "respondToEmergency": "Respond তৌবা",
+    "noEmergencies": "Emergency লোই"
+  },
+
+  "phcAnalytics": {
+    "title": "Analytics",
+    "subtitle": "Data analysis",
+    "overview": "Overview",
+    "trends": "Trends",
+    "reports": "Reports",
+    "exportData": "Export Data"
+  },
+
+  "phcDirectory": {
+    "title": "Directory",
+    "subtitle": "Directory data",
+    "ashaWorkers": "ASHA সিং",
+    "healthFacilities": "Health Centres",
+    "emergencyContacts": "Emergency নম্বর",
+    "search": "Search..."
+  },
+
+  "loading": {
+    "title": "ArogyaJal",
+    "subtitle": "ওঙ্গা Project",
+    "loading": "Loading...",
+    "checkingSession": "Session check মেক...",
+    "pleaseWait": "Check তৌনু!"
+  }
+}

@@ -1,0 +1,214 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // DEVELOPMENT RULES - MORE PERMISSIVE FOR TESTING
+    // WARNING: DO NOT USE IN PRODUCTION
+    
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    // ASHA Workers Collection - Allow authenticated users to read by phone
+    match /asha_workers/{workerId} {
+      // Allow read if authenticated (for login check and profile loading)
+      allow read: if isAuthenticated();
+      
+      // Allow create for testing (remove in production)
+      allow create: if isAuthenticated();
+      
+      // Allow update for own profile or any authenticated user (for development)
+      allow update: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Residents Collection - For local residents module (OLD - kept for migration)
+    match /residents/{residentId} {
+      // Allow authenticated users to read (for development)
+      allow read: if isAuthenticated();
+      
+      // Allow users to create their profile on first login
+      allow create: if isAuthenticated();
+      
+      // Allow users to update their own profile
+      allow update: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Resident Profiles Collection - NEW collection for residents
+    match /resident_profiles/{residentId} {
+      // Allow authenticated users to read (for development)
+      allow read: if isAuthenticated();
+      
+      // Allow users to create their profile on first login
+      allow create: if isAuthenticated();
+      
+      // Allow users to update their own profile
+      allow update: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // PHC Doctors Collection
+    match /phc_doctors/{doctorId} {
+      // Allow authenticated users to read (for development)
+      allow read: if isAuthenticated();
+      
+      // Allow doctors to update their own profile
+      allow update: if isAuthenticated();
+      
+      // Allow create for testing
+      allow create: if isAuthenticated();
+      
+      // Allow delete for authenticated users (for UID migration during development)
+      allow delete: if isAuthenticated();
+    }
+    
+    // Ops Support Collection
+    match /ops_support/{opsId} {
+      // Allow authenticated users to read (for development)
+      allow read: if isAuthenticated();
+      
+      // Allow ops users to update their own profile
+      allow update: if isAuthenticated();
+      
+      // Allow create for testing
+      allow create: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Support Tickets Collection
+    match /support_tickets/{ticketId} {
+      // Allow authenticated users to read and write (for development)
+      allow read, write: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Ops Audit Log Collection
+    match /ops_audit_log/{logId} {
+      // Allow authenticated users to read and create (for development)
+      allow read, create: if isAuthenticated();
+      
+      // Disable update and delete
+      allow update, delete: if false;
+    }
+    
+    // Devices Collection
+    match /devices/{deviceId} {
+      // Allow authenticated users to read and update (for development)
+      allow read, update: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Sync Failures Collection
+    match /sync_failures/{failureId} {
+      // Allow authenticated users to read and create (for development)
+      allow read, create: if isAuthenticated();
+      
+      // Disable update and delete
+      allow update, delete: if false;
+    }
+    
+    // Training Content Collection
+    match /training_content/{contentId} {
+      // Allow authenticated users to read and write (for development)
+      allow read, write: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Referrals Collection - For PHC case management
+    match /referrals/{referralId} {
+      // Allow authenticated users to read, create, and update (for development)
+      allow read, create, update: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Emergencies Collection - For emergency management
+    match /emergencies/{emergencyId} {
+      // Allow authenticated users to read, create, and update (for development)
+      allow read, create, update: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Service Requests Collection - For residents to request services
+    match /service_requests/{requestId} {
+      // Allow authenticated users to read, create, and update (for development)
+      allow read, create, update: if isAuthenticated();
+      
+      // Disable delete
+      allow delete: if false;
+    }
+    
+    // Households Collection
+    match /households/{householdId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Areas Collection - For PHC assigned areas
+    match /areas/{areaId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Water Sources Collection
+    match /water_sources/{sourceId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Health Reports Collection
+    match /health_reports/{reportId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Alerts Collection - Allow public read for Fast Access
+    match /alerts/{alertId} {
+      allow read: if true; // Public read for residents using Fast Access
+      allow write: if isAuthenticated();
+    }
+    
+    // Sensor Data Collection
+    match /sensor_data/{dataId} {
+      allow read, write: if isAuthenticated();
+    }
+    
+    // Public Data
+    match /public_data/{docId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated();
+    }
+    
+    // Water Tests Collection - Allow public read for Fast Access
+    match /water_tests/{testId} {
+      allow read: if true; // Public read for residents using Fast Access
+      allow write: if isAuthenticated();
+    }
+    
+    // Household Surveys Collection - Allow public read for Fast Access
+    match /household_surveys/{surveyId} {
+      allow read: if true; // Public read for residents using Fast Access
+      allow write: if isAuthenticated();
+    }
+    
+    // Default: allow authenticated users (for development)
+    match /{document=**} {
+      allow read, write: if isAuthenticated();
+    }
+  }
+}

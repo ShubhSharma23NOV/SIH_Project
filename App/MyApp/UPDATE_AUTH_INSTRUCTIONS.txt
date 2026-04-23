@@ -1,0 +1,53 @@
+FIRESTORE RULES UPDATE - DEPLOY REQUIRED
+==========================================
+
+CHANGES MADE:
+✅ Added session_type checks to all auth contexts (Resident, PHC, Ops)
+✅ Updated Firestore rules to include missing collections:
+   - resident_profiles (new collection for residents)
+   - areas (for PHC assigned areas)
+
+DEPLOY FIRESTORE RULES:
+------------------------
+You MUST deploy the updated rules to Firebase:
+
+Option 1 - Firebase Console (Easiest):
+1. Go to Firebase Console: https://console.firebase.google.com
+2. Select your project
+3. Go to Firestore Database > Rules
+4. Copy the content from MyApp/firestore.rules
+5. Paste it in the rules editor
+6. Click "Publish"
+
+Option 2 - Firebase CLI:
+cd MyApp
+firebase deploy --only firestore:rules
+
+TESTING PHC LOGIN:
+------------------
+1. Make sure you have deployed the Firestore rules above
+2. Test phone number should be configured in Firebase Console:
+   - Go to Authentication > Sign-in method > Phone
+   - Add test phone numbers (e.g., +919999999999 with OTP 123456)
+3. Create PHC doctor profile in Firestore:
+   - Collection: phc_doctors
+   - Document ID: (Firebase Auth UID)
+   - Fields: name, phone, phcName, assignedAreas, etc.
+4. Login with test phone number
+5. Should NOT see resident data loading errors anymore
+
+HOW IT WORKS NOW:
+-----------------
+- Each auth context checks AsyncStorage for 'session_type'
+- ResidentAuthContext only loads if session_type is 'resident' or not set
+- PHCAuthContext only loads if session_type is 'phc'
+- OpsAuthContext only loads if session_type is 'ops'
+- Session type is set during login in each context
+- This prevents cross-loading of wrong user data
+
+NEXT STEPS:
+-----------
+1. Deploy Firestore rules (REQUIRED)
+2. Test PHC login with test phone number
+3. Verify no permission errors in logs
+4. Verify no resident data loading when logging in as PHC doctor

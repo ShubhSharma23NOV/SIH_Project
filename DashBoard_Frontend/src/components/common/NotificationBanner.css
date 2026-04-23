@@ -1,0 +1,132 @@
+/* ============================================
+   NOTIFICATION BANNER
+   ============================================ */
+
+.notification-banner {
+    background: #FFF3E0;
+    border-left: 4px solid #FF9800;
+    padding: 12px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.notification-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.notification-icon {
+    width: 20px;
+    height: 20px;
+    color: #FF9800;
+    flex-shrink: 0;
+}
+
+.notification-message {
+    font-size: 14px;
+    font-weight: 500;
+    color: #424242;
+    margin: 0;
+}
+
+.notification-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.notification-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000080;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 150ms;
+}
+
+.notification-link:hover {
+    color: #000066;
+    text-decoration: underline;
+}
+
+.notification-close {
+    background: none;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: #757575;
+    transition: color 150ms;
+}
+
+.notification-close:hover {
+    color: #424242;
+}
+
+.notification-close svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Severity Variants */
+.notification-banner.info {
+    background: #E3F2FD;
+    border-left-color: #2196F3;
+}
+
+.notification-banner.info .notification-icon {
+    color: #2196F3;
+}
+
+.notification-banner.warning {
+    background: #FFF3E0;
+    border-left-color: #FF9800;
+}
+
+.notification-banner.warning .notification-icon {
+    color: #FF9800;
+}
+
+.notification-banner.error {
+    background: #FFEBEE;
+    border-left-color: #F44336;
+}
+
+.notification-banner.error .notification-icon {
+    color: #F44336;
+}
+
+.notification-banner.success {
+    background: #E8F5E9;
+    border-left-color: #4CAF50;
+}
+
+.notification-banner.success .notification-icon {
+    color: #4CAF50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .notification-banner {
+        padding: 10px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .notification-content {
+        width: 100%;
+    }
+
+    .notification-actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .notification-message {
+        font-size: 13px;
+    }
+}

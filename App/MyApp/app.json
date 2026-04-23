@@ -1,0 +1,10 @@
+{
+  "name": "ArogyaJal",
+  "displayName": "ArogyaJal",
+  "android": {
+    "package": "com.Arogya_jal.app"
+  },
+  "ios": {
+    "bundleIdentifier": "com.Arogya_jal.app"
+  }
+}

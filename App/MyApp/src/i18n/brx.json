@@ -1,0 +1,605 @@
+{
+  "common": {
+    "submit": "थांजाय",
+    "cancel": "बोखार",
+    "delete": "खेर्वै",
+    "save": "सेभ खालाम",
+    "back": "सिगां",
+    "close": "बन्द खालाम",
+    "loading": "लोड खालाम जाया...",
+    "error": "गोरोन्थि",
+    "success": "जायगोनां",
+    "yes": "हां",
+    "no": "नङा",
+    "ok": "ठिक खालाम",
+    "share": "साझा खालाम",
+    "sync": "सिंख खालाम",
+    "pending": "थांख्राय जायाखै",
+    "synced": "सिंख जाबाय",
+    "offline": "अफलाइन",
+    "online": "अनलाइन",
+    "required": "नाङो"
+  },
+
+  "dashboard": {
+    "title": "ASHA डेस्बोर्ड",
+    "subtitle": "दोमनि जायथाय जोंथि",
+    "welcome": "मोनथाय, {{name}}",
+    "quickActions": "गोजानो हिफाजाय",
+    "stats": {
+      "totalReports": "गासै रिपोट",
+      "pendingReports": "थांख्राय जायाखै",
+      "waterTests": "दोमनि फोनांनि सान",
+      "completedSurveys": "थांख्राय जाबाय"
+    }
+  },
+
+  "waterTest": {
+    "title": "दोमनि फोनां",
+    "subtitle": "गारांनि फोनां फोरमोन",
+    "manualTest": "हांख्रैनाय दोमनि फोनां",
+    "details": "फोनांनि फोरमोन",
+    "testId": "फोनां ID",
+    "sourceType": "जायगानि रोखोम",
+    "sourceName": "जायगानि मुं",
+    "testDate": "फोनांनि सान्थाय",
+    "riskLevel": "जायथाय रोखोम",
+    "riskLevels": {
+      "low": "रायव जायथाय",
+      "medium": "नोफां जायथाय",
+      "high": "बलां जायथाय"
+    },
+    "riskMessages": {
+      "low": "जांलांनो नारै",
+      "medium": "नायथां नायथां गाहाय",
+      "high": "थारां हानाय जायथाय"
+    },
+    "parameters": {
+      "title": "FTK पारामिटर",
+      "ph": "pH रोखोम",
+      "frc": "FRC (क्लोरिन)",
+      "turbidity": "ब्लानि",
+      "tds": "TDS (mg/L)",
+      "hardness": "गोरैनाय मोहनै",
+      "geogenic": "जायगा सायथि खालाम",
+      "appearance": "बिहोन/रां",
+      "odour": "बिहोन",
+      "suspendedMatter": "जाव सोबोगो बोख"
+    },
+    "environmental": {
+      "title": "सोरखो गोसो",
+      "rainfall": "24 घंथा सान्नाय बुखु",
+      "nearbyRisks": "नियाव जायथा थाय"
+    },
+    "reporter": {
+      "title": "रिपोट खालामनायनि फोरमोन",
+      "id": "Reporter ID",
+      "type": "Reporter रोखोम"
+    },
+    "visual": {
+      "title": "बिहोन मोनथाय"
+    },
+    "status": {
+      "pendingSync": "सिंख थांख्राय",
+      "syncedToServer": "सर्वराव सिंख जाबाय"
+    },
+    "actions": {
+      "saveOffline": "अफलाइनाव सेव",
+      "deleteTest": "फोनां खेर्वै",
+      "shareReport": "रिपोट साझाखालाम"
+    },
+    "messages": {
+      "savedOffline": "फोनां अफलाइनाव सेव जाबाय",
+      "willSync": "इन्टारेनैथ आहुंथा सिंख हाबाय",
+      "deleteConfirm": "फोनां खेर्वै थानाय नामा?",
+      "deleted": "फोनां खेर्वै जाबाय",
+      "testNotFound": "फोनां मोनाखै",
+      "loadingDetails": "मोनथाय लोड खालाम जाया..."
+    }
+  },
+
+  "householdSurvey": {
+    "title": "नि-दंखोरनि सान",
+    "subtitle": "जारि सानयार",
+    "sections": {
+      "identification": "संजिंथाय",
+      "household": "नि-दंखोरनि रोखोम",
+      "water": "दोमनि जायगा",
+      "sanitation": "गोरै",
+      "members": "नि-दंखोरनि मावफोर",
+      "risk": "जायथायनि मोजां"
+    },
+    "fields": {
+      "state": "राईजो",
+      "district": "जिला",
+      "block": "ब्लक",
+      "village": "गांव",
+      "householdId": "नि-दंखोर ID",
+      "dateOfVisit": "थांख्रानि सान",
+      "filedBy": "दाखिलखालामनाय",
+      "contactNumber": "फोनानोनि मोन",
+      "gpsLocation": "GPS जायगा",
+      "headOfHousehold": "नि-दंखोरनि गावग्रा",
+      "totalMembers": "गासै मावफोर",
+      "waterSource": "दोमनि जायगा",
+      "toiletFacility": "टायलैट थायथांनाय",
+      "riskLevel": "जायथाय रोखोम"
+    },
+    "actions": {
+      "captureGPS": "GPS मोनथाय",
+      "addMember": "मावफोर फोर",
+      "removeMember": "मावफोर खेर्वै",
+      "submitSurvey": "सान थांजाय"
+    },
+    "messages": {
+      "savedOffline": "सान अफलाइनाव सेव जाबाय",
+      "willSync": "अनलाइन जोंथा सिंख जाबाय",
+      "deleteConfirm": "सान खेर्वै थानाय नामा?",
+      "deleted": "सान खेर्वै जाबाय"
+    }
+  },
+
+  "reports": {
+    "title": "अफलाइन रिपोट",
+    "subtitle": "मोनथाय आरो हानाय",
+    "filters": {
+      "all": "गासै",
+      "pending": "थांख्राय",
+      "synced": "सिंख जाबाय"
+    },
+    "types": {
+      "waterTest": "दोमनि फोनां",
+      "householdSurvey": "नि-दंखोर सान",
+      "healthReport": "जारि रिपोट",
+      "issueReport": "बायजो रिपोट"
+    },
+    "status": {
+      "pending": "थांख्राय",
+      "synced": "सिंख जाबाय",
+      "pendingCount": "{{count}} थांख्राय"
+    },
+    "actions": {
+      "syncAll": "गासै सिंख खालाम",
+      "viewDetails": "गासै मोनथाय",
+      "deleteReport": "रिपोट खेर्वै",
+      "exportPDF": "PDF मुंलाय",
+      "share": "साझाखालाम"
+    },
+    "messages": {
+      "noReports": "रिपोट मोनाखै",
+      "noReportsDesc": "अफलाइनाव सेवखाबाय रिपोट थियैयो",
+      "syncConfirm": "{{count}} थांख्राय सिंख खालाम?",
+      "syncSuccess": "गासै डाटा सिंख जाबाय",
+      "syncFailed": "जायखौ सिंख नाङा",
+      "noPendingData": "गासै डाटा सिन्थाव सिंख जाबाय",
+      "offlineMessage": "इन्टारेनैथ सोलाय"
+    }
+  },
+
+  "sync": {
+    "title": "सिंख जायखि",
+    "syncing": "सिंख जाया...",
+    "pendingSync": "{{count}} थांख्राय सिंख",
+    "lastSync": "जोबोहोगा सिंख: {{time}}",
+    "syncNow": "नाइजो सिंख खालाम",
+    "autoSync": "अटो सिंख गोलां",
+    "messages": {
+      "noData": "सिंखनो डाटा गैया",
+      "success": "{{count}} रेकर्ड सिंख जाबाय",
+      "failed": "सिंख गोरोन्थि",
+      "noNetwork": "नेटवर्क गैया",
+      "inProgress": "सिंख नायथांनाय जागोन"
+    }
+  },
+
+  "consent": {
+    "title": "सम्मति",
+    "subtitle": "जानखोरा सम्मति",
+    "accept": "साबाय आरो आगेयै जाया",
+    "acceptSubtitle": "आगेयै जायनो साबाय",
+    "decline": "नङा",
+    "declineSubtitle": "आगेयै नाङा",
+    "required": "आगेयै जायनो सम्मति नाङो"
+  },
+
+  "ayurvedicRemedies": {
+    "title": "जारि जाथाय",
+    "subtitle": "आयुर्वेद थाराय",
+    "searchPlaceholder": "थाराय खोफाय...",
+    "categories": "सोथाय",
+    "noResults": "थाराय मोनाखै"
+  },
+
+  "emergency": {
+    "title": "मुठाय हायग्रा",
+    "subtitle": "हायग्रा आरो फोन",
+    "sos": "SOS",
+    "callNow": "नाइजो फोन खालाम",
+    "emergencyContacts": "मुठाय फोन"
+  },
+
+  "heatmap": {
+    "title": "लक्षण हिटमाप",
+    "subtitle": "GPS-आधारि क्लस्टर",
+    "clusters": "क्लस्टर",
+    "cases": "खामान"
+  },
+
+  "satelliteMap": {
+    "title": "सैटलाईट माप",
+    "subtitle": "दोमनि जायगा",
+    "layers": "लेयर",
+    "filters": "फिल्टर"
+  },
+
+  "waterLifespan": {
+    "title": "दोमनि जायगानि आहुं",
+    "subtitle": "आन्दामनि सुंखानि",
+    "status": {
+      "safe": "सुंखानि",
+      "caution": "नायथां नायथां",
+      "critical": "घोसारि"
+    },
+    "trend": {
+      "rising": "गोजानो जाबाय",
+      "falling": "थेोंजाइ जाया",
+      "stable": "थानसारि जाया"
+    }
+  },
+
+  "validation": {
+    "required": "बेनि थान नाङो",
+    "invalidFormat": "फर्मेट गोरोन्थि",
+    "selectOption": "सोलाय",
+    "enterValue": "मोनथाय",
+    "minimumLength": "कामसै {{count}} खाखैनो नाङो"
+  },
+
+  "errors": {
+    "loadingFailed": "डाटा लोड गोरोन्थि",
+    "savingFailed": "सेव गोरोन्थि",
+    "deletingFailed": "खेर्वै गोरोन्थि",
+    "syncFailed": "सिंख गोरोन्थि",
+    "networkError": "नेटवर्क गोरोन्थि",
+    "tryAgain": "फिन आरो"
+  },
+
+  "launch": {
+    "title": "ArogyaJal",
+    "subtitle": "दोमनि जायथाय जोंथि",
+    "tagline": "सोखा दोम्नि, जायथाय गाबा",
+    "selectRole": "हांख्रैनाय सोलाय",
+    "roles": {
+      "asha": "ASHA गावग्रा",
+      "resident": "नि-दंखोर",
+      "phc": "PHC गावग्रा"
+    },
+    "roleDescriptions": {
+      "asha": "गारांनि जारि हानाय आरो डाटा मोनथाय",
+      "resident": "नि-दंखोरनि डाटा मोनथाय आरो मोनथाय",
+      "phc": "खामाननि हावगो आरो मुठायहि"
+    }
+  },
+
+  "login": {
+    "title": "लोगिन",
+    "ashaWorker": "ASHA लोगिन",
+    "resident": "नि-दंखोर लोगिन",
+    "phc": "PHC लोगिन",
+    "mobileNumber": "मोबाइल मुं",
+    "enterNumber": "10 धों मोबाइल मुं",
+    "sendOTP": "OTP गोनां",
+    "enterOTP": "6 धों OTP मोनथाय",
+    "verifyLogin": "साबाय आरो लोगिन",
+    "resendOTP": "OTP फिन गोनां",
+    "resendIn": "{{seconds}} सेकेन्ड फिन",
+    "changeNumber": "मुन सोलाय",
+    "otpSentTo": "{{phone}} आव OTP गोनां जाबाय",
+    "registeredOnly": "फोरमोनाय {{role}} मुं",
+    "invalidPhone": "ठिक 10 धों मोबाइल मुं मोनथाय",
+    "invalidOTP": "6 धों OTP मोनथाय",
+    "otpSent": "OTP गोनां जाबाय",
+    "otpSentMessage": "{{phone}} आव OTP गोनां जाबाय",
+    "verificationFailed": "OTP गोरोन्थि। फिन आरो।",
+    "steps": {
+      "phone": "फोन",
+      "verify": "साबाय"
+    }
+  },
+
+  "training": {
+    "title": "थि-गुदिमुं माडुल",
+    "available": "आवाइ",
+    "downloaded": "डाउनलड जाबाय",
+    "storage": "स्टरेज",
+    "categories": {
+      "all": "गासै",
+      "waterTesting": "दोमनि फोनां",
+      "surveys": "सान",
+      "health": "जारि",
+      "emergency": "मुठाय"
+    },
+    "download": "मोनथायनो डाउनलोड खालाम",
+    "open": "माडुल फैय",
+    "delete": "खेर्वै",
+    "downloading": "{{progress}}% डाउनलोड जाया",
+    "preparing": "फाराय जाया...",
+    "duration": "आहुं",
+    "fileSize": "फाइल हांख्राय",
+    "difficulty": {
+      "beginner": "गुदिं",
+      "intermediate": "फाजैनो",
+      "advanced": "बांथि"
+    },
+    "types": {
+      "video": "VIDEO",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "noModules": "माडुल मोनाखै",
+      "checkLater": "फिन मोनथाय",
+      "downloadComplete": "{{title}} अफलाइन आवाइ",
+      "downloadFailed": "डाउनलोड गोरोन्थि",
+      "deleteConfirm": "{{title}} खेर्वै नामा?",
+      "deleted": "माडुल खेर्वै जाबाय",
+      "comingSoon": "थां जाया",
+      "setupRequired": "भिडिओ/PDF फैयनायनि मालेन"
+    }
+  },
+
+  "resident": {
+    "dashboard": "नि-दंखोर डेस्बोर्ड",
+    "alerts": "गे",
+    "household": "नि-दंखोरनि डाटा",
+    "request": "ASHA थांखोरा",
+    "requestHistory": "थांखोरानि सावथि",
+    "contact": "ASHA फां जोन",
+    "feedback": "फिदबेक",
+    "waterQuality": "दोमनि जोरख",
+    "healthStatus": "जारि मोनथाय",
+    "lastVisit": "जोबोनथाय ASHA थांखोरा",
+    "upcomingVisit": "थांखोंथाव आसिर",
+    "noVisits": "थांखोराखै"
+  },
+
+  "phc": {
+    "dashboard": "PHC डेस्बोर्ड",
+    "referrals": "रेफरल",
+    "emergencies": "मुठाय",
+    "analytics": "विशलेखनाय",
+    "directory": "डाइरेक्टोरि",
+    "pendingReferrals": "थांख्राय रेफरल",
+    "activeEmergencies": "आसिर मुठाय",
+    "todayVisits": "दानि थांखोरा",
+    "criticalCases": "घोसारिआबाय खामान"
+  },
+
+  "profile": {
+    "title": "प्रोफाइल",
+    "editProfile": "प्रोफाइल फोलां",
+    "viewCertificate": "सारिटिफिकेट फैय",
+    "personalInfo": "मोनथाय",
+    "name": "मुं",
+    "phone": "फोन",
+    "email": "Email",
+    "address": "बिहोनाय जायगा",
+    "workArea": "गाहाय जायगा",
+    "certification": "सारिटिफिकेट",
+    "logout": "लोगआउट",
+    "logoutConfirm": "लोगआउट थानाय नामा?",
+    "updateSuccess": "प्रोफाइल अपडेट जाबाय",
+    "updateFailed": "अपडेट गोरोन्थि"
+  },
+
+  "settings": {
+    "title": "सेटिंख",
+    "language": "राजीयो",
+    "notifications": "नोटिफिकेसन",
+    "dataSync": "डाटा सिंख",
+    "about": "जोनथाय",
+    "version": "वरसन",
+    "termsOfService": "सिबिसन सोथाय",
+    "privacyPolicy": "प्राइभेसि पालिसि"
+  },
+
+  "alerts": {
+    "title": "गे",
+    "subtitle": "जारि आरो दोमनि गे",
+    "noAlerts": "गे गैया",
+    "markAsRead": "목नाय मनजाय",
+    "viewDetails": "गासै मोनथाय",
+    "types": {
+      "critical": "घोसारि",
+      "warning": "थानाय",
+      "info": "मोनथाय"
+    }
+  },
+
+  "sensorUpload": {
+    "title": "सेंसोर अपलोड",
+    "subtitle": "सेंसोर डाटा अपलोड खालाम",
+    "selectFile": "फाइल सोलाय",
+    "uploadData": "डाटा अपलोड खालाम",
+    "uploading": "अपलोड जाया...",
+    "uploadSuccess": "डाटा अपलोड जाबाय",
+    "uploadFailed": "अपलोड गोरोन्थि"
+  },
+
+  "generatedData": {
+    "title": "डाटा फोथाय",
+    "subtitle": "सेंसोर डाटा विशलेखनाय",
+    "viewReport": "रिपोट फैय",
+    "exportData": "डाटा मुंलाय"
+  },
+
+  "reportCase": {
+    "title": "खामान रिपोट खालाम",
+    "subtitle": "जारि बायजो ",
+    "caseType": "खामानि रोखोम",
+    "description": "फोरमोन",
+    "severity": "घोसारि रोखोम",
+    "location": "जायगा",
+    "submitReport": "रिपोट थांजाय",
+    "reportSubmitted": "रिपोट थांजाय जाबाय"
+  },
+
+  "waterTesting": {
+    "title": "दोमनि फोनां",
+    "subtitle": "दोमनि मोनथाय फोनां",
+    "manualTest": "हांख्रैनाय फोनां",
+    "sensorTest": "सेंसोर फोनां",
+    "testHistory": "फोनांनि सावथि",
+    "newTest": "गुदिं फोनां",
+    "selectSource": "दोमनि जायगा सोलाय",
+    "sourceTypes": {
+      "well": "ख्वा",
+      "handpump": "हांपंप",
+      "tap": "टैप दोम",
+      "river": "सिर्थि",
+      "pond": "आव",
+      "other": "गैनो"
+    }
+  },
+
+  "sensorTest": {
+    "title": "सेंसोर फोनां",
+    "subtitle": "IoT Sensor Testing",
+    "connectSensor": "सेंसोर जागाय",
+    "startTest": "फोनां हाबाय",
+    "testInProgress": "फोनां जाया",
+    "testComplete": "फोनां थांख्राय जाबाय",
+    "viewResults": "फोरमोन फैय"
+  },
+
+  "manualTest": {
+    "title": "हांख्रैनाय दोम फोनां",
+    "subtitle": "नि-गारां फोनां किट",
+    "enterResults": "फोरमोन मोनथाय",
+    "testParameters": "फोनां पारामिटर",
+    "saveResults": "फोरमोन सेव खालाम",
+    "resultsSaved": "फोरमोन सेव जाबाय"
+  },
+
+  "testHistory": {
+    "title": "फोनां सावथि",
+    "subtitle": "जोबोनि फोनां",
+    "filterBy": "फिल्टर खालाम",
+    "sortBy": "सजाय",
+    "noTests": "फोनां गैया",
+    "viewTest": "फोनां फैय"
+  },
+
+  "householdCheck": {
+    "title": "नि-दंखोरनि जारि फोनां",
+    "subtitle": "गांवनि जारि सान",
+    "startSurvey": "सान हाबाय",
+    "continueSurvey": "सान गाहाय जाया",
+    "viewSurveys": "सान मोनथाय"
+  },
+
+  "videoPlayer": {
+    "title": "भिडिओ फैयग्रा",
+    "loading": "भिडिओ लोड खालाम जाया...",
+    "error": "भिडिओ गोरोन्थि",
+    "completed": "भिडिओ थांख्राय जाबाय"
+  },
+
+  "pdfViewer": {
+    "title": "PDF फैयग्रा",
+    "loading": "डोकुमेन लोड जाया...",
+    "error": "PDF गोरोन्थि",
+    "page": "साइथा {{current}} / {{total}}"
+  },
+
+  "certificate": {
+    "title": "सारिटिफिकेट",
+    "viewCertificate": "सारिटिफिकेट फैय",
+    "downloadCertificate": "सारिटिफिकेट डाउनलोड खालाम",
+    "shareCertificate": "सारिटिफिकेट साझाखालाम",
+    "issuedTo": "गोनां जाबाय",
+    "issuedBy": "गोनांग्रा",
+    "issuedOn": "गोनां सान",
+    "validUntil": "आहुंथाया"
+  },
+
+  "residentRequest": {
+    "title": "ASHA थांखोरा",
+    "subtitle": "थांखोरा गोदलां खालाम",
+    "requestType": "थांखोरानि रोखोम",
+    "preferredDate": "नायनाय सान",
+    "preferredTime": "नायनाय बिजाब",
+    "reason": "थांखोरानि हांस्यनाय",
+    "submitRequest": "थांखोराय थांजाय",
+    "requestSubmitted": "थांखोराय थांजाय जाबाय",
+    "types": {
+      "healthCheck": "जारि फोनां",
+      "waterTest": "दोमनि फोनां",
+      "consultation": "गाहाय",
+      "emergency": "मुठाय"
+    }
+  },
+
+  "residentContact": {
+    "title": "ASHA फां",
+    "subtitle": "जोनथाय",
+    "ashaWorker": "नागार ASHA गावग्रा",
+    "call": "फोन खालाम",
+    "message": "मेसेज",
+    "noAshaAssigned": "ASHA मोनाखै"
+  },
+
+  "residentFeedback": {
+    "title": "फिदबेक",
+    "subtitle": "हांजांनि बायजो फिदबेक",
+    "rating": "रेटिंग",
+    "comments": "फोरमोन",
+    "submitFeedback": "फिदबेक थांजाय",
+    "feedbackSubmitted": "थांबाय! फिदबेक थांजाय जाबाय"
+  },
+
+  "phcReferrals": {
+    "title": "रेफरल",
+    "subtitle": "जारि रेफरल",
+    "pending": "थांख्राय",
+    "completed": "थांख्राय जाबाय",
+    "viewReferral": "फैय",
+    "acceptReferral": "गाहाय",
+    "noReferrals": "रेफरल मोनाखै"
+  },
+
+  "phcEmergencies": {
+    "title": "मुठाय",
+    "subtitle": "मुठाय खामान",
+    "active": "आसिर",
+    "resolved": "थांख्राय जाबाय",
+    "viewEmergency": "फैय",
+    "respondToEmergency": "हानाय",
+    "noEmergencies": "मुठाय मोनाखै"
+  },
+
+  "phcAnalytics": {
+    "title": "विशलेखनाय",
+    "subtitle": "जारि डाटा विशलेखनाय",
+    "overview": "मोनथाय",
+    "trends": "गोजाय",
+    "reports": "रिपोट",
+    "exportData": "डाटा मुंलाय"
+  },
+
+  "phcDirectory": {
+    "title": "डाइरेक्टोरि",
+    "subtitle": "फोन थाय",
+    "ashaWorkers": "ASHA गावग्रा",
+    "healthFacilities": "जारि थानाय",
+    "emergencyContacts": "मुठायनि फोन",
+    "search": "खोफाय..."
+  },
+
+  "loading": {
+    "title": "ArogyaJal",
+    "subtitle": "दोमनि जारि जोंथि",
+    "loading": "लोड खालाम जाया...",
+    "checkingSession": "सेसन मोनथाय...",
+    "pleaseWait": "सिगां थानाय!"
+  }
+}

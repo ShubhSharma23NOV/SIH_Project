@@ -1,0 +1,99 @@
+/* ============================================
+   GOVERNMENT FOOTER
+   ============================================ */
+
+.gov-footer {
+    background: #F5F5F5;
+    border-top: 3px solid #FF9933;
+    padding: 24px 0;
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 100%;
+    padding: 0 32px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.footer-copyright {
+    font-size: 13px;
+    font-weight: 500;
+    color: #424242;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer-link {
+    font-size: 13px;
+    font-weight: 500;
+    color: #000080;
+    text-decoration: none;
+    transition: color 150ms;
+}
+
+.footer-link:hover {
+    color: #000066;
+    text-decoration: underline;
+}
+
+.footer-separator {
+    color: #BDBDBD;
+    font-size: 13px;
+}
+
+.footer-disclaimer {
+    font-size: 12px;
+    color: #616161;
+    line-height: 1.6;
+    padding: 12px 16px;
+    background: #FFFFFF;
+    border-left: 3px solid #FF9933;
+    border-radius: 4px;
+}
+
+.footer-disclaimer strong {
+    color: #212121;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        padding: 0 16px;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .footer-copyright {
+        font-size: 12px;
+    }
+
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .footer-link {
+        font-size: 12px;
+    }
+
+    .footer-disclaimer {
+        font-size: 11px;
+    }
+}

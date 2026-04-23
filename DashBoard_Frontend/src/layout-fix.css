@@ -1,0 +1,106 @@
+/* ============================================
+   LAYOUT FIX - Override conflicting styles
+   ============================================ */
+
+/* Force hide old sidebar */
+.sidebar {
+    display: none !important;
+}
+
+/* Override old main-content styles from App.css */
+.main-content {
+    margin-left: 280px !important;
+    margin-top: 156px !important;
+    padding-top: 0 !important;
+    min-height: calc(100vh - 156px) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background: #f8fafc !important;
+    width: calc(100% - 280px) !important;
+    overflow-x: hidden !important;
+}
+
+/* Override page-content styles */
+.page-content {
+    flex: 1 !important;
+    padding: 2rem !important;
+    background: #f8fafc !important;
+    width: 100% !important;
+    min-height: auto !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+}
+
+/* Remove extra padding from nested elements */
+.page-content > * {
+    padding: 0;
+}
+
+/* Dashboard specific fixes */
+.dashboard-header-new,
+.dashboard-header,
+.dashboard-header-gov {
+    margin-top: 0;
+}
+
+/* Remove extra margins from first elements */
+.page-content > div:first-child,
+.page-content > h1:first-child {
+    margin-top: 0;
+}
+
+/* Chart sections */
+.chart-section-header {
+    margin-top: 2rem;
+}
+
+.chart-section-header:first-of-type {
+    margin-top: 1rem;
+}
+
+/* Fix for cards and containers */
+.water-quality-card,
+.location-filter,
+.device-card,
+.sensor-card,
+.alert-card {
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive fixes */
+@media (max-width: 1024px) {
+    .main-content {
+        margin-left: 240px !important;
+        margin-top: 140px !important;
+        min-height: calc(100vh - 140px) !important;
+        width: calc(100% - 240px) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        margin-left: 70px !important;
+        margin-top: 120px !important;
+        min-height: calc(100vh - 120px) !important;
+        width: calc(100% - 70px) !important;
+    }
+    
+    .page-content {
+        padding: 1rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        margin-left: 60px !important;
+        margin-top: 100px !important;
+        min-height: calc(100vh - 100px) !important;
+        width: calc(100% - 60px) !important;
+    }
+    
+    .page-content {
+        padding: 0.75rem !important;
+    }
+}

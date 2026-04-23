@@ -1,0 +1,605 @@
+{
+  "common": {
+    "submit": "জমা কৰক",
+    "cancel": "বাতিল কৰক",
+    "delete": "মচি পেলাওক",
+    "save": "ছেভ কৰক",
+    "back": "পিছলৈ",
+    "close": "বন্ধ কৰক",
+    "loading": "লোড হৈ আছে...",
+    "error": "ভুল",
+    "success": "সফল",
+    "yes": "হয়",
+    "no": "নহয়",
+    "ok": "ঠিক আছে",
+    "share": "ভাগ-বতৰা কৰক",
+    "sync": "ছিঙ্ক কৰক",
+    "pending": "পেণ্ডিং",
+    "synced": "ছিঙ্ক হৈছে",
+    "offline": "অফ্’লাইন",
+    "online": "অনলাইন",
+    "required": "আৱশ্যক"
+  },
+
+  "dashboard": {
+    "title": "ASHA ডেশ্ব’ব'ৰ্ড",
+    "subtitle": "জল স্বাস্থ্য উদ্যোগ",
+    "welcome": "স্বাগতম, {{name}}",
+    "quickActions": "দ্ৰুত কামবোৰ",
+    "stats": {
+      "totalReports": "মুঠ ৰিপ’ৰ্ট",
+      "pendingReports": "পেণ্ডিং",
+      "waterTests": "জল পৰীক্ষা",
+      "completedSurveys": "সমাপ্ত চাৰ্ভে"
+    }
+  },
+
+  "waterTest": {
+    "title": "জল পৰীক্ষা",
+    "subtitle": "মাঠ পৰীক্ষাৰ ফলাফল",
+    "manualTest": "হাতে কৰা জল পৰীক্ষা",
+    "details": "পৰীক্ষাৰ বিৱৰণ",
+    "testId": "টেষ্ট ID",
+    "sourceType": "উৎসৰ ধৰণ",
+    "sourceName": "উৎসৰ নাম",
+    "testDate": "টেষ্টৰ তাৰিখ",
+    "riskLevel": "ঝুঁকি স্তৰ",
+    "riskLevels": {
+      "low": "নিম্ন ঝুঁকি",
+      "medium": "মধ্যম ঝুঁকি",
+      "high": "উচ্চ ঝুঁকি"
+    },
+    "riskMessages": {
+      "low": "পানযোগ্য",
+      "medium": "নজৰ ৰাখিব লাগে",
+      "high": "তৎক্ষণাত কাৰ্য্য কৰিব লাগিব"
+    },
+    "parameters": {
+      "title": "FTK পৰামিতি",
+      "ph": "pH স্তৰ",
+      "frc": "FRC (Free Chlorine)",
+      "turbidity": "ঘোলাটোপনা",
+      "tds": "TDS (mg/L)",
+      "hardness": "সকিনতা",
+      "geogenic": "ভৌগোলিক পৰামিতি",
+      "appearance": "দেখা/ৰং",
+      "odour": "গন্ধ",
+      "suspendedMatter": "ভাসমান বস্তু"
+    },
+    "environmental": {
+      "title": "পৰিবেশিক কাৰক",
+      "rainfall": "শেষ ২৪ ঘণ্টাত বৰষুণ",
+      "nearbyRisks": "কাষত থকা ঝুঁকি কাৰ্যকলাপ"
+    },
+    "reporter": {
+      "title": "ৰিপ’ৰ্টকাৰীৰ তথ্য",
+      "id": "Reporter ID",
+      "type": "Reporter Type"
+    },
+    "visual": {
+      "title": "ভিজুৱেল সূচক"
+    },
+    "status": {
+      "pendingSync": "ছিঙ্ক পেণ্ডিং",
+      "syncedToServer": "ছাৰ্ভাৰত ছিঙ্ক হৈছে"
+    },
+    "actions": {
+      "saveOffline": "অফ্’লাইনে ছেভ কৰক",
+      "deleteTest": "টেষ্ট মচক",
+      "shareReport": "ৰিপ’ৰ্ট ভাগ-বতৰা কৰক"
+    },
+    "messages": {
+      "savedOffline": "জল পৰীক্ষা অফ্’লাইনে ছেভ হল",
+      "willSync": "ইনটাৰনেট পাইলেই ছিঙ্ক হব",
+      "deleteConfirm": "আপুনি এই পৰীক্ষা মচিব বিচাৰে নে?",
+      "deleted": "টেষ্ট মচি পেলোৱা হল",
+      "testNotFound": "টেষ্ট পোৱা নগ’ল",
+      "loadingDetails": "বিৱৰণ লোড হৈ আছে..."
+    }
+  },
+
+  "householdSurvey": {
+    "title": "গৃহ সমীক্ষা",
+    "subtitle": "স্বাস্থ্য সমীক্ষা",
+    "sections": {
+      "identification": "পৰিচয়",
+      "household": "গৃহ তথ্য",
+      "water": "জল উৎস",
+      "sanitation": "পয়খানা/স্বচ্ছতা",
+      "members": "গৃহ সদস্য",
+      "risk": "ঝুঁকি মূল্যাংকন"
+    },
+    "fields": {
+      "state": "ৰাজ্য",
+      "district": "জিলা",
+      "block": "ব্লক",
+      "village": "গাঁও",
+      "householdId": "গৃহ ID",
+      "dateOfVisit": "ভ্ৰমণৰ তাৰিখ",
+      "filedBy": "দাখিল কৰিছে",
+      "contactNumber": "যোগাযোগ নম্বৰ",
+      "gpsLocation": "GPS অৱস্থান",
+      "headOfHousehold": "গৃহ-মুখীয়া",
+      "totalMembers": "সামগ্ৰিক সদস্য",
+      "waterSource": "জল উৎস",
+      "toiletFacility": "শৌচালয় সুবিধা",
+      "riskLevel": "ঝুঁকি স্তৰ"
+    },
+    "actions": {
+      "captureGPS": "GPS ধৰা",
+      "addMember": "অন্য সদস্য যোগ কৰক",
+      "removeMember": "সদস্য বাদ দিয়া",
+      "submitSurvey": "চাৰ্ভে জমা কৰক"
+    },
+    "messages": {
+      "savedOffline": "চাৰ্ভে অফ্’লাইনে সংৰক্ষণ কৰা হল",
+      "willSync": "অনলাইনে পেলাই ছিঙ্ক হব",
+      "deleteConfirm": "আপুনি এই চাৰ্ভে মচিব বিচাৰে নে?",
+      "deleted": "চাৰ্ভে মচা গ’ল"
+    }
+  },
+
+  "reports": {
+    "title": "অফ্’লাইন ৰিপ’ৰ্ট",
+    "subtitle": "দেখক আৰু ব্যৱস্থাপনা কৰক",
+    "filters": {
+      "all": "সকলো",
+      "pending": "পেণ্ডিং",
+      "synced": "ছিঙ্ক হৈছে"
+    },
+    "types": {
+      "waterTest": "জল পৰীক্ষা",
+      "householdSurvey": "গৃহ সমীক্ষা",
+      "healthReport": "স্বাস্থ্য ৰিপ’ৰ্ট",
+      "issueReport": "সমস্যা ৰিপ’ৰ্ট"
+    },
+    "status": {
+      "pending": "পেণ্ডিং",
+      "synced": "ছিঙ্ক হৈছে",
+      "pendingCount": "{{count}} পেণ্ডিং"
+    },
+    "actions": {
+      "syncAll": "সমস্ত ছিঙ্ক কৰক",
+      "viewDetails": "বিৱৰণ দেখক",
+      "deleteReport": "ৰিপ’ৰ্ট মচক",
+      "exportPDF": "PDF Export কৰক",
+      "share": "ভাগ-বতৰা কৰক"
+    },
+    "messages": {
+      "noReports": "কোনো ৰিপ’ৰ্ট নাই",
+      "noReportsDesc": "অফ্’লাইনে ছেভ কৰা ৰিপ’ৰ্ট ইয়াত দেখিব",
+      "syncConfirm": "{{count}} পেণ্ডিং আইটেম ছিঙ্ক কৰিব?",
+      "syncSuccess": "সফলতাৰে ছিঙ্ক হল!",
+      "syncFailed": "কিছুমান আইটেম ছিঙ্ক নহ’ল",
+      "noPendingData": "সকলো তথ্য আগতেই ছিঙ্ক হৈছে",
+      "offlineMessage": "দয়া কৰি ইনটাৰনেট সংযোগ কৰক"
+    }
+  },
+
+  "sync": {
+    "title": "ছিঙ্ক অৱস্থা",
+    "syncing": "ছিঙ্ক হৈ আছে...",
+    "pendingSync": "{{count}} পেণ্ডিং ছিঙ্ক",
+    "lastSync": "শেষ ছিঙ্ক: {{time}}",
+    "syncNow": "এতিয়া ছিঙ্ক কৰক",
+    "autoSync": "অটো ছিঙ্ক সক্ষম",
+    "messages": {
+      "noData": "ছিঙ্ক কৰিব পৰা তথ্য নাই",
+      "success": "{{count}} ৰেকৰ্ড ছিঙ্ক হল",
+      "failed": "ছিঙ্ক বিফল",
+      "noNetwork": "নেটৱৰ্ক নাই",
+      "inProgress": "ছিঙ্ক ইতিমধ্যে চলি আছে"
+    }
+  },
+
+  "consent": {
+    "title": "সম্মতি",
+    "subtitle": "জাননী সম্মতি",
+    "accept": "স্বীকাৰ কৰক আৰু আগুবাঢ়ক",
+    "acceptSubtitle": "আগুৱাই যাবলে স্বীকাৰ কৰক",
+    "decline": "নাকচ কৰক",
+    "declineSubtitle": "আগুৱাই নাযাব",
+    "required": "আগুৱাই যাবলে সম্মতি আৱশ্যক"
+  },
+
+  "ayurvedicRemedies": {
+    "title": "স্বাস্থ্য চিকিৎসা",
+    "subtitle": "আয়ুৰ্বেদিক উপায়",
+    "searchPlaceholder": "চিকিৎসা বিচাৰক...",
+    "categories": "শ্ৰেণী",
+    "noResults": "কোনো চিকিৎসা পোৱা নাই"
+  },
+
+  "emergency": {
+    "title": "জৰুৰী সহায়",
+    "subtitle": "সহায় আৰু যোগাযোগ",
+    "sos": "SOS",
+    "callNow": "এতিয়া ফোন কৰক",
+    "emergencyContacts": "জৰুৰী যোগাযোগ"
+  },
+
+  "heatmap": {
+    "title": "লক্ষণ হিটমেপ",
+    "subtitle": "GPS ভিত্তিক ক্লাষ্টাৰিং",
+    "clusters": "ক্লাষ্টাৰ",
+    "cases": "কেশ"
+  },
+
+  "satelliteMap": {
+    "title": "উপগ্ৰহ মানচিত্ৰ",
+    "subtitle": "জল উৎস",
+    "layers": "লেয়াৰ্স",
+    "filters": "ফিল্টাৰ"
+  },
+
+  "waterLifespan": {
+    "title": "জল উৎস আয়ু",
+    "subtitle": "অনুমেয় নিৰাপদ ব্যৱহাৰ সময়",
+    "status": {
+      "safe": "সুৰক্ষিত",
+      "caution": "সাৱধান",
+      "critical": "জটিল"
+    },
+    "trend": {
+      "rising": "বাঢ়ি আছে",
+      "falling": "নামি আছে",
+      "stable": "স্থিৰ"
+    }
+  },
+
+  "validation": {
+    "required": "ইয়াৰে মান আৱশ্যক",
+    "invalidFormat": "অবৈধ বিন্যাস",
+    "selectOption": "এটা বিকল্প বাছক",
+    "enterValue": "মান দিয়ক",
+    "minimumLength": "কমেও {{count}} অক্ষৰ আৱশ্যক"
+  },
+
+  "errors": {
+    "loadingFailed": "ডাটা লোড বিফল",
+    "savingFailed": "ছেভ বিফল",
+    "deletingFailed": "মচা বিফল",
+    "syncFailed": "ছিঙ্ক বিফল",
+    "networkError": "নেটৱৰ্ক ত্ৰুটি",
+    "tryAgain": "পুনৰায় চেষ্টা কৰক"
+  },
+
+  "launch": {
+    "title": "ArogyaJal",
+    "subtitle": "জল স্বাস্থ্য অভিযান",
+    "tagline": "পৰিষ্কাৰ জল, সুস্থ সমাজ",
+    "selectRole": "ভূমিকা বাছক",
+    "roles": {
+      "asha": "ASHA কৰ্মী",
+      "resident": "বাসিন্দা",
+      "phc": "PHC কৰ্মী"
+    },
+    "roleDescriptions": {
+      "asha": "মাঠত স্বাস্থ্য কাম আৰু তথ্য সংগ্ৰহ",
+      "resident": "গৃহ তথ্য দেখক আৰু সেৱা বিচাৰক",
+      "phc": "কেশ পৰিচালনা আৰু জৰুৰী পৰিসেবা"
+    }
+  },
+
+  "login": {
+    "title": "লগইন",
+    "ashaWorker": "ASHA লগইন",
+    "resident": "বাসিন্দা লগইন",
+    "phc": "PHC লগইন",
+    "mobileNumber": "মোবাইল নম্বৰ",
+    "enterNumber": "১০ সংখ্যাৰ নম্বৰ দিয়ক",
+    "sendOTP": "OTP পঠিয়াব",
+    "enterOTP": "৬ সংখ্যাৰ OTP দিয়ক",
+    "verifyLogin": "পৰীক্ষা কৰি লগইন কৰক",
+    "resendOTP": "OTP পুনৰ পঠিয়াব",
+    "resendIn": "{{seconds}}চত পুনৰ",
+    "changeNumber": "নম্বৰ সলনি কৰক",
+    "otpSentTo": "{{phone}}লৈ OTP পঠিওৱা হল",
+    "registeredOnly": "কেৱল পঞ্জীয়ন কৰা {{role}} নম্বৰ",
+    "invalidPhone": "বৈধ ১০ সংখ্যাৰ নম্বৰ দিয়ক",
+    "invalidOTP": "সম্পূৰ্ণ OTP দিয়ক",
+    "otpSent": "OTP পঠিওৱা হল",
+    "otpSentMessage": "{{phone}}লৈ OTP পঠিওৱা হল",
+    "verificationFailed": "অবৈধ OTP। পুনৰ চেষ্টা কৰক।",
+    "steps": {
+      "phone": "ফোন",
+      "verify": "সত্যাপন কৰক"
+    }
+  },
+
+  "training": {
+    "title": "প্ৰশিক্ষণ মডিউল",
+    "available": "উপলব্ধ",
+    "downloaded": "ডাউনল'ড কৰা",
+    "storage": "স্ট’ৰেজ",
+    "categories": {
+      "all": "সকলো",
+      "waterTesting": "জল পৰীক্ষা",
+      "surveys": "চাৰ্ভে",
+      "health": "স্বাস্থ্য",
+      "emergency": "জৰুৰী"
+    },
+    "download": "চাবলৈ Download কৰক",
+    "open": "মডিউল খুলক",
+    "delete": "মচক",
+    "downloading": "{{progress}}% ডাউনল'ড হৈ আছে",
+    "preparing": "প্ৰস্তুত কৰা হৈছে...",
+    "duration": "সময়কাল",
+    "fileSize": "ফাইলৰ আকাৰ",
+    "difficulty": {
+      "beginner": "আৰম্ভণি",
+      "intermediate": "মধ্যম",
+      "advanced": "উন্নত"
+    },
+    "types": {
+      "video": "ভিডিঅ’",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "noModules": "কোনো মডিউল নাই",
+      "checkLater": "পিছত পুনৰ চাওক",
+      "downloadComplete": "{{title}} এতিয়া অফ্’লাইনে উপলব্ধ",
+      "downloadFailed": "Download বিফল",
+      "deleteConfirm": "{{title}} মচিব নে? পিছত পুনৰ download কৰিব পাৰিব।",
+      "deleted": "মডিউল মচা হল",
+      "comingSoon": "চিগেই আহিব",
+      "setupRequired": "ভিডিঅ’/PDF viewer স্থাপন হ’লে উপলব্ধ হব"
+    }
+  },
+
+  "resident": {
+    "dashboard": "বাসিন্দা ডেশ্ব’ব'ৰ্ড",
+    "alerts": "সতর্কতা",
+    "household": "গৃহ তথ্য",
+    "request": "ASHA ভিজিটৰ অনুৰোধ",
+    "requestHistory": "অনুৰোধ ইতিহাস",
+    "contact": "ASHA স’তে যোগাযোগ",
+    "feedback": "প্ৰতিক্ৰিয়া",
+    "waterQuality": "জল গুণমান",
+    "healthStatus": "স্বাস্থ্য অৱস্থা",
+    "lastVisit": "শেষ ASHA ভিজিট",
+    "upcomingVisit": "আহি থকা ভিজিট",
+    "noVisits": "কোনো ভিজিট নাই"
+  },
+
+  "phc": {
+    "dashboard": "PHC ডেশ্ব’ব'ৰ্ড",
+    "referrals": "প্ৰেৰণ",
+    "emergencies": "জৰুৰী অবস্থা",
+    "analytics": "বিশ্লেষণ",
+    "directory": "ডাইৰেক্টৰি",
+    "pendingReferrals": "পেণ্ডিং প্ৰেৰণ",
+    "activeEmergencies": "সক্ৰিয় জৰুৰী অৱস্থা",
+    "todayVisits": "আজিৰ ভিজিট",
+    "criticalCases": "গুরুতৰ কেশ"
+  },
+
+  "profile": {
+    "title": "প্ৰফাইল",
+    "editProfile": "প্ৰফাইল সম্পাদনা",
+    "viewCertificate": "প্ৰমাণপত্ৰ দেখক",
+    "personalInfo": "ব্যক্তিগত তথ্য",
+    "name": "নাম",
+    "phone": "ফোন নম্বৰ",
+    "email": "ই-মেইল",
+    "address": "ঠিকনা",
+    "workArea": "কৰ্ম এলাকা",
+    "certification": "প্ৰমাণীকৰণ",
+    "logout": "লগ আউট",
+    "logoutConfirm": "আফনে লগআউট কৰিব বিচাৰে নে?",
+    "updateSuccess": "প্ৰফাইল সফলতাৰে আপডেট হল",
+    "updateFailed": "আপডেট বিফল"
+  },
+
+  "settings": {
+    "title": "ছেটিংছ",
+    "language": "ভাষা",
+    "notifications": "সংবাদ",
+    "dataSync": "Data Sync",
+    "about": "সম্পর্কে",
+    "version": "সংস্কৰণ",
+    "termsOfService": "সেৱাৰ চৰ্তসমূহ",
+    "privacyPolicy": "গোপনীয়তা নীতি"
+  },
+
+  "alerts": {
+    "title": "সতর্কতা",
+    "subtitle": "স্বাস্থ্য আৰু জল সতর্কতা",
+    "noAlerts": "কোনো সতর্কতা নাই",
+    "markAsRead": "পঢ়া বুলি চিহ্নিত কৰক",
+    "viewDetails": "বিৱৰণ দেখক",
+    "types": {
+      "critical": "গুরুতৰ",
+      "warning": "সাৱধান",
+      "info": "তথ্য"
+    }
+  },
+
+  "sensorUpload": {
+    "title": "Sensor Upload",
+    "subtitle": "Sensor Data Upload কৰক",
+    "selectFile": "ফাইল বাছক",
+    "uploadData": "Data Upload কৰক",
+    "uploading": "Upload হৈ আছে...",
+    "uploadSuccess": "Data সফলতাৰে Upload হল",
+    "uploadFailed": "Upload বিফল"
+  },
+
+  "generatedData": {
+    "title": "উৎপন্ন Data",
+    "subtitle": "Sensor Data Analysis",
+    "viewReport": "Report দেখক",
+    "exportData": "Data Export কৰক"
+  },
+
+  "reportCase": {
+    "title": "Case রিপোর্ট কৰক",
+    "subtitle": "স্বাস্থ্য সমস্যা রিপোর্টিং",
+    "caseType": "Caseৰ ধৰণ",
+    "description": "বিৱৰণ",
+    "severity": "গুরুত্ব",
+    "location": "স্থান",
+    "submitReport": "Report জমা কৰক",
+    "reportSubmitted": "Report সফলতাৰে জমা হল"
+  },
+
+  "waterTesting": {
+    "title": "জল পৰীক্ষা",
+    "subtitle": "জল গুণমান পৰীক্ষা",
+    "manualTest": "হাতে কৰা পৰীক্ষা",
+    "sensorTest": "Sensor Test",
+    "testHistory": "পৰীক্ষাৰ ইতিহাস",
+    "newTest": "নতুন পৰীক্ষা",
+    "selectSource": "জল উৎস বাছক",
+    "sourceTypes": {
+      "well": "কুঁৱা",
+      "handpump": "হেন্ডপাম্প",
+      "tap": "নলৰ জল",
+      "river": "নদী",
+      "pond": "ডিঙি",
+      "other": "অন্যান্য"
+    }
+  },
+
+  "sensorTest": {
+    "title": "Sensor Test",
+    "subtitle": "IoT Sensor Testing",
+    "connectSensor": "Sensor সংযোগ কৰক",
+    "startTest": "Test আৰম্ভ কৰক",
+    "testInProgress": "Test চলি আছে",
+    "testComplete": "Test সম্পূৰ্ণ",
+    "viewResults": "ফলাফল দেখক"
+  },
+
+  "manualTest": {
+    "title": "হাতে কৰা জল পৰীক্ষা",
+    "subtitle": "Field Test Kit",
+    "enterResults": "ফলাফল দিয়ক",
+    "testParameters": "Test Parameters",
+    "saveResults": "ফলাফল ছেভ কৰক",
+    "resultsSaved": "ফলাফল ছেভ হল"
+  },
+
+  "testHistory": {
+    "title": "পৰীক্ষাৰ ইতিহাস",
+    "subtitle": "পূৰ্ব পৰীক্ষা",
+    "filterBy": "Filter কৰক",
+    "sortBy": "Sort কৰক",
+    "noTests": "কোনো Test নাই",
+    "viewTest": "Test দেখক"
+  },
+
+  "householdCheck": {
+    "title": "গৃহ স্বাস্থ্য পৰীক্ষা",
+    "subtitle": "সমাজ স্বাস্থ্য সমীক্ষা",
+    "startSurvey": "Survey আৰম্ভ কৰক",
+    "continueSurvey": "Survey চলাই যাওক",
+    "viewSurveys": "Survey দেখক"
+  },
+
+  "videoPlayer": {
+    "title": "Video Player",
+    "loading": "Video লোড হৈ আছে...",
+    "error": "Video লোড বিফল",
+    "completed": "Video সম্পূৰ্ণ"
+  },
+
+  "pdfViewer": {
+    "title": "PDF Viewer",
+    "loading": "Document লোড হৈ আছে...",
+    "error": "PDF লোড বিফল",
+    "page": "পৃষ্ঠা {{current}} / {{total}}"
+  },
+
+  "certificate": {
+    "title": "প্ৰমাণপত্ৰ",
+    "viewCertificate": "প্ৰমাণপত্ৰ দেখক",
+    "downloadCertificate": "প্ৰমাণপত্ৰ Download কৰক",
+    "shareCertificate": "প্ৰমাণপত্ৰ ভাগ-বতৰা কৰক",
+    "issuedTo": "জাৰী কৰা হৈছে",
+    "issuedBy": "জাৰীকাৰী",
+    "issuedOn": "জাৰী তাৰিখ",
+    "validUntil": "মান্য তাৰিখ"
+  },
+
+  "residentRequest": {
+    "title": "ASHA ভিজিটৰ অনুৰোধ",
+    "subtitle": "ভিজিট নিৰ্ধাৰণ কৰক",
+    "requestType": "অনুৰোধৰ ধৰণ",
+    "preferredDate": "পছন্দৰ তাৰিখ",
+    "preferredTime": "পছন্দৰ সময়",
+    "reason": "ভিজিটৰ কাৰণ",
+    "submitRequest": "অনুৰোধ জমা কৰক",
+    "requestSubmitted": "অনুৰোধ জমা হল",
+    "types": {
+      "healthCheck": "স্বাস্থ্য পৰীক্ষা",
+      "waterTest": "জল পৰীক্ষা",
+      "consultation": "পৰামৰ্শ",
+      "emergency": "জৰুৰী"
+    }
+  },
+
+  "residentContact": {
+    "title": "ASHA স’তে যোগাযোগ",
+    "subtitle": "যোগাযোগ কৰক",
+    "ashaWorker": "আপোনাৰ ASHA কৰ্মী",
+    "call": "কল",
+    "message": "বাৰ্তা",
+    "noAshaAssigned": "কোনো ASHA নিৰ্ধাৰণ কৰা নাই"
+  },
+
+  "residentFeedback": {
+    "title": "প্ৰতিক্ৰিয়া",
+    "subtitle": "আপোনাৰ অভিজ্ঞতা ভাগ-বতৰা কৰক",
+    "rating": "ৰেটিং",
+    "comments": "মন্তব্য",
+    "submitFeedback": "প্ৰতিক্ৰিয়া পঠিয়াব",
+    "feedbackSubmitted": "ধন্যবাদ! আপোনাৰ প্ৰতিক্ৰিয়া জমা হল"
+  },
+
+  "phcReferrals": {
+    "title": "প্ৰেৰণ",
+    "subtitle": "ৰোগী প্ৰেৰণ",
+    "pending": "পেণ্ডিং",
+    "completed": "সম্পূৰ্ণ",
+    "viewReferral": "প্ৰেৰণ দেখক",
+    "acceptReferral": "স্বীকাৰ কৰক",
+    "noReferrals": "কোনো প্ৰেৰণ নাই"
+  },
+
+  "phcEmergencies": {
+    "title": "জৰুৰী অৱস্থা",
+    "subtitle": "জৰুৰী কেশসমূহ",
+    "active": "সক্ৰিয়",
+    "resolved": "সিদ্ধান্ত",
+    "viewEmergency": "জৰুৰী অৱস্থা দেখক",
+    "respondToEmergency": "প্ৰতিক্ৰিয়া দিয়ক",
+    "noEmergencies": "কোনো সক্ৰিয় জৰুৰী অৱস্থা নাই"
+  },
+
+  "phcAnalytics": {
+    "title": "বিশ্লেষণ",
+    "subtitle": "স্বাস্থ্য তথ্য বিশ্লেষণ",
+    "overview": "সংক্ষেপ",
+    "trends": "প্ৰৱণতা",
+    "reports": "ৰিপ’ৰ্ট",
+    "exportData": "Data Export কৰক"
+  },
+
+  "phcDirectory": {
+    "title": "ডাইৰেক্টৰি",
+    "subtitle": "যোগাযোগ ডাইৰেক্টৰি",
+    "ashaWorkers": "ASHA কৰ্মী",
+    "healthFacilities": "স্বাস্থ্য সুবিধা",
+    "emergencyContacts": "জৰুৰী যোগাযোগ",
+    "search": "বিচাৰক..."
+  },
+
+  "loading": {
+    "title": "ArogyaJal",
+    "subtitle": "জল স্বাস্থ্য অভিযান",
+    "loading": "লোড হৈ আছে...",
+    "checkingSession": "চেশ্বন পৰীক্ষা কৰা হৈছে...",
+    "pleaseWait": "অপেক্ষা কৰক"
+  }
+}

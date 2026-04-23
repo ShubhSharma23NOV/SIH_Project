@@ -1,0 +1,605 @@
+{
+  "common": {
+    "submit": "पेश गर्नुहोस्",
+    "cancel": "रद्द गर्नुहोस्",
+    "delete": "हटाउनुहोस्",
+    "save": "सेभ गर्नुहोस्",
+    "back": "फर्किनुहोस्",
+    "close": "बन्द गर्नुहोस्",
+    "loading": "लोड हुँदैछ...",
+    "error": "त्रुटि",
+    "success": "सफल भयो",
+    "yes": "हो",
+    "no": "होइन",
+    "ok": "ठिक छ",
+    "share": "साझा गर्नुहोस्",
+    "sync": "सिङ्क",
+    "pending": "पेन्डिङ",
+    "synced": "सिङ्क भयो",
+    "offline": "अफलाइन",
+    "online": "अनलाइन",
+    "required": "आवश्यक"
+  },
+
+  "dashboard": {
+    "title": "ASHA ड्यासबोर्ड",
+    "subtitle": "पानी स्वास्थ्य पहल",
+    "welcome": "स्वागत छ, {{name}}",
+    "quickActions": "छिटो कार्यहरू",
+    "stats": {
+      "totalReports": "जम्मा प्रतिवेदन",
+      "pendingReports": "पेन्डिङ",
+      "waterTests": "पानी परीक्षण",
+      "completedSurveys": "पूरा सर्वेक्षण"
+    }
+  },
+
+  "waterTest": {
+    "title": "पानी परीक्षण",
+    "subtitle": "मैदानी परिणाम",
+    "manualTest": "म्यानुअल पानी परीक्षण",
+    "details": "परीक्षण विवरण",
+    "testId": "परीक्षण ID",
+    "sourceType": "स्रोत प्रकार",
+    "sourceName": "स्रोत नाम",
+    "testDate": "परीक्षण मिति",
+    "riskLevel": "जोखिम स्तर",
+    "riskLevels": {
+      "low": "कम जोखिम",
+      "medium": "मध्यम जोखिम",
+      "high": "उच्च जोखिम"
+    },
+    "riskMessages": {
+      "low": "सेवन गर्न सुरक्षित",
+      "medium": "ध्यानपूर्वक निगरानी गर्नुहोस्",
+      "high": "तात्कालिक कदम आवश्यक"
+    },
+    "parameters": {
+      "title": "FTK प्यारामीटर",
+      "ph": "pH स्तर",
+      "frc": "क्लोरिन बाँकी",
+      "turbidity": "फोहोरपन",
+      "tds": "TDS (mg/L)",
+      "hardness": "कठोरता",
+      "geogenic": "भूगर्भीय मान",
+      "appearance": "रंग / दृश्यता",
+      "odour": "गन्ध",
+      "suspendedMatter": "झुण्डिएको पदार्थ"
+    },
+    "environmental": {
+      "title": "पर्यावरणीय कारक",
+      "rainfall": "पछिल्लो २४ घण्टामा वर्षा",
+      "nearbyRisks": "नजिकका जोखिमहरू"
+    },
+    "reporter": {
+      "title": "रिपोर्ट गर्नेको जानकारी",
+      "id": "Reporter ID",
+      "type": "Reporter प्रकार"
+    },
+    "visual": {
+      "title": "दृष्टिगत संकेत"
+    },
+    "status": {
+      "pendingSync": "सिङ्क पेन्डिङ",
+      "syncedToServer": "सर्भरमा सिङ्क गरियो"
+    },
+    "actions": {
+      "saveOffline": "अफलाइन सेभ गर्नुहोस्",
+      "deleteTest": "परीक्षण हटाउनुहोस्",
+      "shareReport": "रिपोर्ट साझा गर्नुहोस्"
+    },
+    "messages": {
+      "savedOffline": "परीक्षण अफलाइन सेभ गरियो",
+      "willSync": "इन्टरनेट उपलब्ध भएपछि सिङ्क हुनेछ",
+      "deleteConfirm": "यो परीक्षण हटाउन चाहनुहुन्छ?",
+      "deleted": "परीक्षण हटाइयो",
+      "testNotFound": "टेस्ट भेटिएन",
+      "loadingDetails": "विवरण लोड हुँदै..."
+    }
+  },
+
+  "householdSurvey": {
+    "title": "घरधुरी सर्वेक्षण",
+    "subtitle": "घर स्वास्थ्य सर्वेक्षण",
+    "sections": {
+      "identification": "पहिचान",
+      "household": "घरधुरी विवरण",
+      "water": "पानी स्रोत",
+      "sanitation": "स्वच्छता",
+      "members": "परिवार सदस्यहरू",
+      "risk": "जोखिम मूल्यांकन"
+    },
+    "fields": {
+      "state": "प्रदेश",
+      "district": "जिल्ला",
+      "block": "ब्लक",
+      "village": "गाउँ",
+      "householdId": "घर ID",
+      "dateOfVisit": "भेट मिति",
+      "filedBy": "भरेको व्यक्ति",
+      "contactNumber": "फोन नम्बर",
+      "gpsLocation": "GPS स्थान",
+      "headOfHousehold": "घर प्रमुख",
+      "totalMembers": "जम्मा सदस्य",
+      "waterSource": "पानी स्रोत",
+      "toiletFacility": "शौचालय सुविधा",
+      "riskLevel": "जोखिम स्तर"
+    },
+    "actions": {
+      "captureGPS": "GPS क्याप्चर गर्नुहोस्",
+      "addMember": "सदस्य थप्नुहोस्",
+      "removeMember": "सदस्य हटाउनुहोस्",
+      "submitSurvey": "सर्वेक्षण पेश गर्नुहोस्"
+    },
+    "messages": {
+      "savedOffline": "सर्वेक्षण अफलाइन सेभ गरियो",
+      "willSync": "अनलाइन हुँदा सिङ्क हुनेछ",
+      "deleteConfirm": "सर्वे हटाउन चाहनुहुन्छ?",
+      "deleted": "सर्वे हटाइयो"
+    }
+  },
+
+  "reports": {
+    "title": "अफलाइन प्रतिवेदन",
+    "subtitle": "हेर्नुहोस् र व्यवस्थापन गर्नुहोस्",
+    "filters": {
+      "all": "सबै",
+      "pending": "पेन्डिङ",
+      "synced": "सिङ्क भयो"
+    },
+    "types": {
+      "waterTest": "पानी परीक्षण",
+      "householdSurvey": "घरधुरी सर्वेक्षण",
+      "healthReport": "स्वास्थ्य प्रतिवेदन",
+      "issueReport": "समस्या प्रतिवेदन"
+    },
+    "status": {
+      "pending": "पेन्डिङ",
+      "synced": "सिङ्क भयो",
+      "pendingCount": "{{count}} पेन्डिङ"
+    },
+    "actions": {
+      "syncAll": "सबै डेटा सिङ्क गर्नुहोस्",
+      "viewDetails": "विवरण हेर्नुहोस्",
+      "deleteReport": "रिपोर्ट हटाउनुहोस्",
+      "exportPDF": "PDF निर्यात गर्नुहोस्",
+      "share": "साझा गर्नुहोस्"
+    },
+    "messages": {
+      "noReports": "कुनै रिपोर्ट छैन",
+      "noReportsDesc": "अफलाइन रिपोर्ट यहाँ देखिनेछ",
+      "syncConfirm": "{{count}} आइटम सिङ्क गर्ने?",
+      "syncSuccess": "सबै डेटा सिङ्क भयो",
+      "syncFailed": "केही वस्तु सिङ्क भएन",
+      "noPendingData": "सबै रिपोर्ट पहिले नै सिङ्क छ",
+      "offlineMessage": "सिङ्क गर्न इन्टरनेट चाहिन्छ"
+    }
+  },
+
+  "sync": {
+    "title": "सिङ्क स्थिति",
+    "syncing": "सिङ्क हुँदै...",
+    "pendingSync": "{{count}} पेन्डिङ सिङ्क",
+    "lastSync": "अन्तिम सिङ्क: {{time}}",
+    "syncNow": "अहिले सिङ्क गर्नुहोस्",
+    "autoSync": "अटो-सिङ्क सक्षम",
+    "messages": {
+      "noData": "सिङ्क गर्न डेटा छैन",
+      "success": "{{count}} वस्तु सिङ्क भयो",
+      "failed": "सिङ्क असफल",
+      "noNetwork": "इन्टरनेट उपलब्ध छैन",
+      "inProgress": "सिङ्क हुँदैछ"
+    }
+  },
+
+  "consent": {
+    "title": "सहमति",
+    "subtitle": "जानकारी सहमति",
+    "accept": "स्वीकार र अघि बढ्नुहोस्",
+    "acceptSubtitle": "स्वीकार र निरन्तर",
+    "decline": "अस्वीकार",
+    "declineSubtitle": "अस्वीकार गर्नुहोस्",
+    "required": "अगाडि बढ्न सहमति आवश्यक"
+  },
+
+  "ayurvedicRemedies": {
+    "title": "स्वास्थ्य उपचार",
+    "subtitle": "आयुर्वेदिक उपचार",
+    "searchPlaceholder": "उपचार खोज्नुहोस्...",
+    "categories": "श्रेणीहरू",
+    "noResults": "उपचार फेला परेन"
+  },
+
+  "emergency": {
+    "title": "आपतकालीन सहायता",
+    "subtitle": "तत्काल मद्दत",
+    "sos": "SOS",
+    "callNow": "अहिले फोन गर्नुहोस्",
+    "emergencyContacts": "आपतकालीन सम्पर्क"
+  },
+
+  "heatmap": {
+    "title": "लक्षण Heatmap",
+    "subtitle": "GPS आधारित क्लस्टरिंग",
+    "clusters": "क्लस्टर",
+    "cases": "केसहरू"
+  },
+
+  "satelliteMap": {
+    "title": "उपग्रह नक्सा",
+    "subtitle": "पानी स्रोतहरू",
+    "layers": "तहहरू",
+    "filters": "फिल्टर"
+  },
+
+  "waterLifespan": {
+    "title": "पानी स्रोत आयु",
+    "subtitle": "सुरक्षित प्रयोग अवधि",
+    "status": {
+      "safe": "सुरक्षित",
+      "caution": "सावधानी",
+      "critical": "गम्भीर"
+    },
+    "trend": {
+      "rising": "बढ्दै",
+      "falling": "घट्दै",
+      "stable": "स्थिर"
+    }
+  },
+
+  "validation": {
+    "required": "यो क्षेत्र आवश्यक छ",
+    "invalidFormat": "अमान्य ढाँचा",
+    "selectOption": "विकल्प चयन गर्नुहोस्",
+    "enterValue": "मान प्रविष्ट गर्नुहोस्",
+    "minimumLength": "कम्तिमा {{count}} अक्षर चाहिन्छ"
+  },
+
+  "errors": {
+    "loadingFailed": "लोड गर्न असफल",
+    "savingFailed": "सेभ असफल",
+    "deletingFailed": "हटाउन असफल",
+    "syncFailed": "सिङ्क असफल",
+    "networkError": "नेटवर्क त्रुटि",
+    "tryAgain": "कृपया पुन: प्रयास गर्नुहोस्"
+  },
+
+  "launch": {
+    "title": "ArogyaJal",
+    "subtitle": "पानी स्वास्थ्य पहल",
+    "tagline": "सफा पानी, स्वस्थ समुदाय",
+    "selectRole": "तपाईंको भूमिका चयन गर्नुहोस्",
+    "roles": {
+      "asha": "ASHA कार्यकर्ता",
+      "resident": "स्थानीय नागरिक",
+      "phc": "PHC कर्मचारी"
+    },
+    "roleDescriptions": {
+      "asha": "मैदानी स्वास्थ्य कार्यकर्ता र डेटा सङ्कलन",
+      "resident": "घरधुरी डेटा हेर्नुहोस् र सेवा माग्नुहोस्",
+      "phc": "मामिला समीक्षा र आपतकालीन व्यवस्थापन"
+    }
+  },
+
+  "login": {
+    "title": "लगइन",
+    "ashaWorker": "ASHA लगइन",
+    "resident": "निवासी लगइन",
+    "phc": "PHC लगइन",
+    "mobileNumber": "मोबाइल नम्बर",
+    "enterNumber": "१० अङ्कको मोबाइल नम्बर प्रविष्ट गर्नुहोस्",
+    "sendOTP": "OTP पठाउनुहोस्",
+    "enterOTP": "६ अङ्कको OTP प्रविष्ट गर्नुहोस्",
+    "verifyLogin": "प्रमाणित र लगइन",
+    "resendOTP": "OTP पुनः पठाउनुहोस्",
+    "resendIn": "{{seconds}} सेकेन्डमा पुनः पठाउनुहोस्",
+    "changeNumber": "नम्बर परिवर्तन गर्नुहोस्",
+    "otpSentTo": "{{phone}} मा पठाइयो",
+    "registeredOnly": "रजिस्टर गरिएको {{role}} नम्बर मात्र",
+    "invalidPhone": "वैध मोबाइल नम्बर प्रविष्ट गर्नुहोस्",
+    "invalidOTP": "OTP सही प्रविष्ट गर्नुहोस्",
+    "otpSent": "OTP पठाइयो",
+    "otpSentMessage": "{{phone}} मा OTP पठाइयो",
+    "verificationFailed": "अमान्य OTP, पुनः प्रयास गर्नुहोस्",
+    "steps": {
+      "phone": "फोन",
+      "verify": "प्रमाणित"
+    }
+  },
+
+  "training": {
+    "title": "प्रशिक्षण मोड्युल",
+    "available": "उपलब्ध",
+    "downloaded": "डाउनलोड गरियो",
+    "storage": "भण्डारण",
+    "categories": {
+      "all": "सबै",
+      "waterTesting": "पानी परीक्षण",
+      "surveys": "सर्वेक्षण",
+      "health": "स्वास्थ्य",
+      "emergency": "आपतकालीन"
+    },
+    "download": "दृष्य गर्न डाउनलोड गर्नुहोस्",
+    "open": "मोड्युल खोल्नुहोस्",
+    "delete": "हटाउनुहोस्",
+    "downloading": "डाउनलोड हुँदै {{progress}}%",
+    "preparing": "तयार हुँदै...",
+    "duration": "अवधि",
+    "fileSize": "फाइल आकार",
+    "difficulty": {
+      "beginner": "शुरू",
+      "intermediate": "मध्यम",
+      "advanced": "उन्नत"
+    },
+    "types": {
+      "video": "भिडियो",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "noModules": "कुनै मोड्युल उपलब्ध छैन",
+      "checkLater": "केही समयपछि पुन: हेर्नुहोस्",
+      "downloadComplete": "{{title}} अब अफलाइन उपलब्ध छ",
+      "downloadFailed": "डाउनलोड असफल",
+      "deleteConfirm": "{{title}} हटाउने?",
+      "deleted": "मोड्युल हटाइयो",
+      "comingSoon": "छिटै आउँदैछ",
+      "setupRequired": "सेटअप आवश्यक (भिडियो/PDF दर्शक)"
+    }
+  },
+
+  "resident": {
+    "dashboard": "निवासी ड्यासबोर्ड",
+    "alerts": "चेतावनी",
+    "household": "घरधुरी विवरण",
+    "request": "ASHA सेवा माग्नुहोस्",
+    "requestHistory": "अनुरोध इतिहास",
+    "contact": "ASHA सम्पर्क",
+    "feedback": "प्रतिक्रिया",
+    "waterQuality": "पानी गुणस्तर",
+    "healthStatus": "स्वास्थ्य स्थिति",
+    "lastVisit": "अन्तिम ASHA भ्रमण",
+    "upcomingVisit": "आगामी भ्रमण",
+    "noVisits": "कुनै भ्रमण छैन"
+  },
+
+  "phc": {
+    "dashboard": "PHC ड्यासबोर्ड",
+    "referrals": "रिफर",
+    "emergencies": "आपतकालीन",
+    "analytics": "विश्लेषण",
+    "directory": "निर्देशिका",
+    "pendingReferrals": "पेन्डिङ रिफर",
+    "activeEmergencies": "सक्रिय आपतकालीन",
+    "todayVisits": "आजका भ्रमण",
+    "criticalCases": "गम्भीर केस"
+  },
+
+  "profile": {
+    "title": "प्रोफाइल",
+    "editProfile": "प्रोफाइल सम्पादन",
+    "viewCertificate": "प्रमाणपत्र हेर्नुहोस्",
+    "personalInfo": "व्यक्तिगत जानकारी",
+    "name": "नाम",
+    "phone": "फोन",
+    "email": "ईमेल",
+    "address": "ठेगाना",
+    "workArea": "कार्य क्षेत्र",
+    "certification": "प्रमाणपत्र",
+    "logout": "लगआउट",
+    "logoutConfirm": "लगआउट गर्न चाहनुहुन्छ?",
+    "updateSuccess": "प्रोफाइल अपडेट भयो",
+    "updateFailed": "अपडेट असफल"
+  },
+
+  "settings": {
+    "title": "सेटिङ",
+    "language": "भाषा",
+    "notifications": "सूचना",
+    "dataSync": "डेटा सिङ्क",
+    "about": "बारेमा",
+    "version": "संस्करण",
+    "termsOfService": "सेवा सर्तहरू",
+    "privacyPolicy": "गोपनीयता नीति"
+  },
+
+  "alerts": {
+    "title": "चेतावनी",
+    "subtitle": "स्वास्थ्य र पानी चेतावनी",
+    "noAlerts": "हाल कुनै चेतावनी छैन",
+    "markAsRead": "पढिएको रूपमा चिन्ह लगाउनुहोस्",
+    "viewDetails": "विवरण हेर्नुहोस्",
+    "types": {
+      "critical": "गम्भीर",
+      "warning": "चेतावनी",
+      "info": "जानकारी"
+    }
+  },
+
+  "sensorUpload": {
+    "title": "सेन्सर अपलोड",
+    "subtitle": "सेन्सर डेटा अपलोड",
+    "selectFile": "फाइल छान्नुहोस्",
+    "uploadData": "डेटा अपलोड",
+    "uploading": "अपलोड हुँदै...",
+    "uploadSuccess": "डेटा अपलोड भयो",
+    "uploadFailed": "अपलोड असफल"
+  },
+
+  "generatedData": {
+    "title": "उत्पन्न डेटा",
+    "subtitle": "सेन्सर डेटा विश्लेषण",
+    "viewReport": "रिपोर्ट हेर्नुहोस्",
+    "exportData": "डेटा निर्यात"
+  },
+
+  "reportCase": {
+    "title": "केस रिपोर्ट",
+    "subtitle": "स्वास्थ्य समस्याको रिपोर्ट",
+    "caseType": "केस प्रकार",
+    "description": "विवरण",
+    "severity": "गम्भीरता",
+    "location": "स्थान",
+    "submitReport": "रिपोर्ट पठाउनुहोस्",
+    "reportSubmitted": "रिपोर्ट पठाइयो"
+  },
+
+  "waterTesting": {
+    "title": "पानी परीक्षण",
+    "subtitle": "गुणस्तर परीक्षण",
+    "manualTest": "म्यानुअल परीक्षण",
+    "sensorTest": "सेन्सर परीक्षण",
+    "testHistory": "परीक्षण इतिहास",
+    "newTest": "नयाँ परीक्षण",
+    "selectSource": "पानी स्रोत छान्नुहोस्",
+    "sourceTypes": {
+      "well": "इनार",
+      "handpump": "ह्याण्ड पम्प",
+      "tap": "नल",
+      "river": "नदी",
+      "pond": "पोखरी",
+      "other": "अन्य"
+    }
+  },
+
+  "sensorTest": {
+    "title": "सेन्सर परीक्षण",
+    "subtitle": "IoT सेन्सर परीक्षण",
+    "connectSensor": "सेन्सर जडान",
+    "startTest": "परीक्षण सुरु",
+    "testInProgress": "परीक्षण भइरहेको छ",
+    "testComplete": "परीक्षण पूरा",
+    "viewResults": "परिणाम हेर्नुहोस्"
+  },
+
+  "manualTest": {
+    "title": "म्यानुअल पानी परीक्षण",
+    "subtitle": "क्षेत्रीय परीक्षण किट",
+    "enterResults": "परीक्षण परिणाम भर्नुहोस्",
+    "testParameters": "परीक्षण प्यारामीटर",
+    "saveResults": "परिणाम सेभ",
+    "resultsSaved": "परिणाम सेभ भयो"
+  },
+
+  "testHistory": {
+    "title": "परीक्षण इतिहास",
+    "subtitle": "पहिलेका परीक्षणहरू",
+    "filterBy": "फिल्टर",
+    "sortBy": "क्रमिक",
+    "noTests": "कुनै परीक्षण छैन",
+    "viewTest": "परीक्षण हेर्नुहोस्"
+  },
+
+  "householdCheck": {
+    "title": "घर स्वास्थ्य जाँच",
+    "subtitle": "समुदाय स्वास्थ्य सर्वेक्षण",
+    "startSurvey": "सर्वेक्षण सुरु",
+    "continueSurvey": "सर्वेक्षण जारी राख्नुहोस्",
+    "viewSurveys": "सर्वेक्षण हेर्नुहोस्"
+  },
+
+  "videoPlayer": {
+    "title": "भिडियो",
+    "loading": "भिडियो लोड हुँदै...",
+    "error": "भिडियो लोड असफल",
+    "completed": "भिडियो समाप्त"
+  },
+
+  "pdfViewer": {
+    "title": "PDF दर्शक",
+    "loading": "कागजात लोड हुँदै...",
+    "error": "PDF लोड असफल",
+    "page": "पृष्ठ {{current}} / {{total}}"
+  },
+
+  "certificate": {
+    "title": "प्रमाणपत्र",
+    "viewCertificate": "प्रमाणपत्र हेर्नुहोस्",
+    "downloadCertificate": "प्रमाणपत्र डाउनलोड",
+    "shareCertificate": "प्रमाणपत्र साझेदारी",
+    "issuedTo": "प्राप्तकर्ता",
+    "issuedBy": "जारीकर्ता",
+    "issuedOn": "जारी मिति",
+    "validUntil": "वैधता"
+  },
+
+  "residentRequest": {
+    "title": "ASHA भ्रमण अनुरोध",
+    "subtitle": "भ्रमण शेड्युल",
+    "requestType": "अनुरोध प्रकार",
+    "preferredDate": "पसन्द गरिएको मिति",
+    "preferredTime": "पसन्द गरिएको समय",
+    "reason": "अनुरोध कारण",
+    "submitRequest": "अनुरोध पेश",
+    "requestSubmitted": "अनुरोध पेश गरियो",
+    "types": {
+      "healthCheck": "स्वास्थ्य जाँच",
+      "waterTest": "पानी परीक्षण",
+      "consultation": "परामर्श",
+      "emergency": "आपतकालीन"
+    }
+  },
+
+  "residentContact": {
+    "title": "ASHA सम्पर्क",
+    "subtitle": "सम्पर्क गर्नुहोस्",
+    "ashaWorker": "तपाईंको ASHA कार्यकर्ता",
+    "call": "फोन",
+    "message": "सन्देश",
+    "noAshaAssigned": "ASHA तोकिएको छैन"
+  },
+
+  "residentFeedback": {
+    "title": "प्रतिक्रिया",
+    "subtitle": "तपाईंको अनुभव साझा गर्नुहोस्",
+    "rating": "रेटिङ",
+    "comments": "टिप्पणी",
+    "submitFeedback": "प्रतिक्रिया पेश",
+    "feedbackSubmitted": "धन्यवाद!"
+  },
+
+  "phcReferrals": {
+    "title": "रिफर",
+    "subtitle": "रोगी रेफरल",
+    "pending": "पेन्डिङ",
+    "completed": "पूरा",
+    "viewReferral": "रिफर हेर्नुहोस्",
+    "acceptReferral": "रिफर स्वीकार",
+    "noReferrals": "कुनै रिफर छैन"
+  },
+
+  "phcEmergencies": {
+    "title": "आपतकालीन",
+    "subtitle": "आपतकालीन केसहरू",
+    "active": "सक्रिय",
+    "resolved": "समाधान",
+    "viewEmergency": "केस हेर्नुहोस्",
+    "respondToEmergency": "खेल्नुहोस्",
+    "noEmergencies": "कुनै आपतकालीन छैन"
+  },
+
+  "phcAnalytics": {
+    "title": "विश्लेषण",
+    "subtitle": "स्वास्थ्य डेटा विश्लेषण",
+    "overview": "अवलोकन",
+    "trends": "प्रवृत्ति",
+    "reports": "प्रतिवेदन",
+    "exportData": "डेटा निर्यात"
+  },
+
+  "phcDirectory": {
+    "title": "निर्देशिका",
+    "subtitle": "सम्पर्क सूची",
+    "ashaWorkers": "ASHA कार्यकर्ता",
+    "healthFacilities": "स्वास्थ्य केन्द्रहरू",
+    "emergencyContacts": "आपतकालीन सम्पर्क",
+    "search": "खोज्नुहोस्..."
+  },
+
+  "loading": {
+    "title": "ArogyaJal",
+    "subtitle": "पानी स्वास्थ्य पहल",
+    "loading": "लोड हुँदै...",
+    "checkingSession": "सत्र जाँच्दै...",
+    "pleaseWait": "कृपया प्रतीक्षा गर्नुहोस्"
+  }
+}

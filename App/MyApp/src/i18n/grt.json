@@ -1,0 +1,605 @@
+{
+  "common": {
+    "submit": "Bang·a bi·a",
+    "cancel": "Ka·sachak",
+    "delete": "Ka·sarang",
+    "save": "Rik·ani",
+    "back": "Rikgiparang",
+    "close": "Ka·lawa",
+    "loading": "Chokatgipa...",
+    "error": "Dakgipa",
+    "success": "Namgipa",
+    "yes": "Ia",
+    "no": "Ma·a",
+    "ok": "OK ra·na",
+    "share": "Mashilani",
+    "sync": "Sync ra·na",
+    "pending": "Bang·anina",
+    "synced": "Synced ra·bana",
+    "offline": "Offline",
+    "online": "Online",
+    "required": "Nang·ani"
+  },
+
+  "dashboard": {
+    "title": "ASHA Dashboard",
+    "subtitle": "Chikchi Khrigipa Water Program",
+    "welcome": "Nang·ni ra·chaw {{name}}",
+    "quickActions": "Jakgipa Kamrang",
+    "stats": {
+      "totalReports": "Rik·anina report",
+      "pendingReports": "Bang·anina",
+      "waterTests": "Skang Water Test",
+      "completedSurveys": "Done Survey"
+    }
+  },
+
+  "waterTest": {
+    "title": "Water Test",
+    "subtitle": "Field Result",
+    "manualTest": "Katchi Water Test",
+    "details": "Test-Minggipani",
+    "testId": "Test ID",
+    "sourceType": "Chigipa rang",
+    "sourceName": "Chigipa ming",
+    "testDate": "Test dakgen",
+    "riskLevel": "Risk level",
+    "riskLevels": {
+      "low": "Chidik Risk",
+      "medium": "Gittim Risk",
+      "high": "Simsak Risk"
+    },
+    "riskMessages": {
+      "low": "Chakatani",
+      "medium": "Kan·gipa nangpilani",
+      "high": "Chitchiak dakna"
+    },
+    "parameters": {
+      "title": "FTK Parameters",
+      "ph": "pH gimin",
+      "frc": "FRC Chlorine",
+      "turbidity": "Turbidity",
+      "tds": "TDS mg/L",
+      "hardness": "Hardness",
+      "geogenic": "Natural Standard",
+      "appearance": "Melju / Color",
+      "odour": "Odour",
+      "suspendedMatter": "Suspended matter"
+    },
+    "environmental": {
+      "title": "Bitingani",
+      "rainfall": "24 saat boro",
+      "nearbyRisks": "Chigipa dakani"
+    },
+    "reporter": {
+      "title": "Reporter Info",
+      "id": "Reporter ID",
+      "type": "Reporter Rang"
+    },
+    "visual": {
+      "title": "Chakat-Aenggipa"
+    },
+    "status": {
+      "pendingSync": "Sync bang·ani",
+      "syncedToServer": "Server-ni sync ra·bana"
+    },
+    "actions": {
+      "saveOffline": "Offline rik·ani",
+      "deleteTest": "Test ka·sarang",
+      "shareReport": "Report mashilani"
+    },
+    "messages": {
+      "savedOffline": "Test offline rakna",
+      "willSync": "Internet rakgena Sync ra·na",
+      "deleteConfirm": "Ia test ka·sarangna?",
+      "deleted": "Test ka·sarangba",
+      "testNotFound": "Test ong·ja",
+      "loadingDetails": "Minggipa dong·gipa..."
+    }
+  },
+
+  "householdSurvey": {
+    "title": "House Survey",
+    "subtitle": "Tol·e Survey",
+    "sections": {
+      "identification": "A·bachengani",
+      "household": "House Info",
+      "water": "Water Source",
+      "sanitation": "Chakatani",
+      "members": "House Member",
+      "risk": "Risk Chisongani"
+    },
+    "fields": {
+      "state": "State",
+      "district": "District",
+      "block": "Block",
+      "village": "A·king",
+      "householdId": "House ID",
+      "dateOfVisit": "Chakgen-dak",
+      "filedBy": "Document agana",
+      "contactNumber": "Contact number",
+      "gpsLocation": "GPS A·king",
+      "headOfHousehold": "Ming-mital",
+      "totalMembers": "Member sakgipa",
+      "waterSource": "Water source",
+      "toiletFacility": "Toilet-na",
+      "riskLevel": "Risk level"
+    },
+    "actions": {
+      "captureGPS": "GPS ra·na",
+      "addMember": "Member mis·na",
+      "removeMember": "Member ma·sarang",
+      "submitSurvey": "Survey bang·a bi·a"
+    },
+    "messages": {
+      "savedOffline": "Survey offline rik·na",
+      "willSync": "Online dakgena Sync ba·na",
+      "deleteConfirm": "Survey ma·sarangna?",
+      "deleted": "Survey ma·sarangba"
+    }
+  },
+
+  "reports": {
+    "title": "Offline Report",
+    "subtitle": "Report chaka & man·na",
+    "filters": {
+      "all": "Skang",
+      "pending": "Bang·ani",
+      "synced": "Synced"
+    },
+    "types": {
+      "waterTest": "Water Test",
+      "householdSurvey": "House Survey",
+      "healthReport": "Health Report",
+      "issueReport": "Dakskani Report"
+    },
+    "status": {
+      "pending": "Bang·ani",
+      "synced": "Synced",
+      "pendingCount": "{{count}} Bang·ani"
+    },
+    "actions": {
+      "syncAll": "Skang Sync",
+      "viewDetails": "Chakani",
+      "deleteReport": "Report Ma·sarang",
+      "exportPDF": "PDF aro·na",
+      "share": "Mashilani"
+    },
+    "messages": {
+      "noReports": "Report ong·ja",
+      "noReportsDesc": "Offline report jakkaloba ma·na",
+      "syncConfirm": "{{count}} Sync-na?",
+      "syncSuccess": "Skang Sync ra·bana",
+      "syncFailed": "Skangoba Sync na·ja",
+      "noPendingData": "Skang already Sync ra·bana",
+      "offlineMessage": "Internet ong·ja - Sync ma·ja"
+    }
+  },
+
+  "sync": {
+    "title": "Sync Status",
+    "syncing": "Sync ra·na...",
+    "pendingSync": "{{count}} pending sync",
+    "lastSync": "Last sync: {{time}}",
+    "syncNow": "Dakchapa-sync",
+    "autoSync": "Auto Sync ok",
+    "messages": {
+      "noData": "Sync-na data ong·ja",
+      "success": "{{count}} record Sync ra·na",
+      "failed": "Sync dakgipa",
+      "noNetwork": "Network ong·ja",
+      "inProgress": "Sync do·gipa"
+    }
+  },
+
+  "consent": {
+    "title": "Consent",
+    "subtitle": "Sningani dakna",
+    "accept": "A·ba okna song·gen",
+    "acceptSubtitle": "A·ba ra·e chakatna",
+    "decline": "Na·a",
+    "declineSubtitle": "A·ba ra·ani-na",
+    "required": "Chawna dakchibana consent nang·ani"
+  },
+
+  "ayurvedicRemedies": {
+    "title": "Health Song·dring",
+    "subtitle": "Ayurvedic dam",
+    "searchPlaceholder": "Search dam...",
+    "categories": "Category",
+    "noResults": "Dam ong·ja"
+  },
+
+  "emergency": {
+    "title": "Emergency",
+    "subtitle": "Hot help",
+    "sos": "SOS",
+    "callNow": "Dakchapa Call",
+    "emergencyContacts": "Emergency Call"
+  },
+
+  "heatmap": {
+    "title": "Symptom Heatmap",
+    "subtitle": "GPS Based Map",
+    "clusters": "Cluster",
+    "cases": "Case sakgipa"
+  },
+
+  "satelliteMap": {
+    "title": "Satellite Map",
+    "subtitle": "Water Source",
+    "layers": "Layer",
+    "filters": "Filter"
+  },
+
+  "waterLifespan": {
+    "title": "Water Life Duration",
+    "subtitle": "Dakchakani aam",
+    "status": {
+      "safe": "Chakat",
+      "caution": "Beware",
+      "critical": "Dakgipa"
+    },
+    "trend": {
+      "rising": "Rokanona",
+      "falling": "Sengna",
+      "stable": "Pasenga"
+    }
+  },
+
+  "validation": {
+    "required": "Ia rang nang·ani",
+    "invalidFormat": "Format dakgipa",
+    "selectOption": "Option sora",
+    "enterValue": "Value dakna",
+    "minimumLength": "Sukgipara {{count}} letter nang·na"
+  },
+
+  "errors": {
+    "loadingFailed": "Data jakkalo dakgipa",
+    "savingFailed": "Rikani dakgipa",
+    "deletingFailed": "Sarang dakgipa",
+    "syncFailed": "Sync dakgipa",
+    "networkError": "Network dakgipa",
+    "tryAgain": "Chin chin·gen dakna"
+  },
+
+  "launch": {
+    "title": "ArogyaJal",
+    "subtitle": "Water Health Initiative",
+    "tagline": "Chakatani skang water, chikatni skang a·king",
+    "selectRole": "Nang·ni role sora",
+    "roles": {
+      "asha": "ASHA",
+      "resident": "Resident",
+      "phc": "PHC Staff"
+    },
+    "roleDescriptions": {
+      "asha": "Field kamrang aro Data molna",
+      "resident": "Data chakatna aro Help sora",
+      "phc": "Case chakachakna aro emergency chigipa"
+    }
+  },
+
+  "login": {
+    "title": "Login",
+    "ashaWorker": "ASHA Login",
+    "resident": "Resident Login",
+    "phc": "PHC Login",
+    "mobileNumber": "Mobile Number",
+    "enterNumber": "10 digit mobile dakna",
+    "sendOTP": "OTP Song·gen",
+    "enterOTP": "6 digit OTP dakna",
+    "verifyLogin": "Verify cha·na",
+    "resendOTP": "OTP chin chin·gen",
+    "resendIn": "{{seconds}} second chi·na",
+    "changeNumber": "Number nikna",
+    "otpSentTo": "{{phone}} o·chol OTP ra·na",
+    "registeredOnly": "Registered {{role}} number ong·e",
+    "invalidPhone": "10 digit mobile ong·na",
+    "invalidOTP": "Ka·na OTP tingjok",
+    "otpSent": "OTP ra·na",
+    "otpSentMessage": "{{phone}} ok OTP ra·enggen",
+    "verificationFailed": "Ma·a OTP. Chin chin·gen dakna.",
+    "steps": {
+      "phone": "Phone",
+      "verify": "Verify"
+    }
+  },
+
+  "training": {
+    "title": "Training Module",
+    "available": "Chikgipa",
+    "downloaded": "Downloaded",
+    "storage": "Storage",
+    "categories": {
+      "all": "Skang",
+      "waterTesting": "Water Testing",
+      "surveys": "Survey",
+      "health": "Health",
+      "emergency": "Emergency"
+    },
+    "download": "Chakchaka download-na",
+    "open": "Module gita",
+    "delete": "Ka·sarang",
+    "downloading": "{{progress}}% Download ra·na",
+    "preparing": "Preparing...",
+    "duration": "Duration",
+    "fileSize": "File size",
+    "difficulty": {
+      "beginner": "Migipara",
+      "intermediate": "Gittimpara",
+      "advanced": "Songgimpara"
+    },
+    "types": {
+      "video": "VIDEO",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "noModules": "Module ong·ja",
+      "checkLater": "Chin chin dakna",
+      "downloadComplete": "{{title}} Offline gipa",
+      "downloadFailed": "Download dakgipa",
+      "deleteConfirm": "{{title}} sarangna?",
+      "deleted": "Module sarangba",
+      "comingSoon": "Coming soon",
+      "setupRequired": "Video/PDF viewer set-gena ok jatchina"
+    }
+  },
+
+  "resident": {
+    "dashboard": "Resident dashboard",
+    "alerts": "Alert",
+    "household": "House Data",
+    "request": "ASHA Service sora",
+    "requestHistory": "Request history",
+    "contact": "ASHA fringo dakna",
+    "feedback": "Feedback",
+    "waterQuality": "Water quality",
+    "healthStatus": "Health status",
+    "lastVisit": "Last ASHA visit",
+    "upcomingVisit": "Upcoming visit",
+    "noVisits": "Visit ong·ja"
+  },
+
+  "phc": {
+    "dashboard": "PHC Dashboard",
+    "referrals": "Referral",
+    "emergencies": "Emergency",
+    "analytics": "Analytics",
+    "directory": "Directory",
+    "pendingReferrals": "Pending referral",
+    "activeEmergencies": "Running emergency",
+    "todayVisits": "Today visit",
+    "criticalCases": "Critical case"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Profile cha·na",
+    "viewCertificate": "Certificate chakanina",
+    "personalInfo": "Mandaoni gimin",
+    "name": "Ming",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "A·king",
+    "workArea": "Kamni a·king",
+    "certification": "Certificate",
+    "logout": "Logout",
+    "logoutConfirm": "Logout cha·na?",
+    "updateSuccess": "Profile update ra·bana",
+    "updateFailed": "Update dakgipa"
+  },
+
+  "settings": {
+    "title": "Settings",
+    "language": "A·chik",
+    "notifications": "Notification",
+    "dataSync": "Data sync",
+    "about": "About",
+    "version": "Version",
+    "termsOfService": "Service cha·saanirang",
+    "privacyPolicy": "Privacy Policy"
+  },
+
+  "alerts": {
+    "title": "Alert",
+    "subtitle": "Health & Water Alert",
+    "noAlerts": "Alert ong·ja",
+    "markAsRead": "Read chakanina",
+    "viewDetails": "Gitalo chakatna",
+    "types": {
+      "critical": "Critical",
+      "warning": "Warning",
+      "info": "Info"
+    }
+  },
+
+  "sensorUpload": {
+    "title": "Sensor Upload",
+    "subtitle": "Sensor data upload",
+    "selectFile": "File sora",
+    "uploadData": "Upload-ra·na",
+    "uploading": "Uploading...",
+    "uploadSuccess": "Upload ra·na",
+    "uploadFailed": "Upload dakgipa"
+  },
+
+  "generatedData": {
+    "title": "Generated Data",
+    "subtitle": "Sensor gimin dakchaka",
+    "viewReport": "Report gita",
+    "exportData": "Data export"
+  },
+
+  "reportCase": {
+    "title": "Case sora",
+    "subtitle": "Dakgipani report",
+    "caseType": "Case rang",
+    "description": "Nikna",
+    "severity": "Chisikrang",
+    "location": "A·king",
+    "submitReport": "Report bang·a bi·a",
+    "reportSubmitted": "Report bang·a bi·a ra·na"
+  },
+
+  "waterTesting": {
+    "title": "Water Testing",
+    "subtitle": "Chikgipa Water test",
+    "manualTest": "Manual test",
+    "sensorTest": "Sensor test",
+    "testHistory": "Test dakgiminanirang",
+    "newTest": "Minggipara Test",
+    "selectSource": "Water source sora",
+    "sourceTypes": {
+      "well": "Well",
+      "handpump": "Hand Pump",
+      "tap": "Tap water",
+      "river": "Wangala",
+      "pond": "Pond",
+      "other": "Ganchi"
+    }
+  },
+
+  "sensorTest": {
+    "title": "Sensor Test",
+    "subtitle": "IoT sensor",
+    "connectSensor": "Sensor link cha·na",
+    "startTest": "Test dakchapa",
+    "testInProgress": "Test dakgipa",
+    "testComplete": "Test dakchapa",
+    "viewResults": "Result gita"
+  },
+
+  "manualTest": {
+    "title": "Manual Water Test",
+    "subtitle": "Field Test Kit",
+    "enterResults": "Result dakna",
+    "testParameters": "Parameter rang",
+    "saveResults": "Result rik·ani",
+    "resultsSaved": "Result rik·ni baksa"
+  },
+
+  "testHistory": {
+    "title": "Test History",
+    "subtitle": "Old test",
+    "filterBy": "Filter",
+    "sortBy": "Sort",
+    "noTests": "Test ong·ja",
+    "viewTest": "Test chakatna"
+  },
+
+  "householdCheck": {
+    "title": "House Health Check",
+    "subtitle": "A·king Health Survey",
+    "startSurvey": "Survey dakchapa",
+    "continueSurvey": "Survey dakchakna",
+    "viewSurveys": "Survey chakanina"
+  },
+
+  "videoPlayer": {
+    "title": "Video Player",
+    "loading": "Video chokatgipa...",
+    "error": "Video dakgipa",
+    "completed": "Video dakchapa"
+  },
+
+  "pdfViewer": {
+    "title": "PDF Viewer",
+    "loading": "Document chokatgipa...",
+    "error": "PDF dakgipa",
+    "page": "Page {{current}} / {{total}}"
+  },
+
+  "certificate": {
+    "title": "Certificate",
+    "viewCertificate": "Certificate chakatna",
+    "downloadCertificate": "Certificate download",
+    "shareCertificate": "Certificate mashilani",
+    "issuedTo": "Chinggipa",
+    "issuedBy": "Niko dakgen",
+    "issuedOn": "Dakgen-dak",
+    "validUntil": "Valid dakgipa"
+  },
+
+  "residentRequest": {
+    "title": "ASHA visit sora",
+    "subtitle": "Visit dakchakani",
+    "requestType": "Request rang",
+    "preferredDate": "A·ba dak",
+    "preferredTime": "A·ba time",
+    "reason": "Visit-nigipa nikna",
+    "submitRequest": "Bang·a bi·a",
+    "requestSubmitted": "Bang·a bi·a ra·ba",
+    "types": {
+      "healthCheck": "Health check",
+      "waterTest": "Water test",
+      "consultation": "Consultation",
+      "emergency": "Emergency"
+    }
+  },
+
+  "residentContact": {
+    "title": "ASHA fringo",
+    "subtitle": "Cha·na",
+    "ashaWorker": "Nang·ni ASHA",
+    "call": "Call",
+    "message": "Message",
+    "noAshaAssigned": "ASHA ong·ja"
+  },
+
+  "residentFeedback": {
+    "title": "Feedback",
+    "subtitle": "Nang·ni gimin dakna",
+    "rating": "Rating",
+    "comments": "Nikna",
+    "submitFeedback": "Feedback ra·na",
+    "feedbackSubmitted": "Namgipa! Dakna baksa."
+  },
+
+  "phcReferrals": {
+    "title": "Referral",
+    "subtitle": "Patient referral",
+    "pending": "Bang·ani",
+    "completed": "Done",
+    "viewReferral": "Chakatna",
+    "acceptReferral": "A·ba ra·na",
+    "noReferrals": "Referral ong·ja"
+  },
+
+  "phcEmergencies": {
+    "title": "Emergency",
+    "subtitle": "Dakgipa case",
+    "active": "Running",
+    "resolved": "Solved",
+    "viewEmergency": "Chakatna",
+    "respondToEmergency": "Ha·na",
+    "noEmergencies": "Emergency ong·ja"
+  },
+
+  "phcAnalytics": {
+    "title": "Analytics",
+    "subtitle": "Data dakchaka",
+    "overview": "Overview",
+    "trends": "Trend",
+    "reports": "Report",
+    "exportData": "Data export"
+  },
+
+  "phcDirectory": {
+    "title": "Directory",
+    "subtitle": "Phone list",
+    "ashaWorkers": "ASHA sakgipa",
+    "healthFacilities": "Health place rang",
+    "emergencyContacts": "Emergency Call",
+    "search": "Search..."
+  },
+
+  "loading": {
+    "title": "ArogyaJal",
+    "subtitle": "Water Program",
+    "loading": "Loading...",
+    "checkingSession": "Checking session...",
+    "pleaseWait": "Please wait"
+  }
+}

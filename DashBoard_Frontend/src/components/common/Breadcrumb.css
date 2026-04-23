@@ -1,0 +1,48 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 16px;
+  background: #f9fafb;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+.breadcrumb-item {
+  color: #374151;
+  font-weight: 500;
+}
+
+.breadcrumb-item.all-devices {
+  color: #6b7280;
+  font-style: italic;
+}
+
+.breadcrumb-item.device-id {
+  color: #3b82f6;
+  font-weight: 600;
+  background: #eff6ff;
+  padding: 4px 12px;
+  border-radius: 12px;
+}
+
+.breadcrumb-separator {
+  color: #9ca3af;
+  font-size: 16px;
+  user-select: none;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .breadcrumb {
+    font-size: 13px;
+    padding: 10px 12px;
+  }
+
+  .breadcrumb-item.device-id {
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+}

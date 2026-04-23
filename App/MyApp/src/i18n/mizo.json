@@ -1,0 +1,599 @@
+{
+  "common": {
+    "submit": "Thawn",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Thlang",
+    "back": "Inkhawlh",
+    "close": "Close",
+    "loading": "Loading...",
+    "error": "Diklo",
+    "success": "Hlawhtling",
+    "yes": "Iaw",
+    "no": "Lo",
+    "ok": "OK",
+    "share": "Share",
+    "sync": "Sync",
+    "pending": "Thawkna",
+    "synced": "Synced a nih",
+    "offline": "Offline",
+    "online": "Online",
+    "required": "A ngai"
+  },
+
+  "dashboard": {
+    "title": "ASHA Dashboard",
+    "subtitle": "Tui leh Hriselna Project",
+    "welcome": "Khawngaihnak {{name}}",
+    "quickActions": "Thil ti daih theih",
+    "stats": {
+      "totalReports": "Report tam tak",
+      "pendingReports": "Thawkna",
+      "waterTests": "Tui test",
+      "completedSurveys": "Survey tih tawh"
+    }
+  },
+
+  "waterTest": {
+    "title": "Water Test",
+    "subtitle": "Field Thilthleng",
+    "manualTest": "Manual Water Test",
+    "details": "Test thu zawng zawng",
+    "testId": "Test ID",
+    "sourceType": "Tui dilna ropui",
+    "sourceName": "Dilna hming",
+    "testDate": "Test hun",
+    "riskLevel": "Danger dan",
+    "riskLevels": {
+      "low": "Danglam",
+      "medium": "Dinglamloh",
+      "high": "Hausak"
+    },
+    "riskMessages": {
+      "low": "Dih theih a ni",
+      "medium": "Tihruat phah dei",
+      "high": "Dih theih lo"
+    },
+    "parameters": {
+      "title": "FTK Parameter",
+      "ph": "pH",
+      "frc": "Chlorine tamna",
+      "turbidity": "Tui mawi loh",
+      "tds": "TDS (mg/L)",
+      "hardness": "Hardness",
+      "geogenic": "Earth element",
+      "appearance": "Zirlai/Ring",
+      "odour": "Tui ran",
+      "suspendedMatter": "Thil thilpap"
+    },
+    "environmental": {
+      "title": "Tuifam",
+      "rainfall": "24 khan vawitui",
+      "nearbyRisks": "Area nguyhma"
+    },
+    "reporter": {
+      "title": "Report siamtu thu",
+      "id": "Reporter ID",
+      "type": "Reporter ropui"
+    },
+    "visual": {
+      "title": "Hmuh theih"
+    },
+    "status": {
+      "pendingSync": "Sync thawkna",
+      "syncedToServer": "Sync server-ah"
+    },
+    "actions": {
+      "saveOffline": "Offline thlang",
+      "deleteTest": "Test delete",
+      "shareReport": "Report share"
+    },
+    "messages": {
+      "savedOffline": "Offline-a test thlang",
+      "willSync": "Internet awm chuan sync ang",
+      "deleteConfirm": "Test delete duh em?",
+      "deleted": "Test delete tawh",
+      "testNotFound": "Test hmuh lo",
+      "loadingDetails": "Thu load mek..."
+    }
+  },
+
+  "householdSurvey": {
+    "title": "In Survey",
+    "subtitle": "Family health survey",
+    "sections": {
+      "identification": "Hming chhung",
+      "household": "In ruahmanna",
+      "water": "Tui dilna",
+      "sanitation": "Hriselna",
+      "members": "Inmi",
+      "risk": "Danger"
+    },
+    "fields": {
+      "state": "State",
+      "district": "District",
+      "block": "Block",
+      "village": "Village",
+      "householdId": "House ID",
+      "dateOfVisit": "Chawlh hun",
+      "filedBy": "Thawn tu",
+      "contactNumber": "Phone number",
+      "gpsLocation": "GPS kawng",
+      "headOfHousehold": "In sualpa",
+      "totalMembers": "Inmi tam tak",
+      "waterSource": "Tui dilna",
+      "toiletFacility": "Toilet",
+      "riskLevel": "Danger dan"
+    },
+    "actions": {
+      "captureGPS": "Capture GPS",
+      "addMember": "Member thawn",
+      "removeMember": "Member delete",
+      "submitSurvey": "Survey thawn"
+    },
+    "messages": {
+      "savedOffline": "Survey offline thlang",
+      "willSync": "Online a awm chuan sync ang",
+      "deleteConfirm": "Survey delete duh em?",
+      "deleted": "Survey delete tawh"
+    }
+  },
+
+  "reports": {
+    "title": "Offline Reports",
+    "subtitle": "Report zawng zawng",
+    "filters": {
+      "all": "Tam Tak",
+      "pending": "Thawkna",
+      "synced": "Synced"
+    },
+    "types": {
+      "waterTest": "Water Test",
+      "householdSurvey": "In Survey",
+      "healthReport": "Health Report",
+      "issueReport": "Issue Report"
+    },
+    "status": {
+      "pending": "Thawkna",
+      "synced": "Synced",
+      "pendingCount": "{{count}} thawkna"
+    },
+    "actions": {
+      "syncAll": "Sync tam tak",
+      "viewDetails": "Peit leh ngaihtuah",
+      "deleteReport": "Report delete",
+      "exportPDF": "PDF siam",
+      "share": "Share"
+    },
+    "messages": {
+      "noReports": "Report awm lo",
+      "noReportsDesc": "Offline entry hian an lo lang dawn",
+      "syncConfirm": "{{count}} sync duh em?",
+      "syncSuccess": "Sync tam tak",
+      "syncFailed": "Sync diklo",
+      "noPendingData": "Sync ngai loh zawk",
+      "offlineMessage": "Internet dawn a ngai"
+    }
+  },
+
+  "sync": {
+    "title": "Sync dan",
+    "syncing": "Sync mek...",
+    "pendingSync": "{{count}} sync thawkna",
+    "lastSync": "Last synced: {{time}}",
+    "syncNow": "Sync Now",
+    "autoSync": "Auto sync a awm",
+    "messages": {
+      "noData": "Sync a ngai lo",
+      "success": "{{count}} record synced",
+      "failed": "Sync diklo",
+      "noNetwork": "Network awm lo",
+      "inProgress": "Sync mek"
+    }
+  },
+
+  "consent": {
+    "title": "Consent",
+    "subtitle": "Hriat leh ngaihtuah",
+    "accept": "Accept a ni & i kal ang che",
+    "acceptSubtitle": "i kal leh ang che",
+    "decline": "Hruai lo",
+    "declineSubtitle": "Kal lo",
+    "required": "Consent a ngai"
+  },
+
+  "ayurvedicRemedies": {
+    "title": "Remedy",
+    "subtitle": "Ayurveda",
+    "searchPlaceholder": "Remedy zawng...",
+    "categories": "Thil danglam",
+    "noResults": "A awm lo"
+  },
+
+  "emergency": {
+    "title": "Emergency",
+    "subtitle": "Need help",
+    "sos": "SOS",
+    "callNow": "Call",
+    "emergencyContacts": "Emergency Numbers"
+  },
+
+  "heatmap": {
+    "title": "Symptom Heat Map",
+    "subtitle": "GPS mapping",
+    "clusters": "Tuikhat",
+    "cases": "Case tam a ni"
+  },
+
+  "satelliteMap": {
+    "title": "Satellite Map",
+    "subtitle": "Tui dilna",
+    "layers": "Layers",
+    "filters": "Filters"
+  },
+
+  "waterLifespan": {
+    "title": "Water Safe Days",
+    "subtitle": "Dih theih hun",
+    "status": {
+      "safe": "Chhawng",
+      "caution": "Beihna",
+      "critical": "Danger"
+    },
+    "trend": {
+      "rising": "Khawl",
+      "falling": "Hriat",
+      "stable": "Lawmin"
+    }
+  },
+
+  "validation": {
+    "required": "A ngai ang che",
+    "invalidFormat": "Format dik lo",
+    "selectOption": "Option thlang tur",
+    "enterValue": "Value dah",
+    "minimumLength": "At least {{count}} character a ngai"
+  },
+
+  "errors": {
+    "loadingFailed": "Load diklo",
+    "savingFailed": "Save diklo",
+    "deletingFailed": "Delete diklo",
+    "syncFailed": "Sync diklo",
+    "networkError": "Network dik",
+    "tryAgain": "Dawr leh la"
+  },
+
+  "launch": {
+    "title": "ArogyaJal",
+    "subtitle": "Water Health",
+    "tagline": "Tuichhuang leh rimna",
+    "selectRole": "Role thlang la",
+    "roles": {
+      "asha": "ASHA",
+      "resident": "Resident",
+      "phc": "PHC Staff"
+    },
+    "roleDescriptions": {
+      "asha": "Field rawngbawlhna leh data",
+      "resident": "Data peit leh help zawng",
+      "phc": "Case manage & emergency"
+    }
+  },
+
+  "login": {
+    "title": "Login",
+    "ashaWorker": "ASHA Login",
+    "resident": "Resident Login",
+    "phc": "PHC Login",
+    "mobileNumber": "Phone Number",
+    "enterNumber": "10 digit i dah ang che",
+    "sendOTP": "OTP thawn rawh",
+    "enterOTP": "OTP 6 digit dah ang che",
+    "verifyLogin": "Verify leh login",
+    "resendOTP": "OTP resend",
+    "resendIn": "{{seconds}}s chen nan resend ang",
+    "changeNumber": "Number thlen",
+    "otpSentTo": "Sent to {{phone}}",
+    "registeredOnly": "{{role}} registered numbers chauh",
+    "invalidPhone": "Phone dik lo",
+    "invalidOTP": "OTP dik lo",
+    "otpSent": "OTP thawn tawh",
+    "otpSentMessage": "OTP {{phone}} ah a thawn",
+    "verificationFailed": "OTP dik lo. Dawr leh rawh.",
+    "steps": {
+      "phone": "Phone",
+      "verify": "Verify"
+    }
+  },
+
+  "training": {
+    "title": "Training Modules",
+    "available": "Available",
+    "downloaded": "Downloaded",
+    "storage": "Storage",
+    "categories": {
+      "all": "All",
+      "waterTesting": "Water Testing",
+      "surveys": "Surveys",
+      "health": "Health",
+      "emergency": "Emergency"
+    },
+    "download": "Download",
+    "open": "Open Module",
+    "delete": "Delete",
+    "downloading": "Downloading {{progress}}%",
+    "preparing": "Preparing...",
+    "duration": "Nur lam",
+    "fileSize": "File size",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "types": {
+      "video": "VIDEO",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "noModules": "Module awm lo",
+      "checkLater": "Kal zawng ang che",
+      "downloadComplete": "{{title}} offline a awm",
+      "downloadFailed": "Download diklo",
+      "deleteConfirm": "{{title}} delete duh em?",
+      "deleted": "Module delete tawh",
+      "comingSoon": "Soon kan lo nei ang",
+      "setupRequired": "Viewer setup a ngai"
+    }
+  },
+
+  "resident": {
+    "dashboard": "Resident Dashboard",
+    "alerts": "Alerts",
+    "household": "In data",
+    "request": "ASHA nihna sawm",
+    "requestHistory": "Request history",
+    "contact": "ASHA call",
+    "feedback": "Feedback",
+    "waterQuality": "Water quality",
+    "healthStatus": "Koit dan",
+    "lastVisit": "ASHA visit tawh",
+    "upcomingVisit": "Visit lo kal",
+    "noVisits": "Visit awm lo"
+  },
+
+  "phc": {
+    "dashboard": "PHC Dashboard",
+    "referrals": "Referrals",
+    "emergencies": "Emergency",
+    "analytics": "Analytics",
+    "directory": "Directory",
+    "pendingReferrals": "Pending",
+    "activeEmergencies": "Tur thil peih mek",
+    "todayVisits": "Visit ni-a",
+    "criticalCases": "Danger cases"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "viewCertificate": "Certificate chiang",
+    "personalInfo": "Personal Info",
+    "name": "Hming",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "workArea": "Work Area",
+    "certification": "Certificate",
+    "logout": "Logout",
+    "logoutConfirm": "Logout duh em?",
+    "updateSuccess": "Profile update",
+    "updateFailed": "Profile update diklo"
+  },
+
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "notifications": "Notification",
+    "dataSync": "Data Sync",
+    "about": "About",
+    "version": "Version",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy"
+  },
+
+  "alerts": {
+    "title": "Alerts",
+    "subtitle": "Health & Water alerts",
+    "noAlerts": "Alert awm lo",
+    "markAsRead": "Read ti",
+    "viewDetails": "Peit leh ngaihtuah",
+    "types": {
+      "critical": "Critical",
+      "warning": "Warning",
+      "info": "Information"
+    }
+  },
+
+  "sensorUpload": {
+    "title": "Sensor Upload",
+    "subtitle": "Sensor Data Upload",
+    "selectFile": "File select",
+    "uploadData": "Data upload",
+    "uploading": "Uploading...",
+    "uploadSuccess": "Upload a lawm",
+    "uploadFailed": "Upload diklo"
+  },
+
+  "generatedData": {
+    "title": "Thleng tawh data",
+    "subtitle": "Sensor Data Analysis",
+    "viewReport": "Report chiang",
+    "exportData": "Data export"
+  },
+
+  "reportCase": {
+    "title": "Case Report",
+    "subtitle": "Health case Report",
+    "caseType": "Case type",
+    "description": "Description",
+    "severity": "Severity",
+    "location": "Location",
+    "submitReport": "Report thawn",
+    "reportSubmitted": "Report tawh"
+  },
+
+  "waterTesting": {
+    "title": "Water Testing",
+    "subtitle": "Tui quality test",
+    "manualTest": "Manual Test",
+    "sensorTest": "Sensor Test",
+    "testHistory": "Test history",
+    "newTest": "Test thar",
+    "selectSource": "Dilna select",
+    "sourceTypes": {
+      "well": "Tui kung",
+      "handpump": "Hand pump",
+      "tap": "Tap",
+      "river": "Tui kawng",
+      "pond": "Tui phai",
+      "other": "A nih lo"
+    }
+  },
+
+  "sensorTest": {
+    "title": "Sensor Test",
+    "subtitle": "IoT Sensor",
+    "connectSensor": "Sensor connect",
+    "startTest": "Test start",
+    "testInProgress": "Test mek",
+    "testComplete": "Test complete",
+    "viewResults": "Result chiang"
+  },
+
+  "manualTest": {
+    "title": "Manual Water Test",
+    "subtitle": "Field Test Kit",
+    "enterResults": "Result dah",
+    "testParameters": "Parameters",
+    "saveResults": "Save result",
+    "resultsSaved": "Result save tawh"
+  },
+
+  "testHistory": {
+    "title": "Test History",
+    "subtitle": "Old Test",
+    "filterBy": "Filter",
+    "sortBy": "Sort",
+    "noTests": "Test awm lo",
+    "viewTest": "Test chiang"
+  },
+
+  "householdCheck": {
+    "title": "In Health Check",
+    "subtitle": "Village Health Survey",
+    "startSurvey": "Start Survey",
+    "continueSurvey": "Continue Survey",
+    "viewSurveys": "Survey chiang"
+  },
+
+  "videoPlayer": {
+    "title": "Video Player",
+    "loading": "Video load mek...",
+    "error": "Video diklo",
+    "completed": "Video complete"
+  },
+
+  "pdfViewer": {
+    "title": "PDF Viewer",
+    "loading": "PDF load mek...",
+    "error": "PDF diklo",
+    "page": "Page {{current}}/{{total}}"
+  },
+
+  "certificate": {
+    "title": "Certificate",
+    "viewCertificate": "Certificate chiang",
+    "downloadCertificate": "Certificate download",
+    "shareCertificate": "Share Certificate",
+    "issuedTo": "Pawlthang",
+    "issuedBy": "Thawn tu",
+    "issuedOn": "Thawn hun",
+    "validUntil": "Hun chhung"
+  },
+
+  "residentRequest": {
+    "title": "ASHA Visit Request",
+    "subtitle": "Visit kal tur",
+    "requestType": "Request type",
+    "preferredDate": "Date i duh",
+    "preferredTime": "Time i duh",
+    "reason": "Tih lai",
+    "submitRequest": "Request thawn",
+    "requestSubmitted": "Request tawh"
+  },
+
+  "residentContact": {
+    "title": "ASHA Contact",
+    "subtitle": "ASHA kal",
+    "ashaWorker": "ASHA member",
+    "call": "Call",
+    "message": "Message",
+    "noAshaAssigned": "ASHA awm lo"
+  },
+
+  "residentFeedback": {
+    "title": "Feedback",
+    "subtitle": "I ngaihtuah thlen rawh",
+    "rating": "Rating",
+    "comments": "Comment",
+    "submitFeedback": "Feedback thawn",
+    "feedbackSubmitted": "Khan lawm em!"
+  },
+
+  "phcReferrals": {
+    "title": "Referrals",
+    "subtitle": "Patient Referrals",
+    "pending": "Pending",
+    "completed": "Completed",
+    "viewReferral": "Referral chiang",
+    "acceptReferral": "Referral accept",
+    "noReferrals": "Referral awm lo"
+  },
+
+  "phcEmergencies": {
+    "title": "Emergencies",
+    "subtitle": "Emergency case",
+    "active": "Active",
+    "resolved": "Resolved",
+    "viewEmergency": "Emergency chiang",
+    "respondToEmergency": "Respond",
+    "noEmergencies": "Emergency awm lo"
+  },
+
+  "phcAnalytics": {
+    "title": "Analytics",
+    "subtitle": "Health data analytics",
+    "overview": "Overview",
+    "trends": "Trends",
+    "reports": "Reports",
+    "exportData": "Export Data"
+  },
+
+  "phcDirectory": {
+    "title": "Directory",
+    "subtitle": "Contact Directory",
+    "ashaWorkers": "ASHA Members",
+    "healthFacilities": "Health Centres",
+    "emergencyContacts": "Emergency Numbers",
+    "search": "Search..."
+  },
+
+  "loading": {
+    "title": "ArogyaJal",
+    "subtitle": "Water Health",
+    "loading": "Loading...",
+    "checkingSession": "Session check mek...",
+    "pleaseWait": "Wait rawh!"
+  }
+}

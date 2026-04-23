@@ -1,0 +1,40 @@
+rootProject.name = 'MyApp'
+include ':app'
+includeBuild('../node_modules/@react-native/gradle-plugin')
+
+// React Native Firebase modules
+include ':react-native-firebase_app'
+project(':react-native-firebase_app').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-firebase/app/android')
+
+include ':react-native-firebase_auth'
+project(':react-native-firebase_auth').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-firebase/auth/android')
+
+include ':react-native-firebase_firestore'
+project(':react-native-firebase_firestore').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-firebase/firestore/android')
+
+// AsyncStorage
+include ':@react-native-async-storage_async-storage'
+project(':@react-native-async-storage_async-storage').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-async-storage/async-storage/android')
+
+// SQLite Storage
+include ':react-native-sqlite-storage'
+project(':react-native-sqlite-storage').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sqlite-storage/platforms/android')
+
+// NetInfo
+include ':@react-native-community_netinfo'
+project(':@react-native-community_netinfo').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-community/netinfo/android')
+
+// WebView
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview/android')
+
+// Geolocation Service
+include ':react-native-geolocation-service'
+project(':react-native-geolocation-service').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-geolocation-service/android')
+
+// Training Module Dependencies
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+
+include ':react-native-video'
+project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')

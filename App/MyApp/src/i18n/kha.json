@@ -1,0 +1,599 @@
+{
+  "common": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "delete": "Thoh noh",
+    "save": "Save",
+    "back": "Shano kylla",
+    "close": "Sait noh",
+    "loading": "Ka don ka load...",
+    "error": "Error",
+    "success": "Ka la jop",
+    "yes": "Hooid",
+    "no": "Em",
+    "ok": "OK",
+    "share": "Share",
+    "sync": "Sync",
+    "pending": "Ka dang ap",
+    "synced": "La synckat",
+    "offline": "Offline",
+    "online": "Online",
+    "required": "Kynting"
+  },
+
+  "dashboard": {
+    "title": "ASHA Dashboard",
+    "subtitle": "Ka Kam Iaphi Ka Um",
+    "welcome": "Khublei {{name}}",
+    "quickActions": "Ki Kam Khie Khyndiat",
+    "stats": {
+      "totalReports": "Ka jing ai khubor baroh",
+      "pendingReports": "Ka dang ap",
+      "waterTests": "Ka test um",
+      "completedSurveys": "Ka survey la kut"
+    }
+  },
+
+  "waterTest": {
+    "title": "Water Test",
+    "subtitle": "Ka jingioh ha ki jaka",
+    "manualTest": "Manual Water Test",
+    "details": "Ka jingbatai test",
+    "testId": "Test ID",
+    "sourceType": "Ka rukom um",
+    "sourceName": "Ka kyrteng jaka um",
+    "testDate": "Ka sngi test",
+    "riskLevel": "Ka jingma",
+    "riskLevels": {
+      "low": "Ka bym don jingma",
+      "medium": "Ka jingma itynnad",
+      "high": "Ka jingma kaba jur"
+    },
+    "riskMessages": {
+      "low": "Ka lah ban dih",
+      "medium": "Peit bha peit rumpang",
+      "high": "Pynkylla, ym dei ban dih"
+    },
+    "parameters": {
+      "title": "FTK Parameters",
+      "ph": "pH Level",
+      "frc": "Free Residual Chlorine",
+      "turbidity": "Ka i shai ka um",
+      "tds": "TDS (mg/L)",
+      "hardness": "Ka tynrah um",
+      "geogenic": "Ka crumb rit jong ka khyndew",
+      "appearance": "Ka i dai ne ka rong",
+      "odour": "Ka snam snum",
+      "suspendedMatter": "Ki kynja bad kylla"
+    },
+    "environmental": {
+      "title": "Ka jingjylliew",
+      "rainfall": "Ka slap ha ka 24 kynta",
+      "nearbyRisks": "Ka jingma hadien"
+    },
+    "reporter": {
+      "title": "Ka jingtip briew nongreport",
+      "id": "Reporter ID",
+      "type": "Ka rukom nongreport"
+    },
+    "visual": {
+      "title": "Ka i hi"
+    },
+    "status": {
+      "pendingSync": "Ka dang ap sync",
+      "syncedToServer": "La sync ha server"
+    },
+    "actions": {
+      "saveOffline": "Save Offline",
+      "deleteTest": "Delete Test",
+      "shareReport": "Share Report"
+    },
+    "messages": {
+      "savedOffline": "Ka test la save offline",
+      "willSync": "Un sync haba don internet",
+      "deleteConfirm": "Me kwah thoh noh ne?",
+      "deleted": "La thoh noh ia ka test",
+      "testNotFound": "Test ym lap",
+      "loadingDetails": "Ka load..."
+    }
+  },
+
+  "householdSurvey": {
+    "title": "Household Survey",
+    "subtitle": "Ka jingpeit iaphi ne iing",
+    "sections": {
+      "identification": "Ka jingithied",
+      "household": "Ka iing",
+      "water": "Ka jaka um",
+      "sanitation": "Ka jingkhuid",
+      "members": "Ki dkhot ha iing",
+      "risk": "Ka jingma"
+    },
+    "fields": {
+      "state": "State",
+      "district": "District",
+      "block": "Block",
+      "village": "Village",
+      "householdId": "Household ID",
+      "dateOfVisit": "Ka sngi peit",
+      "filedBy": "Nongthoh",
+      "contactNumber": "Ka phone number",
+      "gpsLocation": "GPS location",
+      "headOfHousehold": "Nongpyniaid iing",
+      "totalMembers": "Ki dkhot baroh",
+      "waterSource": "Ka jaka um",
+      "toiletFacility": "Ka toilet",
+      "riskLevel": "Ka jingma"
+    },
+    "actions": {
+      "captureGPS": "Capture GPS",
+      "addMember": "Add Member",
+      "removeMember": "Remove Member",
+      "submitSurvey": "Submit Survey"
+    },
+    "messages": {
+      "savedOffline": "Ka survey la save offline",
+      "willSync": "Un sync haba online",
+      "deleteConfirm": "Kwia thuh ne?",
+      "deleted": "La thuh ia ka survey"
+    }
+  },
+
+  "reports": {
+    "title": "Offline Reports",
+    "subtitle": "Peit bad pyniaid ia ki report",
+    "filters": {
+      "all": "Baroh",
+      "pending": "Ka dang ap",
+      "synced": "La synckat"
+    },
+    "types": {
+      "waterTest": "Water Test",
+      "householdSurvey": "Household Survey",
+      "healthReport": "Health Report",
+      "issueReport": "Issue Report"
+    },
+    "status": {
+      "pending": "Ka dang ap",
+      "synced": "La synckat",
+      "pendingCount": "{{count}} ka dang ap"
+    },
+    "actions": {
+      "syncAll": "Sync Ia Baroh",
+      "viewDetails": "Peit Bniah",
+      "deleteReport": "Thoh noh",
+      "exportPDF": "Export PDF",
+      "share": "Share"
+    },
+    "messages": {
+      "noReports": "Ym don report",
+      "noReportsDesc": "Ki report shabar kin wan hangne",
+      "syncConfirm": "Synckat {{count}} item?",
+      "syncSuccess": "Baroh la synckat!",
+      "syncFailed": "Ym lah ban synckat",
+      "noPendingData": "Baroh la synckat",
+      "offlineMessage": "Internet lah ban pynsynckat"
+    }
+  },
+
+  "sync": {
+    "title": "Sync Status",
+    "syncing": "Ka synckat...",
+    "pendingSync": "{{count}} ka dang ap",
+    "lastSync": "La synckat: {{time}}",
+    "syncNow": "Sync Mynta",
+    "autoSync": "Auto Sync ON",
+    "messages": {
+      "noData": "Ym don data ban synckat",
+      "success": "{{count}} record la synckat",
+      "failed": "Ka sync kala sngewbha",
+      "noNetwork": "Network em",
+      "inProgress": "Ka synckat dang shait"
+    }
+  },
+
+  "consent": {
+    "title": "Consent",
+    "subtitle": "Ka jingai bor",
+    "accept": "Pdiang bad ban ialam",
+    "acceptSubtitle": "pdiang bad ban iai leit",
+    "decline": "Lada um kwah",
+    "declineSubtitle": "um leit kyrdan",
+    "required": "Kynting ban pdiang"
+  },
+
+  "ayurvedicRemedies": {
+    "title": "Ka daw ai bynta",
+    "subtitle": "Ka daw talasi",
+    "searchPlaceholder": "Peit daw...",
+    "categories": "Ka jingpang",
+    "noResults": "Ym don daw"
+  },
+
+  "emergency": {
+    "title": "Emergency",
+    "subtitle": "Jingtieng bad jingiarap",
+    "sos": "SOS",
+    "callNow": "Phone noh",
+    "emergencyContacts": "Emergency Contacts"
+  },
+
+  "heatmap": {
+    "title": "Ka symptom heatmap",
+    "subtitle": "GPS ka mata",
+    "clusters": "Cluster",
+    "cases": "Case"
+  },
+
+  "satelliteMap": {
+    "title": "Ka satellite map",
+    "subtitle": "Ki jaka um",
+    "layers": "Layers",
+    "filters": "Filters"
+  },
+
+  "waterLifespan": {
+    "title": "Ka jinglong ka um",
+    "subtitle": "Ka jinglait ban dih",
+    "status": {
+      "safe": "Ka lah ban dih",
+      "caution": "Peit bha",
+      "critical": "Ma jur"
+    },
+    "trend": {
+      "rising": "Ka kiew shakhmat",
+      "falling": "Ka hiar noh",
+      "stable": "Ka lait kumne"
+    }
+  },
+
+  "validation": {
+    "required": "Kynting",
+    "invalidFormat": "Ka phang kaba bakla",
+    "selectOption": "Jied",
+    "enterValue": "Thoh ia ka jingthoh",
+    "minimumLength": "Kam dei {{count}} character"
+  },
+
+  "errors": {
+    "loadingFailed": "Ka load sngewbha",
+    "savingFailed": "Ka save sngewbha",
+    "deletingFailed": "Ym lah ban thoh",
+    "syncFailed": "Synckat sngewbha",
+    "networkError": "Ka network em",
+    "tryAgain": "Pynbieit noh"
+  },
+
+  "launch": {
+    "title": "ArogyaJal",
+    "subtitle": "Ka Kam Um Bad Ka Koit ka khiah",
+    "tagline": "Ka um kaba khuid, ka longrynkhim kaba khuid",
+    "selectRole": "Jied lynti",
+    "roles": {
+      "asha": "ASHA",
+      "resident": "U/ Ka nongshong shnong",
+      "phc": "PHC Staff"
+    },
+    "roleDescriptions": {
+      "asha": "Ka jingthoh bad ka data",
+      "resident": "Khiah lyngba ka jingai bor",
+      "phc": "Peit case bad manage emergency"
+    }
+  },
+
+  "login": {
+    "title": "Login",
+    "ashaWorker": "ASHA Login",
+    "resident": "Resident Login",
+    "phc": "PHC Login",
+    "mobileNumber": "Mobile Number",
+    "enterNumber": "Thoh 10 digit",
+    "sendOTP": "Send OTP",
+    "enterOTP": "Thoh 6 digit OTP",
+    "verifyLogin": "Verify bad login",
+    "resendOTP": "Send biang OTP",
+    "resendIn": "{{seconds}}s kem eit",
+    "changeNumber": "Kyntiew number",
+    "otpSentTo": "La kyrpad sha {{phone}}",
+    "registeredOnly": "{{role}} number tang",
+    "invalidPhone": "Thoh ia ka number kaba neh",
+    "invalidOTP": "Thoh ia ka OTP kaba thik",
+    "otpSent": "OTP la phah",
+    "otpSentMessage": "OTP phah sha {{phone}}",
+    "verificationFailed": "OTP bakla. Pyrshah biang.",
+    "steps": {
+      "phone": "Phone",
+      "verify": "Verify"
+    }
+  },
+
+  "training": {
+    "title": "Ka Training Module",
+    "available": "Available",
+    "downloaded": "Downloaded",
+    "storage": "Ka stor bad",
+    "categories": {
+      "all": "Baroh",
+      "waterTesting": "Ka water testing",
+      "surveys": "Survey",
+      "health": "Koit bad Khiah",
+      "emergency": "Emergency"
+    },
+    "download": "Download ban peit",
+    "open": "Tiad ia ka module",
+    "delete": "Delete",
+    "downloading": "Downloading {{progress}}%",
+    "preparing": "Ka pynkhreh...",
+    "duration": "Ka por kaba long",
+    "fileSize": "Ka file size",
+    "difficulty": {
+      "beginner": "Ba nyngkong",
+      "intermediate": "Ba napoh",
+      "advanced": "Ba kyrpang"
+    },
+    "types": {
+      "video": "VIDEO",
+      "pdf": "PDF"
+    },
+    "messages": {
+      "noModules": "Ym don module",
+      "checkLater": "Test pat dangne",
+      "downloadComplete": "{{title}} la available offline",
+      "downloadFailed": "Download sngewbha",
+      "deleteConfirm": "Kwia delete {{title}} ?",
+      "deleted": "La thoh ia ka module",
+      "comingSoon": "Ka wan shen",
+      "setupRequired": "Ka setup ai ban peit video bad PDF"
+    }
+  },
+
+  "resident": {
+    "dashboard": "Resident Dashboard",
+    "alerts": "Alerts",
+    "household": "Ka jingtip iing",
+    "request": "Kylli ASHA",
+    "requestHistory": "Ka rukom shaphang",
+    "contact": "Phone ASHA",
+    "feedback": "Ka feedback",
+    "waterQuality": "Ka jingshngain ka um",
+    "healthStatus": "Ka koit ka khiah",
+    "lastVisit": "Ka visit bala kut",
+    "upcomingVisit": "Ka visit kaba wan",
+    "noVisits": "Ym don visit"
+  },
+
+  "phc": {
+    "dashboard": "PHC Dashboard",
+    "referrals": "Referrals",
+    "emergencies": "Emergency",
+    "analytics": "Analytics",
+    "directory": "Directory",
+    "pendingReferrals": "Referrals dang ap",
+    "activeEmergencies": "Emergency dang poi",
+    "todayVisits": "Ka visit mynta",
+    "criticalCases": "Ka jingma kaba jur"
+  },
+
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "viewCertificate": "Peit Certificate",
+    "personalInfo": "Ka jingtwah briew",
+    "name": "Kyrteng",
+    "phone": "Ka phone number",
+    "email": "Email",
+    "address": "Ka jaka",
+    "workArea": "Ka jaka treikam",
+    "certification": "Ka certificate",
+    "logout": "Logout",
+    "logoutConfirm": "Kwia logout ne?",
+    "updateSuccess": "La update ka profile",
+    "updateFailed": "Update sngewbha"
+  },
+
+  "settings": {
+    "title": "Settings",
+    "language": "Ka ktien",
+    "notifications": "Notifications",
+    "dataSync": "Data Sync",
+    "about": "Shaphang",
+    "version": "Ka nuksa kyrpang",
+    "termsOfService": "Ka hukum jong ka kyrdan",
+    "privacyPolicy": "Ka security bad privacy"
+  },
+
+  "alerts": {
+    "title": "Alerts",
+    "subtitle": "Health & Water Alerts",
+    "noAlerts": "Ym don alert mynta",
+    "markAsRead": "Mark la pus",
+    "viewDetails": "Peit Bniah",
+    "types": {
+      "critical": "Ma Jur",
+      "warning": "Warning",
+      "info": "Information"
+    }
+  },
+
+  "sensorUpload": {
+    "title": "Sensor Upload",
+    "subtitle": "Upload data sensora",
+    "selectFile": "Jied ia ka file",
+    "uploadData": "Upload Data",
+    "uploading": "Uploading...",
+    "uploadSuccess": "Ka upload la jop",
+    "uploadFailed": "Upload sngewbha"
+  },
+
+  "generatedData": {
+    "title": "Ka data kaba mih",
+    "subtitle": "Analysis ka sensor data",
+    "viewReport": "Peit report",
+    "exportData": "Export Data"
+  },
+
+  "reportCase": {
+    "title": "Report ka case",
+    "subtitle": "Report ka problem",
+    "caseType": "Ka rukom case",
+    "description": "Ka jingbatai",
+    "severity": "Ka jingma",
+    "location": "Ka jaka",
+    "submitReport": "Report noh",
+    "reportSubmitted": "La report"
+  },
+
+  "waterTesting": {
+    "title": "Ka test ia ka um",
+    "subtitle": "Test quality ka um",
+    "manualTest": "Manual Test",
+    "sensorTest": "Sensor Test",
+    "testHistory": "Ka histroi test",
+    "newTest": "Test thymmai",
+    "selectSource": "Jied jak um",
+    "sourceTypes": {
+      "well": "Jingkit",
+      "handpump": "Handpump",
+      "tap": "Tap",
+      "river": "Riang",
+      "pond": "Pond",
+      "other": "Kiwei"
+    }
+  },
+
+  "sensorTest": {
+    "title": "Sensor Test",
+    "subtitle": "IoT Sensor",
+    "connectSensor": "Pyshang Sensor",
+    "startTest": "Start Test",
+    "testInProgress": "Test dang dei",
+    "testComplete": "Test kut",
+    "viewResults": "Peit result"
+  },
+
+  "manualTest": {
+    "title": "Manual Water Test",
+    "subtitle": "Field Kit",
+    "enterResults": "Thoh ka result",
+    "testParameters": "Ki parameter",
+    "saveResults": "Save ka result",
+    "resultsSaved": "La save"
+  },
+
+  "testHistory": {
+    "title": "Test History",
+    "subtitle": "Ki test hynniew snem",
+    "filterBy": "Filter",
+    "sortBy": "Sort",
+    "noTests": "Ym don test",
+    "viewTest": "Peit ia ka test"
+  },
+
+  "householdCheck": {
+    "title": "Check Health Iing",
+    "subtitle": "Survey health shnong",
+    "startSurvey": "Start Survey",
+    "continueSurvey": "Continue Survey",
+    "viewSurveys": "Peit Survey"
+  },
+
+  "videoPlayer": {
+    "title": "Video Player",
+    "loading": "Ka video load...",
+    "error": "Ka video sngewbha",
+    "completed": "Video la kut"
+  },
+
+  "pdfViewer": {
+    "title": "PDF Viewer",
+    "loading": "Document load...",
+    "error": "PDF sngewbha",
+    "page": "Page {{current}}/{{total}}"
+  },
+
+  "certificate": {
+    "title": "Certificate",
+    "viewCertificate": "Peit ia ka certificate",
+    "downloadCertificate": "Download Certificate",
+    "shareCertificate": "Share Certificate",
+    "issuedTo": "Kiba la phah",
+    "issuedBy": "Kiba ai",
+    "issuedOn": "Ka sngi ai",
+    "validUntil": "Ki por ba pynkhor"
+  },
+
+  "residentRequest": {
+    "title": "Request ASHA Visit",
+    "subtitle": "Lai iashah peit",
+    "requestType": "Ka rukom jingkyrpad",
+    "preferredDate": "Sngi kaba thik",
+    "preferredTime": "Ka por kaba thik",
+    "reason": "Ka jingmut",
+    "submitRequest": "Submit Request",
+    "requestSubmitted": "Ka request la dang"
+  },
+
+  "residentContact": {
+    "title": "Contact ASHA",
+    "subtitle": "Phone noh",
+    "ashaWorker": "Me ASHA",
+    "call": "Phone",
+    "message": "Message",
+    "noAshaAssigned": "Ym don ASHA"
+  },
+
+  "residentFeedback": {
+    "title": "Feedback",
+    "subtitle": "Ai ia ka jingmut jingpyrkhat",
+    "rating": "Rating",
+    "comments": "Ki jingbatai",
+    "submitFeedback": "Submit Feedback",
+    "feedbackSubmitted": "Khublei Shibun!"
+  },
+
+  "phcReferrals": {
+    "title": "Referral",
+    "subtitle": "Referral ia ki nongpang",
+    "pending": "Ka dang ap",
+    "completed": "Ka la kut",
+    "viewReferral": "Peit referral",
+    "acceptReferral": "Pdiang referral",
+    "noReferrals": "Ym don referral"
+  },
+
+  "phcEmergencies": {
+    "title": "Emergency",
+    "subtitle": "Ka emergency",
+    "active": "Lah poi mynta",
+    "resolved": "Ka la kut",
+    "viewEmergency": "Peit Emergency",
+    "respondToEmergency": "Jied ba donkam",
+    "noEmergencies": "Ym don emergency"
+  },
+
+  "phcAnalytics": {
+    "title": "Analytics",
+    "subtitle": "Ka jingpeit ym ka data",
+    "overview": "Overview",
+    "trends": "Ka rukom rit",
+    "reports": "Reports",
+    "exportData": "Export Data"
+  },
+
+  "phcDirectory": {
+    "title": "Directory",
+    "subtitle": "Ki phone number",
+    "ashaWorkers": "Ki ASHA",
+    "healthFacilities": "Ki jaka jingsumar",
+    "emergencyContacts": "Ki emergency phone",
+    "search": "Search..."
+  },
+
+  "loading": {
+    "title": "ArogyaJal",
+    "subtitle": "Ka kam um",
+    "loading": "Loading...",
+    "checkingSession": "Ka peit session...",
+    "pleaseWait": "Pwait!"
+  }
+}
