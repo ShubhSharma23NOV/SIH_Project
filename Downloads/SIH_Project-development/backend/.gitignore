@@ -1,0 +1,68 @@
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Firebase
+firebase-service-account.json
+**/firebase-*.json
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+.settings/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Build
+target/
+build/
+bin/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+*.env
+
+# Application Properties (sensitive data)
+application-dev.properties
+application-prod.properties
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Local development
+.idea/
+*.iml
+
+# Dependency directories
+node_modules/
+
+# H2 database files
+*.db
+*.h2.db
+*.lock
+*.lck
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
